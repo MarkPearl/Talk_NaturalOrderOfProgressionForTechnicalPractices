@@ -1,0 +1,95 @@
+## Topic ##
+The Natural Order of Progression for adopting Agile Technical Practices – Delivering Working Software Quicker
+
+## Full Names ##
+
+Mark Pearl
+
+## Theme ##
+
+Short Talk
+
+## Session Type ##
+
+Experience Reports 
+
+## Audience Level ##
+
+Beginner / Advancing
+
+## Abstract ##
+ 
+Many think Agile is just about stand-ups & sticky notes when it is actually about being able to deliver valuable software quicker. It is impossible to do this if you don't leverage the technical practices agile has embraced. The challenge is - where do you start? Do you focus your energy on understanding TDD, or put time into a continuous build environment. What is the natural order of progression and how do you implement them without slowing down feature delivery?
+
+In this session Mark is going to present what he believes is the natural order of progression of technical practices. He will highlight some of the challenges he's faced with teams trying to increase their release rate and what they did to overcome these barriers.
+
+This talk is appropriate for technical AND non-technical people involved in Software Development who would like to release to production more frequently (be it from Months to Weeks, Weeks to Days, or Days to Hours). Those already hitting the magical continuous release rate don't need to attend ;-)
+## How is your topic relevant to an African context ##
+
+While I believe this topic is universal and could have application all over the world, it is also relevant to an African context because the experiences shared have been gained on the African continent. Being a South African having practiced agile in Africa for several years, this will be universal advice with an African flavour based on experience gained with African teams.
+
+## Keywords ##
+
+TDD, 
+Automated Deployment, 
+Continuous Integration, 
+Version Control, 
+Automated Testing, 
+Deliver Faster
+
+## Learning Outcomes ##
+Understand the order of implementing technical practices
+Understand why each technical practice is valuable
+Understand how long each technical practice usually takes to embrace or see a return on
+Debunk potential myths on why one technical practice will solve all your problems
+
+## Pre-requisite Knowledge ##
+
+None
+
+## Bio ##
+
+I've been involved in creating software for over two decades. Most of the time I have gotten it wrong, sometimes I've gotten it right. As I get older it feels like I am getting it right more often. I find nothing more fulfilling than being involved in creating something that has a real impact on other people’s lives.
+
+I love sharing the insights I have gained from these experiences with others - I do this by speaking at events, writing and facilitating workshops.
+
+## Information for Program Team ##
+
+
+
+## Presentation History ##
+
+2014
+Scrum Gathering Cpt, topic "TDD Club Initiation"
+Scrum Gathering Cpt, topic "Missing link in agile developer practices"
+Tech4Africa Cpt, topic "Kent Beck's four rules of simple design"
+Tech4Africa Jhb, topic "Kent Beck's four rules of simple design"
+BASA2014, topic "Documentation in an Agile World"
+Agile Africa Conference, topic "Documentation in an Agile World"
+Agile Africa Conference, panel discussion on "Has agile software development in South Africa delivered on its promises?"
+Jozi.rb User Group, topic "High Performance Teams"
+JsInSa Conference, topic "High Performance Teams"
+IIBA, panel discussion on "Do we need a BA in an agile team"
+
+2013
+Developer User Group, topic "Agile Code"
+JSInSA, topic "Do's & Dont's of Pair Programming"
+TechEd South Africa, topic "Panel discussion on Software Development in South Africa"
+TechEd South Africa, topic "Stubbing, Mocking and Shimming in VS2012"
+TechEd South Africa, topic "MVVM Pattern in XAML"
+
+2012
+Code Labs, topic "Practical Implementation of Specification by Example"
+JSInSA, topic "5 things I have learnt as a Programmer"
+
+2011
+Microsoft TechEd Africa, "MVVM Programming"
+Microsoft TechEd Africa, "Tackling complexities of async programming in Silverlight and WPF"
+Microsoft DevDays, "Pimping Silverlight with Expression Blend"
+Microsoft Dev4Devs, "Rich Interactions with Expression Blend"
+
+2010
+Microsoft South Africa Dev4Devs, "Cracking .Net"
+
+2009
+Microsoft South Africa Dev4Devs, "MVVM Pattern with WPF"

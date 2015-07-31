@@ -1,0 +1,106 @@
+Im not addressing this talk to everyone. Some of you in this room have solved this problem already and I applaud you for this. In fact, you just showing up today puts you ahead of the curve. That said, I want to talk about a problem I have seen in this industry often that we are not dealing with.
+
+In this world where we talk about going or being agile I am concerned that a misconception is occuring. There is a massive focus on making our people and business interactions more effective. We talk about agile embracing change, how we want to avoid fixed documents that slow us down, how we want to be more flexible in planning and change direction or pivot quickly. The problem is, someone has to actually implement this change. Unless those people can keep up, you changing things can make it worse. This is all great, and I'm seeing in a lot of organizations very little focus on aligning our engineering practices with this mindset. The reality is, you wont' realize the true value of agile until you embrace engineering practices that algin with this.
+
+Scrum does not currently promote specific practices.
+
+So what is agile?
+
+Assumptions
+- The system is a long running legacy system with code a significant code base
+- The team is a normal group of developers with limited exposure to agile engineering practices (they may have heard about some of the terms, but they have not implemented them in their every day work life).
+
+- Business is putting pressure on getting delivery of features (business wants speed)
+
+So, a few things I want to set out
+- every practice has a jcurve (when learning something new, productivity dips before it improves)
+- some practices return minimum value unless coupled with other practices
+- practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
+
+With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
+
+So where do we start?
+
+The first technical practice I would like to promote is build automation. Build automation is the act of scripting or automating a wide variety of tasks that software developers do in their day-to-day activities. Anything related to compiling, packaging binaries, 
+
+The first technical practice I would like to promote is collective code ownership.
+For those that are unfamiliar with the term, collective code ownership means that everyone is responsible for all the code. This in return means that everyone is allowed to change any part of the code.
+I have sometime seen people confusing version control with collective code ownership. Just because your team has their code in version control does not mean there is collective code ownership - I have seen teams have a large solution, where inside that solution they had a folder for each developer, under which they had a copy of the code. This is not collective ownership. 
+
+
+Good to know
+- Every practice has a J curve - can you afford to have the downtime
+- Some practices return minimum value unless coupled with other practices
+- Should be able to sustain practices during pressure situationo
+- Legacy system testing
+
+Other things
+- Manual testing slows things down
+- Learn your refactoring tools
+
+What are agile engineering rpactices
+- TDD,
+- Pairing,
+- Continous Integration
+- Continous Deployment
+- Acceptance Test Driven Developement
+
+When it is expensive to make something, you do it less frequently. When it is cheap, you do it more often
+
+## Definition ##
+
+Engineering Practice is a specific software development practice that is proposed to be implemented by agile method.
+
+
+Many think Agile is just about stand-ups & sticky notes when it is actually about being able to deliver valuable software faster. It is impossible to do this if you don't leverage the technical practices agile has embraced. The challenge is - where do you start? Do you focus your energy on understanding TDD, or put time into a continuous build environment. What is the natural order of progression and how do you implement them without slowing down feature delivery?
+
+In this session Mark is going to present what he believes is the natural order of progression of technical practices. He will highlight some of the challenges he's faced with teams trying to increase their release rate and what they did to overcome these barriers.
+
+This talk is appropriate for technical AND non-technical people involved in Software Development who would like to release to production more frequently (be it from Months to Weeks, Weeks to Days, or Days to Hours). Those already hitting the magical continuous release rate don't need to attend ;-)
+## How is your topic relevant to an African context ##
+
+## Keywords ##
+
+TDD, 
+Automated Deployment, 
+Continuous Integration, 
+Version Control, 
+Automated Testing, 
+Deliver Faster
+
+## Learning Outcomes ##
+Understand the order of implementing technical practices
+Understand why each technical practice is valuable
+Understand how long each technical practice usually takes to embrace or see a return on
+Debunk potential myths on why one technical practice will solve all your problems
+
+References - Agile Engineering Practices (http://blogs.versionone.com/agile_management/2013/07/10/agile-engineering-practices-a-cheat-sheet/)  
+
+Potential Engineering Practices
+- Pair Programming
+- Test Driven Design
+- Automated Acceptance Testing
+- Refactoring
+- Emergent Design
+- Continuous Integration
+- Shared code repository
+
+References - Agile Egineering Best Practices - http://www.slideshare.net/RichardChengExcella/agile-engineering-best-practices-what-every-project-manager-should-know?next_slideshow=1
+
+Do this first...
+- Version control
+- Build automation
+- Automated unit testing
+- Continous integration
+- Static code analysis
+- Dependency Management
+- Automated integration testing
+- Automated acceptance testing
+- Deployment automation
+
+References - Benefit of agile engineering practices - http://www.infoq.com/articles/benefit-agile-engineering
+
+https://blog.codecentric.de/en/2014/05/agile-engineering-practices-short-overview/
+
+Videos on egile engineering practices
+http://shop.oreilly.com/product/0636920020271.do
