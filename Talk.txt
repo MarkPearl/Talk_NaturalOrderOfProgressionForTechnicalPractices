@@ -9,7 +9,6 @@ So what is agile?
 Assumptions
 - The system is a long running legacy system with code a significant code base
 - The team is a normal group of developers with limited exposure to agile engineering practices (they may have heard about some of the terms, but they have not implemented them in their every day work life).
-
 - Business is putting pressure on getting delivery of features (business wants speed)
 
 So, a few things I want to set out
@@ -18,6 +17,23 @@ So, a few things I want to set out
 - practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
 
 With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
+
+So where do we start?
+
+How fast?
+How much slack does your team have?
+
+How fast is important. The speed you want to go largely effects the structure of your team and the practices you embrace. Trying to go faster than the rest of the system will allow can cause pain. Trying to go faster than your current strucutre allows will require an adjustment in the structure (this may cause pain politically). Every strucutre resists change.
+
+How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
+
+
+
+Essentially when I am developing software I want feedback at every level. The quicker the feedback the better. I want feedback when I am solving a problem to know if it is the right problem to solve. I want feedback when I am coding to know if my approach is right. I want feedback when I release to know if everything is working properly. The quicker I can get this feedback, the better position I am in.
+
+
+First we need to decide how fast we want to go. I watched a wonderful talk done by Kent Beck on GForces and how teams change shape depending on their speed. Determining how fast you want to go
+
 
 So where do we start?
 

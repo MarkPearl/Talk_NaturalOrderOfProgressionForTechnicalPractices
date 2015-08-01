@@ -1,0 +1,9 @@
+http://c2.com/cgi/wiki?CollectiveCodeOwnership
+
+Requirements:
+- same coding standards
+- code management tools to detect and resolve conflicts
+- comprehensive suit of tests
+- ci to detect conflicts
+
+
