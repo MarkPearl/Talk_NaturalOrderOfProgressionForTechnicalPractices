@@ -27,6 +27,9 @@ How fast is important. The speed you want to go largely effects the structure of
 
 How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
+The first thing I like to find out from a team is how often they are releasing to production?
+
+Generally I find teams release to production a lot less frequently than they should. For a lot of teams it is once every few months. 
 
 
 Essentially when I am developing software I want feedback at every level. The quicker the feedback the better. I want feedback when I am solving a problem to know if it is the right problem to solve. I want feedback when I am coding to know if my approach is right. I want feedback when I release to know if everything is working properly. The quicker I can get this feedback, the better position I am in.
