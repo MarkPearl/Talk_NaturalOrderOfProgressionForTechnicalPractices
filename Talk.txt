@@ -1,10 +1,22 @@
 Im not addressing this talk to everyone. Some of you in this room have solved this problem already and I applaud you for this. In fact, you just showing up today puts you ahead of the curve. That said, I want to talk about a problem I have seen in this industry often that we are not dealing with.
 
-In this world where we talk about going or being agile I am concerned that a misconception is occuring. There is a massive focus on making our people and business interactions more effective. We talk about agile embracing change, how we want to avoid fixed documents that slow us down, how we want to be more flexible in planning and change direction or pivot quickly. The problem is, someone has to actually implement this change. Unless those people can keep up, you changing things can make it worse. This is all great, and I'm seeing in a lot of organizations very little focus on aligning our engineering practices with this mindset. The reality is, you wont' realize the true value of agile until you embrace engineering practices that algin with this.
+In this world where we talk about going or being agile I am concerned that a misconception is occuring. There is a massive focus on making our people and business interactions more effective. We talk about agile embracing change, how we want to avoid fixed documents that slow us down, how we want to be more flexible in planning and change direction or pivot quickly. The problem is, someone has to actually implement these changes and unless those people can keep up, you changing things can make it worse. 
 
-Scrum does not currently promote specific practices.
+This is all great, and I'm seeing in a lot of organizations very little focus on aligning our engineering practices with this mindset. The reality is, just because you change your mind or discover a new aspect of the problem you are trying to solve - this doesn't mean that at a technical level you are equiped to change direction. you wont' realize the true value of agile until you embrace engineering practices that algin with this.
 
-So what is agile?
+So how have we, and the agile methodologies we embrace helped contribute to this problem? I'm seeing a ton of courses on Scrum and Kanban being offered. Lots of business people being sold on the concept and very little effort put at the engineering side. In fact, if you read up on two of the most popular agile methodologies - Scrum and Kanban - they don't officially recommend an specific engineering practices.
+
+So, before we can decide what engineering practices to start with, we first need to identify what engineering practices we should be considering. In an attempt to get a list of engineering practices I resorted to a few public forums to get feedback from people in the industry what they felt technical practices were. The responses were interesting.
+
+Straight out the gate I got Test Driven Development, Pair Programming, Continous Integration, Continous Deployment and Acceptance Test Driven Development from Sam (@samlaing). Soon to follow was a great email explaining that it meant keeping to short schedules and being able to adapt quickly. Following that I got a response from Kevin saying it was XP - which would mean Collective Ownership, Collective Coding Standard, Simple Design, Refactoring, Writing Tests, Pair Programming & Continous Integration. I also got mentions of Just-In-Time Architecture & Design, close collaboration between business, devs, UI/UX and testers.
+
+Assuming you are developing software and are going down this "agile" road - how do you get your engineering teams to embrace this new mindset?
+
+With that said, I can't briefly cover all these practices in 30 minutes, let alone prioritize them. Even if I could, I'm cognisant that each team I have come across is a unique composition of people, and so what would work in one team may not work in another. 
+
+
+
+
 
 Assumptions
 - The system is a long running legacy system with code a significant code base
@@ -65,6 +77,8 @@ What are agile engineering rpactices
 - Acceptance Test Driven Developement
 
 When it is expensive to make something, you do it less frequently. When it is cheap, you do it more often
+
+At a principle level what we are looking for is... any practice that helps shorten feedback loops and promote sustainable pace.
 
 ## Definition ##
 
