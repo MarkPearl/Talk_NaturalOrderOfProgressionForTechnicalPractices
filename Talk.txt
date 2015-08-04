@@ -1,5 +1,9 @@
 Im not addressing this talk to everyone. Some of you in this room have solved this problem already and I applaud you for this. In fact, you just showing up today puts you ahead of the curve. That said, I want to talk about a problem I have seen in this industry often that we are not dealing with.
 
+When I had my thirteenth birthday, my parents bought me a skateboard. This wasn't your ordinary plain shaped skateboard. The deck on this skateboard was what we would call a cruizer deck. It was aerodynamic and was about the coolest skateboard I had ever seen. Being a thirteen year old, I decided I was going to be one of the world's greatest skateboarders. After trying my hand at a few tricks and failing hopelessly, I came up with a plan B, I would be known for speed. In search of world fame, I walked around my neighborhood to find a suitable hill to ride. Having grown up in a place called Forest Hills in KwaZulu Natal, this wasn't a hard problem to solve. About a block away from my house I found what I thought would be a decent road (Regent Rd) going down a hill. I told my brothers to watch this, and pushed off on the skateboard down the hill. About 5 meters down the hill I realized I hadn't really thought this through - I was picking up speed quickly, had no protective gear on. Oh, and at the bottom of the hill was a T junction - with the hill being the "dead" end of the T junction with cars driving in either direction with no view of anyone coming down the hill. With no other option, I did what any other thriteen year old would do in that situation - I jumped off my board, the skateboard  continued down the hill for a few meters and so did I. To this day, I still remember clearly standing up, looking down at my knees and hands where just moments ago there was healthy skin - now replaced with a lot of missing skin and a sudden a rush a blood and searing pain. That was to be one of the shortest careers a skateboarded would ever have. I just wasn't ready for that kind of speed.
+
+
+
 In this world where we talk about going or being agile I am concerned that a misconception is occuring. There is a massive focus on making our people and business interactions more effective. We talk about agile embracing change, how we want to avoid fixed documents that slow us down, how we want to be more flexible in planning and change direction or pivot quickly. The problem is, someone has to actually implement these changes and unless those people can keep up, you changing things can make it worse. 
 
 This is all great, and I'm seeing in a lot of organizations very little focus on aligning our engineering practices with this mindset. The reality is, just because you change your mind or discover a new aspect of the problem you are trying to solve - this doesn't mean that at a technical level you are equiped to change direction. you wont' realize the true value of agile until you embrace engineering practices that algin with this.
@@ -10,18 +14,26 @@ So, before we can decide what engineering practices to start with, we first need
 
 Straight out the gate I got Test Driven Development, Pair Programming, Continous Integration, Continous Deployment and Acceptance Test Driven Development from Sam (@samlaing). Soon to follow was a great email explaining that it meant keeping to short schedules and being able to adapt quickly. Following that I got a response from Kevin saying it was XP - which would mean Collective Ownership, Collective Coding Standard, Simple Design, Refactoring, Writing Tests, Pair Programming & Continous Integration. I also got mentions of Just-In-Time Architecture & Design, close collaboration between business, devs, UI/UX and testers.
 
-Assuming you are developing software and are going down this "agile" road - how do you get your engineering teams to embrace this new mindset?
+As I began to receive this feedback, it became more and more apparent that I would not be able to introduce these topics at any level in 30 minutes, let alone prioritize them. Even if I could, I'm cognisant that each team I have come across is a unique composition of people, and so what would work in one team may not work in another. 
 
-With that said, I can't briefly cover all these practices in 30 minutes, let alone prioritize them. Even if I could, I'm cognisant that each team I have come across is a unique composition of people, and so what would work in one team may not work in another. 
+So, to simplify the problem, I've decided to take give a specific scenario, talk through how I would approach that and then try and give you some principles to apply this to your own organiazation.
 
+The scenario I came up with is as follows: There is a group that has been releasing software occaisonally. The group is called the Dev team - they consist of 8 developers and one dev manager. The Dev teams responsibility is to maintain a legacy system that business has been using for the last ten years. Because the business uses the system for everything, they are always wanting additional features added to the system. They do this via logging projects. If a project is really large it gets assigned a business analyst who generates the requirements, otherwise it is investigated by the Dev Manager who assigns the work. When work comes in a devleoper in our group is assigned the work based on the area of the system it effects. For instance, Gill is the expert for invoicing and handles any work related to that aspect of the solution, Mike handles amortization schedules, Bob handles all Foo requests. We try and release every quarter, but getting things ready for production is a lot of work and so Dave who does the release package usually only gets an acceptable version out after a few weeks of going back and forth between the testers. The team works hard, but is always under pressure from business who is putting pressure on getting delivery of features.
 
+So, I'm interested to find out, who at some stage in the career has worked in this team or a team similar to this
 
+So where do we start?
 
+If I was brought onto this team, there are two questions I would ask:
+How fast do you want to go?
+How much slack can you create?
 
-Assumptions
-- The system is a long running legacy system with code a significant code base
-- The team is a normal group of developers with limited exposure to agile engineering practices (they may have heard about some of the terms, but they have not implemented them in their every day work life).
-- Business is putting pressure on getting delivery of features (business wants speed)
+I am going to deal with these first before I outline the practices:
+
+How fast do you want to go is really important. 
+
+The speed you want to go largely effects the structure of your team and the practices you embrace. It is painful expect a team that was previously delivering in to production once every six months can suddenly move to delivering to production once a week for two main reasons - different speeds require different team structures. The skills required for a group to release to production once every six months is very different to a team that is releasing in to production once a month and likewise once a day. Also, every structure resists change - organizations have a built in immune systems - they fight off change. If you organization is a 6 month release organization, it may be politically very challenging to have a once a week release team work within it unless it has by in from the top.
+
 
 So, a few things I want to set out
 - every practice has a jcurve (when learning something new, productivity dips before it improves)
@@ -30,12 +42,6 @@ So, a few things I want to set out
 
 With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
 
-So where do we start?
-
-How fast?
-How much slack does your team have?
-
-How fast is important. The speed you want to go largely effects the structure of your team and the practices you embrace. Trying to go faster than the rest of the system will allow can cause pain. Trying to go faster than your current strucutre allows will require an adjustment in the structure (this may cause pain politically). Every strucutre resists change.
 
 How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
@@ -137,3 +143,5 @@ https://blog.codecentric.de/en/2014/05/agile-engineering-practices-short-overvie
 
 Videos on egile engineering practices
 http://shop.oreilly.com/product/0636920020271.do
+
+Why did we lose the XP practices (https://coding.abel.nu/2014/04/why-did-we-lose-the-xp-practices/)
