@@ -1,44 +1,56 @@
 ## Introduction ##
 
-When I had my thirteenth birthday, my parents bought me a skateboard. This wasn't your ordinary plain shaped skateboard. The deck on this skateboard was what we would call a cruizer deck. It was aerodynamic and was about the coolest thing a thirteen year-old had ever seen. Entering teen hood, and having just been given the worlds most amazing skateboard, I resolved that I would become the world's greatest skateboarder.
+When I had my thirteenth birthday, my parents bought me a skateboard. This wasn't your ordinary plain shaped skateboard. The deck on this skateboard was what we would call a cruizer deck. It was aerodynamic and was about the coolest thing a thirteen year-old had ever seen. Entering teenhood, and having just been given the worlds most amazing skateboard, I resolved that I would become the world's greatest skateboarder.
 
 First, I attempted doing skateboard tricks - airs, backsides, kickflips, ollies etc. I was no good at tricks - in fact I was well below par average. Having failed at tricks, I came up with an alternate plan to reach this goal - what I lacked in ability I would make up in speed - I would be known as the world most famous skateboard luge. With this new found hope of achieving my goal, I set out to find an appropriate hill to ride. Having grown up in KwaZulu Natal, in a place called Forest Hills, I was in no shortage of "good" hills. In fact, about a block away from my house was Regent Rd - which was a recently tarred road running down a steep hill.
 
-I remember this event to this day. It was late Janruary afternoon, my brothers and I walked to the top of the top of Regent road where I bravely stood for a few moments before pushing off on my skateboard down the hill. About 10 seconds into the ride and about 5 meters down I realized I hadn't really thought this through - My skateboard was doing really well in picking up speed rapidly, however in my haste for world fame I had not thought of putting on any protective gear (in fact I didn't own any) and the logistics of what would happen when I reached the bottom of the hill had not been planned properly. You see, Regent road comes to an abrupt stop at the bottom of the hill as it reaches a T junction - with a the occaisonal car driving along the other road with no view of anyone coming down regent road. 
+I remember this event to this day. It was late Janruary afternoon, my brothers and I walked to the top of Regent road where I bravely stood for a few moments before pushing off on my skateboard down the hill. About 10 seconds into the ride and about 5 meters down I realized I hadn't really thought this through - My skateboard was doing really well in picking up speed rapidly, however in my haste for world fame I had not thought of putting on any protective gear (in fact I didn't own any) and the logistics of what would happen when I reached the bottom of the hill had not been planned properly. You see, Regent road comes to an abrupt stop at the bottom of the hill as it reaches a T junction - with a the occaisonal car driving along the other road with no view of anyone coming down regent road. 
 
-As these thoughts set in and my speed rapidly increased I made probably the first good decision that day - I jumped off my board. As I jumped off, my world went into slow motion - the skateboard which had just seconds before been under my feet, continued for a few meters down the hill until veered off and crashed into bushes on the side of the road. I also continued down the road for a few meters - with no protective equipment I had to rely on my bare hands and knees to stop the rest of my body from getting any major injuries. The momentum of my trip dragged me on the tar for a few meters until I came to a stop. Standing up and looking down at my hands and knees I realized that where moments ago there was healthy skin, there was now replaced blood and flesh. That was to be one of the shortest careers a skateboarder would ever have. I just wasn't ready for that kind of speed.
+As these thoughts set in and my speed rapidly increased I made probably the first good decision that day - I decided to jump off my skateboard. As I jumped off, my world went into slow motion - the skateboard which had just seconds before been under my feet, continued on for a few meters down the hill until veered off and crashed into bushes on the side of the road. I also continued down the road for a few meters - with no protective equipment I had to rely on my bare hands and knees to stop the rest of my body from getting any major injuries. The momentum of my trip dragged me on the tar for a few meters until I came to a stop. Standing up and looking down at my hands and knees I realized that where moments ago there was healthy skin, there was now replaced blood and torn flesh. That was to be one of the shortest careers a skateboarder would ever have. I just wasn't ready for that kind of speed.
 
 In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. These organizations want to develop software faster - they've figuratively bought the agile skateboard - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups - but they missed something really important. They have not adjusted their engineering practices to handle the speed they want to travel and so they start the ride but end up getting bloody hands and knees.
 
-So, how did this become such a common problem? In my opinion, it is partly a side effect of two of the most popular agile methodologies in circulation - Scrum and Kanban. Neither of these methodologies specify any specific engineering practices to adopt when applying them. This is both useful and dangerous. It's useful because it keeps these methodologies light weight which makes them easier to learn. It dangerous because when an organization, which is meaning well, is still trying to figure things out tries to become agile it sends its people on a scrum or kanban course and then ticks the agile box, not realizing that there are additional skills and practices they need to adjust to go fast safely. Today I'm going to speak briefly on the agile technical practices that help teams go faster.
+So, how did this become such a common problem? In my opinion, it is partly a side effect of two of the most popular agile methodologies in circulation - Scrum and Kanban. Neither of these methodologies specify any specific engineering practices to adopt when applying them. This is both useful and dangerous. It's useful because it keeps these methodologies light weight which makes them easier to learn. It dangerous because when an organization, which is meaning well, is still trying to figure things out tries to become agile it, it tends to send its people on a scrum or kanban course and then ticks the agile box, not realizing that there are additional skills and practices it peopls need to adjust to go fast safely. 
+
+Today this is the theme of this session. I would like to speak on the agile technical practices that help teams go faster.
 
 ## What are agile technical practices ##
 
 So, what do I mean by agile technical practices? I understand that these words mean different things for different people. In fact, this became very apparent when I asked the question on twitter. For this session, I'm going to ask your endulgance in using my definition - which is that I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
 
-## Two questions to ask ##
+## How fast? How much change? ##
 
-So, let's say you are in a team that is currently developing software and your team is not applying any of these practices, which practice would you start with? Unfortunately there isn't a definative answer. It really depends on your situation, the individuals in the team and their existing skillset. With that said, I believe there are a few good questions you can ask to help you come up with your own adoption plan.
+So, let's say you are in a team that is currently developing software and your team is not applying any of these practices on a daily basis and you want to change that. What practice would you start with? 
 
-The two questions I like to ask in this situaiton are:
-- How fast are you currently going?
-- How fast do you want to go?
-- How much slack can you create?
+Before you find an answer that question, you first need to answer the following:
+- how fast are you currently going?
+- how fast do you want to go?
 
-## How are you currently going and how fast do you want to go? ##
+Figuring out how fast you are currently going and how fast you want to go gives you a good idea if your goal is feasible and the and pain you are going to experience in getting there. 
 
-Let me deal with the first two questions together. How fast are you currently going and how fast do you want to go are really important. 
+For instance, a team that is currently releasing software to production once every six months and that wants to jump to releaseing software to production once every two weeks is going to have to go through quite a bit of change and experience a fair amount of pain to get there compared to a team moving from 6 months to once a quarter. This is because:
 
-A team that was previously releasing software to production once every six months that tries to suddenly jump to releaseing software to production once every two weeks is going to experience a lot of pain for two reasons.
+1. Different speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once every two weeks.  
 
-1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once every two weeks. When you change a team structure, you end up changing the organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat the change as a virus that needs to be quarenteened and removed. 
+2. The bigger the difference in speed, the more engineering practices the team needs to adopt. This  results in a bigger J Curve effect.
 
-2. The bigger the jump in speed, the more engineering practices you need to adopt. When a person adopts any new engineering practice the J Curve effect happens which in essence says that their productivity will dip for while before it improves. If you adopt too many practices at once, you introduce a massive jcurve - the net result being everyone gets frightened and depressed and jumps off the skateboard.
+Lets walk through how a transformation can occur from a team releasing once a quarter to a team releasing once a week
+
+## Quarterly Release ##
+
+The teams I've worked with that released once a quarter were not just one team. To get a release to occur several teams would have to work together - usually at least a dev and test team. Normal workflow was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs. Internally the dev team they would split the system itself into functional silos, each developer became an expert in a particular part of the code base and dare anyone else make changes to that section. Because releases are done infrequently, one person in the dev team typically became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
+
+I recommend teams in this space adopt the following practices:
+- democratize and automate the build / packaging  
+- common team code standard
+
+Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning this. Personally, I have yet to come across a team that hasn't been able to share this across the team after applying their minds and talking to the right people. Another benefit from automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
+
+Common code standard means that there is 
+- for me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. Initially having a frequent touch base on what is the team approach for solving a problem start this off. Since people are still usually working predominantly on their own, you will see variations, and as these crop up the team should keep discussing and reach consensus.
 
 
-## How much slack can you create? ##
 
-The third question relates directly to a teams 
 How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
 
@@ -173,3 +185,8 @@ If you want to move faster without getting hurt, the people that are creating yo
 
 
 My advice is aim for small speed improvements. If you were previously at a month release cycle, aim for a quarterly release cycle, then to a monthly, then to a bi-weekly, etc.
+
+(When you change a team structure, you end up changing the organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat the change as a virus that needs to be quarenteened and removed.
+
+
+When a person adopts any new engineering practice the J Curve effect happens which in essence says that their productivity will dip for a while before it improves. If you adopt too many practices at once, you introduce a massive jcurve, which is often unfeasuble.
