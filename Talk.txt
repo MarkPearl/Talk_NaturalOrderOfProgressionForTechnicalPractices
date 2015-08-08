@@ -29,16 +29,17 @@ The two questions I like to ask in this situaiton are:
 
 Let me deal with the first two questions together. How fast are you currently going and how fast do you want to go are really important. 
 
-The speed you want to go largely effects the structure of your team and the practices you embrace. 
-
 A team that was previously releasing software to production once every six months that tries to suddenly jump to releaseing software to production once every two weeks is going to experience a lot of pain for two reasons.
 
-1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once every two weeks. When you change a team structure, you end up changing an organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat any change as a virus that needs to be quarenteened and removed. 
+1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once every two weeks. When you change a team structure, you end up changing the organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat the change as a virus that needs to be quarenteened and removed. 
 
-2. The bigger the jump, the more engineering practices you need to adopt. When a person adopts any new engineering practice the J Curve effect happens. In essence the jcurve effect says that when learning something new, a persons productivity dips for while before it improves. So, if you have to adopt too many practices at once, you introduce a massive jcurve - the net result being everyone gets frightened and depressed and jumps off the skateboard.
+2. The bigger the jump in speed, the more engineering practices you need to adopt. When a person adopts any new engineering practice the J Curve effect happens which in essence says that their productivity will dip for while before it improves. If you adopt too many practices at once, you introduce a massive jcurve - the net result being everyone gets frightened and depressed and jumps off the skateboard.
 
-My advice is aim for small speed improvements. If you were previously at a month release cycle, aim for a quarterly release cycle, then to a monthly, then to a bi-weekly, etc.
 
+## How much slack can you create? ##
+
+The third question relates directly to a teams 
+How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
 
 The scenario I came up with is as follows: There is a group that has been releasing software occaisonally. The group is called the Dev team - they consist of 8 developers and one dev manager. The Dev teams responsibility is to maintain a legacy system that business has been using for the last ten years. Because the business uses the system for everything, they are always wanting additional features added to the system. They do this via logging projects. If a project is really large it gets assigned a business analyst who generates the requirements, otherwise it is investigated by the Dev Manager who assigns the work. When work comes in a devleoper in our group is assigned the work based on the area of the system it effects. For instance, Gill is the expert for invoicing and handles any work related to that aspect of the solution, Mike handles amortization schedules, Bob handles all Foo requests. We try and release every quarter, but getting things ready for production is a lot of work and so Dave who does the release package usually only gets an acceptable version out after a few weeks of going back and forth between the testers. The team works hard, but is always under pressure from business who is putting pressure on getting delivery of features.
@@ -57,8 +58,6 @@ So, a few things I want to set out
 
 With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
 
-
-How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
 The first thing I like to find out from a team is how often they are releasing to production?
 
@@ -171,3 +170,6 @@ Uncle bob feels TDD is the best to start with - it helps make the code clean
 ## My Quotes ##
 
 If you want to move faster without getting hurt, the people that are creating your software not only need to adjust how they interact - they also need to adjust their engineering practices that they use that makes it safe to move faster. 
+
+
+My advice is aim for small speed improvements. If you were previously at a month release cycle, aim for a quarterly release cycle, then to a monthly, then to a bi-weekly, etc.
