@@ -12,13 +12,32 @@ In my professional career of developing software I've seen and heard of many org
 
 So, how did this become such a common problem? In my opinion, it is partly a side effect of two of the most popular agile methodologies in circulation - Scrum and Kanban. Neither of these methodologies specify any specific engineering practices to adopt when applying them. This is both useful and dangerous. It's useful because it keeps these methodologies light weight which makes them easier to learn. It dangerous because when an organization, which is meaning well, is still trying to figure things out tries to become agile it sends its people on a scrum or kanban course and then ticks the agile box, not realizing that there are additional skills and practices they need to adjust to go fast safely. Today I'm going to speak briefly on the agile technical practices that help teams go faster.
 
-So, what do I mean by agile technical practices? I understand that these words mean different things for different people. In fact, this became very apparent when I asked the question on twitter. For this session, I'm going to ask your endulgance in using my definition - which is I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are:
+## What are agile technical practices ##
 
-Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
+So, what do I mean by agile technical practices? I understand that these words mean different things for different people. In fact, this became very apparent when I asked the question on twitter. For this session, I'm going to ask your endulgance in using my definition - which is that I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
+
+## Two questions to ask ##
+
+So, let's say you are in a team that is currently developing software and your team is not applying any of these practices, which practice would you start with? Unfortunately there isn't a definative answer. It really depends on your situation, the individuals in the team and their existing skillset. With that said, I believe there are a few good questions you can ask to help you come up with your own adoption plan.
+
+The two questions I like to ask in this situaiton are:
+- How fast are you currently going?
+- How fast do you want to go?
+- How much slack can you create?
+
+## How are you currently going and how fast do you want to go? ##
+
+Let me deal with the first two questions together. How fast are you currently going and how fast do you want to go are really important questions to answer. The bigger the jump you want to make in speed, the more upfront pain you are going to experience.
+
+The speed you want to go largely effects the structure of your team and the practices you embrace. 
+
+It is naive to expect a team that was previously releasing software to production once every six months can suddenly move to delivering to production once every two week without massive organizational support for two main reasons:
+
+1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once a month.
+
+2. Organizational stuctures tend to be self supporting. By this I mean, when you change a team structure, you end up changing an organizational structures, it is my experience that while this may be the right thing, unless the existing structure has been properly prepared, it will resist this change.
 
 
-
-As I began to receive this feedback, it became more and more apparent that I would not be able to introduce these topics at any level in 30 minutes, let alone prioritize them. Even if I could, I'm cognisant that each team I have come across is a unique composition of people, and so what would work in one team may not work in another.  So, to simplify the problem, I've decided to take give a specific scenario, talk through how I would approach that and then try and give you some principles to apply this to your own organiazation.
 
 The scenario I came up with is as follows: There is a group that has been releasing software occaisonally. The group is called the Dev team - they consist of 8 developers and one dev manager. The Dev teams responsibility is to maintain a legacy system that business has been using for the last ten years. Because the business uses the system for everything, they are always wanting additional features added to the system. They do this via logging projects. If a project is really large it gets assigned a business analyst who generates the requirements, otherwise it is investigated by the Dev Manager who assigns the work. When work comes in a devleoper in our group is assigned the work based on the area of the system it effects. For instance, Gill is the expert for invoicing and handles any work related to that aspect of the solution, Mike handles amortization schedules, Bob handles all Foo requests. We try and release every quarter, but getting things ready for production is a lot of work and so Dave who does the release package usually only gets an acceptable version out after a few weeks of going back and forth between the testers. The team works hard, but is always under pressure from business who is putting pressure on getting delivery of features.
 
@@ -26,15 +45,8 @@ So, I'm interested to find out, who at some stage in the career has worked in th
 
 So where do we start?
 
-If I was brought onto this team, there are two questions I would ask:
-How fast do you want to go?
-How much slack can you create?
 
 I am going to deal with these first before I outline the practices:
-
-How fast do you want to go is really important. 
-
-The speed you want to go largely effects the structure of your team and the practices you embrace. It is painful expect a team that was previously delivering in to production once every six months can suddenly move to delivering to production once a week for two main reasons - different speeds require different team structures. The skills required for a group to release to production once every six months is very different to a team that is releasing in to production once a month and likewise once a day. Also, every structure resists change - organizations have a built in immune systems - they fight off change. If you organization is a 6 month release organization, it may be politically very challenging to have a once a week release team work within it unless it has by in from the top.
 
 
 So, a few things I want to set out
