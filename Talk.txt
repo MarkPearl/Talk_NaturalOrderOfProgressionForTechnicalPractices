@@ -27,15 +27,17 @@ The two questions I like to ask in this situaiton are:
 
 ## How are you currently going and how fast do you want to go? ##
 
-Let me deal with the first two questions together. How fast are you currently going and how fast do you want to go are really important questions to answer. The bigger the jump you want to make in speed, the more upfront pain you are going to experience.
+Let me deal with the first two questions together. How fast are you currently going and how fast do you want to go are really important. 
 
 The speed you want to go largely effects the structure of your team and the practices you embrace. 
 
-It is naive to expect a team that was previously releasing software to production once every six months can suddenly move to delivering to production once every two week without massive organizational support for two main reasons:
+A team that was previously releasing software to production once every six months that tries to suddenly jump to releaseing software to production once every two weeks is going to experience a lot of pain for two reasons.
 
-1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once a month.
+1. Different speeds require different team structures. The team structure required for a group to release to production once every six months is very different to the team structure required for a team to release to production once every two weeks. When you change a team structure, you end up changing an organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat any change as a virus that needs to be quarenteened and removed. 
 
-2. Organizational stuctures tend to be self supporting. By this I mean, when you change a team structure, you end up changing an organizational structures, it is my experience that while this may be the right thing, unless the existing structure has been properly prepared, it will resist this change.
+2. The bigger the jump, the more engineering practices you need to adopt. When a person adopts any new engineering practice the J Curve effect happens. In essence the jcurve effect says that when learning something new, a persons productivity dips for while before it improves. So, if you have to adopt too many practices at once, you introduce a massive jcurve - the net result being everyone gets frightened and depressed and jumps off the skateboard.
+
+My advice is aim for small speed improvements. If you were previously at a month release cycle, aim for a quarterly release cycle, then to a monthly, then to a bi-weekly, etc.
 
 
 
@@ -50,7 +52,6 @@ I am going to deal with these first before I outline the practices:
 
 
 So, a few things I want to set out
-- every practice has a jcurve (when learning something new, productivity dips before it improves)
 - some practices return minimum value unless coupled with other practices
 - practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
 
