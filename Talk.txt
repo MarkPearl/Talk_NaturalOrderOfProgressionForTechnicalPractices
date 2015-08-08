@@ -42,26 +42,27 @@ The teams I've worked with that released once a quarter were not just one team. 
 
 I recommend teams in this space adopt the following practices:
 - democratize and automate the build / packaging  
-- common team code standard
+- create a common team code standard
+- create slack (learn about the practices you are going to adopt next)
 
-Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning this. Personally, I have yet to come across a team that hasn't been able to share this across the team after applying their minds and talking to the right people. Another benefit from automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
+Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning the build. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. A major benefit of automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
 
-Common code standard means that there is 
-- for me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. Initially having a frequent touch base on what is the team approach for solving a problem start this off. Since people are still usually working predominantly on their own, you will see variations, and as these crop up the team should keep discussing and reach consensus.
+For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
 
+Create slack. So what is slack? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. I like to illustrate the importance of having slack as follows: How happy would you be having open heart surgery performed by a surgeon who qualified 20 years ago, but since then had never had an opportunity to learn any new techniques. What do you do with the slack time? You read up, research and practice the techniques you are going to use when you hit a monthly release cadence.
 
+## Monthly Release Cycle ##
 
-How much slack does your team have? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
+The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing is an extremely useful practice. I have often heard people new to developer testing practices get confussed on terminology. Developer testing includes test driven development, unit testing, regression testing, acceptance testing as well as a bunch of other testing practices.
 
+- Developer testing
+- Pairing
+- Collective code ownership
+- Automated build server
+- Basic refactoring skills
 
-The scenario I came up with is as follows: There is a group that has been releasing software occaisonally. The group is called the Dev team - they consist of 8 developers and one dev manager. The Dev teams responsibility is to maintain a legacy system that business has been using for the last ten years. Because the business uses the system for everything, they are always wanting additional features added to the system. They do this via logging projects. If a project is really large it gets assigned a business analyst who generates the requirements, otherwise it is investigated by the Dev Manager who assigns the work. When work comes in a devleoper in our group is assigned the work based on the area of the system it effects. For instance, Gill is the expert for invoicing and handles any work related to that aspect of the solution, Mike handles amortization schedules, Bob handles all Foo requests. We try and release every quarter, but getting things ready for production is a lot of work and so Dave who does the release package usually only gets an acceptable version out after a few weeks of going back and forth between the testers. The team works hard, but is always under pressure from business who is putting pressure on getting delivery of features.
+For me, collective code ownership means that anyone can change any area of the codebase and that looking at the code afterwards it would be extremely hard identifying who made that change without checking the actual logs to see who comitted the code. To reach this point, collaboration needs to increase. I find the practice of pair programming a very useful technique in accelerating collective code ownership. 
 
-So, I'm interested to find out, who at some stage in the career has worked in this team or a team similar to this
-
-So where do we start?
-
-
-I am going to deal with these first before I outline the practices:
 
 
 So, a few things I want to set out
@@ -190,3 +191,6 @@ My advice is aim for small speed improvements. If you were previously at a month
 
 
 When a person adopts any new engineering practice the J Curve effect happens which in essence says that their productivity will dip for a while before it improves. If you adopt too many practices at once, you introduce a massive jcurve, which is often unfeasuble.
+
+
+. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
