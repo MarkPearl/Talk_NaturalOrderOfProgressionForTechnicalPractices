@@ -20,7 +20,7 @@ So, today I would like to touch on some of the things that are rarely spoken abo
 
 ## What are agile technical practices ##
 
-So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I asked the question on twitter. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
+So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I asked the question on twitter - I got a very wide range of responses. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
 
 ## How fast? How much change? ##
 
