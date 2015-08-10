@@ -1,0 +1,7 @@
+http://searchsoftwarequality.techtarget.com/definition/Build-Server
+
+A build server, also called a continuous integration server (CI server), is a centralized, stable and reliable environment for building distributed development projects. 
+
+The build server starts with a clean slate, so no unapproved configurations or artifacts are present. Since the code is pulled from the repository, only committed code will end up in the release version. This increases predictability by enforcing source control and making it possible to flag issues and notify developers quickly if there are conflicts or missing dependencies. It helps ensure that the same dynamic link library is used for all builds and that out-of-sync check-ins don’t lead to failure during quality assurance (QA) testing.
+
+A build server may be configured to mimic the environment of an end user. In this way, it can highlight the areas where individual developers’ local configurations are making the code behave differently on their hardware than it would in production. A build server can also speed the development process by freeing up resources on developers’ local machines. This is particularly helpful with large or complex projects that may have a lengthy build time.

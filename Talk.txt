@@ -22,7 +22,7 @@ So, what do I mean by agile technical practices? I understand that these words m
 
 So, let's say you are in a team that is currently developing software and your team is not applying any of these practices on a daily basis and you want to change that. What practice would you start with? 
 
-Before you find an answer that question, you first need to answer the following:
+I think there are two questsions that are really useful to ask when trying to find an answer to this question:
 - how fast are you currently going?
 - how fast do you want to go?
 
@@ -36,42 +36,76 @@ For instance, a team that is currently releasing software to production once eve
 
 Lets walk through how a transformation can occur from a team releasing once a quarter to a team releasing once a week
 
+----------------------------------------------------------------------------------------------------
+
 ## Quarterly Release ##
 
-The teams I've worked with that released once a quarter were not just one team. To get a release to occur several teams would have to work together - usually at least a dev and test team. Normal workflow was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs. Internally the dev team they would split the system itself into functional silos, each developer became an expert in a particular part of the code base and dare anyone else make changes to that section. Because releases are done infrequently, one person in the dev team typically became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
+I've been in an environment before where software was being released every quarter. Looking back, The teams I've worked with that released once a quarter were not just one team. To get a release to occur several teams would have to work together - usually at least a dev and test team. Normal workflow was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs. Internally the dev team they would split the system itself into functional silos, each developer became an expert in a particular part of the code base and dare anyone else make changes to that section. Because releases are done infrequently, one person in the dev team typically became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
 
 I recommend teams in this space adopt the following practices:
 - democratize and automate the build / packaging  
 - create a common team code standard
 - create slack (learn about the practices you are going to adopt next)
 
+### Automated Builds ###
+
 Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning the build. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. A major benefit of automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
+
+### Common Code Contract ###
 
 For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
 
+### Create Slack ###
+
 Create slack. So what is slack? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. I like to illustrate the importance of having slack as follows: How happy would you be having open heart surgery performed by a surgeon who qualified 20 years ago, but since then had never had an opportunity to learn any new techniques. What do you do with the slack time? You read up, research and practice the techniques you are going to use when you hit a monthly release cadence.
+
+----------------------------------------------------------------------------------------------------
 
 ## Monthly Release Cycle ##
 
-The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing is an extremely useful practice. I have often heard people new to developer testing practices get confussed on terminology. Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. Confusingly, these tests are not written by the people who hold the title 'tester' - they are written by developers.
+The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. 
+
+### Developer Testing ###
+
+One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing turns out to be a extremely useful practice and yet something fairly challenging to learn. 
+
+Often I hear people who have not done developer testing before get confussed on terminology - most often I hear people speak about needing to do TDD, and on further discussion they are actually referring more generally to developer testing . Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. For those unfamiliar with these terms, these tests are not written by the people who hold the title 'tester' - they are written by developers.
 
 I remember when I first heard of developer testing I was at a Microsoft Dev Day. I saw someone put some code up on the screen, click a button and a bunch circles on the screen went green. I thought, great, finally the silver bullet to software development. All I needed to do was go home and write tests and then I wouldn't have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the system I was developing at that time. I failed, I could not write a single useful test - it turns out the code I had written was not testable - so I gave up and reverted back to my normal coding. 
 
-The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they will stress the testers out - everyone will be on a short fuse and they will wonder why everyone hates the world. 
+Which part of developer testing you start with depends on your unique problem. Personally, I tried to start with small unit tests and do TDD but struggled. I ended up writing larger integration tests first, then coming back to smaller unit tests later. It wasn't until I attended a Code Retreat that I really began to get into Developer Testing. My recomendation is, if you are in an organization that wants to parctice developer testing but don't know where to start, Code Retreats are a good introduction.
 
-A good place to start with developer testing is to understand basic refactoring tests. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major.
+The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they create too much to much of a workload for manual testing - which makes everyone hate the world. 
 
-At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. I recommend using pair programming as a technique to accelerate collective code ownership. What I have found has worked in the past is to let people work in pairs, one person in the pair has prior deep knowledge on that section of the code base while the other may be new. With time, as they work together both become experts on that section of the code. At some point it is healthly to allow the pair to break up and form with other pairs.
+Looking back at my personal career - If I could redo developer testing, I wished I understood basic refactoring tests first. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major. I think for most systems this is a useful place to start as most developers come in to an existing system.
 
-- Developer testing
-- Refactoring
-- Collective code ownership
-- Pairing
-- Automated build server
-- Basic refactoring skills
+### Collective Code Ownership ###
 
-For me, collective code ownership means that anyone can change any area of the codebase and that looking at the code afterwards it would be extremely hard identifying who made that change without checking the actual logs to see who comitted the code. To reach this point, collaboration needs to increase. I find the practice of pair programming a very useful technique in accelerating collective code ownership. 
+At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. You see a few effects from this, firstly pieces of work taken on by individuals gets smaller, and it is not feasible for people to only work in their own area. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. 
 
+### Build Server ###
+
+Doing smaller bit of work suddenly highlights what a headache it is to integrate code. This is where a build server really pays of. A build server, also called a continous integration server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to version control - it's responsbility is to build the code base in version control, making sure that everything is there and working nicely. Once it has a successful build, it then runs the automated developer tests to make sure they are passing.
+
+##### Version Control System #####
+
+I'm scared that this is still something I need to mention. Part of a base requirement for making a build server is a version control system. If you are not using a version control system right now, stop what you are doing and do it. I recommend distributed version control systems with a preference for Git - if you don't want to use git that's fine, but use a version control system.
+
+A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
+
+### Collaborative Coding ###
+
+I have found the best way to get collective code ownership is through collaborative coding. These are the four stages of collaborative coding I have gone through. I love talking about this, if you are intersted in sharing your experiences feel free to chat to me after this session.
+
+----------------------------------------------------------------------------------------------------
+
+## Weekly Release Cycle ##
+
+Personally I have found that getting from a monthly to a weekly release cadence was substantially easier than getting from a quarterly to a monthly release cadence.You already have a solid base for success and most of the tools to get there.
+
+The one big technical practice that we had to polish up when moving to a weekly deployment was a one button deployment. One button deployment means literally that, you click a button and the latest passing build is moved into your production enviroment - while this can be done with scripting and a buildserver, I recommend using tools specifically designed for this.
+
+----------------------------------------------------------------------------------------------------
 
 
 So, a few things I want to set out
