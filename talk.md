@@ -30,14 +30,14 @@ To find an answer to this question, there are two really useful questsions start
 - how fast are you currently going?
 - how fast do you want to go?
 
-Figuring out how fast you are currently going and how fast you want to go gives you a good idea if your goal is feasible and the and pain you are going to experience in getting there. 
+Figuring out how fast you are currently going and how fast you want to go is critical to move effectively. Firstly, this will help you realize if your goal is realitic. Secondly, it should emotionally prepare you for the pain you are going to experience. 
 
-For instance, a team that is currently releasing software to production once every six months and that wants to jump to releaseing software to production once every two weeks is going to have to go through quite a bit of change and experience a fair amount of pain to get there compared to a team moving from 6 months to once a quarter. This is because:
+This is because:
 
-1. Different speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once every two weeks.  
+Firstly, different release cycle speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once a week.  
 
-2. The bigger the difference in speed, the more engineering practices the team needs to adopt. This  results in a bigger J Curve effect. To counter the JCurve you need slack.  When I talk about slack I'm not referring to [SLACK], I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Without slack you will not be able to adopt new practices, which means you are not going to be able to speed up. I word of advice when creating slack - prefer small regular intervals of learning. I have found teams that have small daily and weekly sessions to improve and learn are a lot more effective than teams that take a week or a month to "upskill". 
- 
+Secondly, the bigger the difference in speed, the more engineering practices the team needs to adopt. Whenever you adopt a new practice you will see a dip in performance while the new practice is being mastered. If you include too many practices at once you make the dip deeper and the recovery period longer.
+
 Lets walk through how a transformation can occur from a team releasing once a quarter to a team releasing once a week
 
 ----------------------------------------------------------------------------------------------------
@@ -238,3 +238,7 @@ When a person adopts any new engineering practice the J Curve effect happens whi
 
 
 . Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
+
+
+To counter the JCurve you need slack.  When I talk about slack I'm not referring to [SLACK], I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Without slack you will not be able to adopt new practices, which means you are not going to be able to speed up. I word of advice when creating slack - prefer small regular intervals of learning. I have found teams that have small daily and weekly sessions to improve and learn are a lot more effective than teams that take a week or a month to "upskill". 
+ 
