@@ -53,11 +53,20 @@ Create slack. So what is slack? When I talk about slack, I am refering to the ti
 
 ## Monthly Release Cycle ##
 
-The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing is an extremely useful practice. I have often heard people new to developer testing practices get confussed on terminology. Developer testing includes test driven development, unit testing, regression testing, acceptance testing as well as a bunch of other testing practices.
+The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing is an extremely useful practice. I have often heard people new to developer testing practices get confussed on terminology. Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. Confusingly, these tests are not written by the people who hold the title 'tester' - they are written by developers.
+
+I remember when I first heard of developer testing I was at a Microsoft Dev Day. I saw someone put some code up on the screen, click a button and a bunch circles on the screen went green. I thought, great, finally the silver bullet to software development. All I needed to do was go home and write tests and then I wouldn't have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the system I was developing at that time. I failed, I could not write a single useful test - it turns out the code I had written was not testable - so I gave up and reverted back to my normal coding. 
+
+The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they will stress the testers out - everyone will be on a short fuse and they will wonder why everyone hates the world. 
+
+A good place to start with developer testing is to understand basic refactoring tests. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major.
+
+At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. I recommend using pair programming as a technique to accelerate collective code ownership. What I have found has worked in the past is to let people work in pairs, one person in the pair has prior deep knowledge on that section of the code base while the other may be new. With time, as they work together both become experts on that section of the code. At some point it is healthly to allow the pair to break up and form with other pairs.
 
 - Developer testing
-- Pairing
+- Refactoring
 - Collective code ownership
+- Pairing
 - Automated build server
 - Basic refactoring skills
 
