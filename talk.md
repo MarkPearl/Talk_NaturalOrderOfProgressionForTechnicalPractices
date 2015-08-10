@@ -26,7 +26,7 @@ So, what do I mean by agile technical practices? These words mean different thin
 
 To illustrate the practices I'm going to set the scene a bit. Let's say you are in a team that is currently developing software. Your team is not consciously applying any of these practices on a daily basis. Your team also feels like it is not able to develop software any quicker than it is doing currently. What practice would you start with? 
 
-I think there are two questsions that are really useful to ask when trying to find an answer to this question:
+To find an answer to this question, there are two really useful questsions start with:
 - how fast are you currently going?
 - how fast do you want to go?
 
