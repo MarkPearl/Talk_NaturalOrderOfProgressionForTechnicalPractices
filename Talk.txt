@@ -103,7 +103,17 @@ I have found the best way to get collective code ownership is through collaborat
 
 Personally I have found that getting from a monthly to a weekly release cadence was substantially easier than getting from a quarterly to a monthly release cadence.You already have a solid base for success and most of the tools to get there.
 
+### One Button Deploy ###
+
 The one big technical practice that we had to polish up when moving to a weekly deployment was a one button deployment. One button deployment means literally that, you click a button and the latest passing build is moved into your production enviroment - while this can be done with scripting and a buildserver, I recommend using tools specifically designed for this.
+
+#### Advanced Developer Testing #####
+
+To get to a one button deployment, we found that we had to re-look at Developer Testing - some things are extremely hard to test with just developer testing and so some form of manual testing needs to be performed, however looking at what is being manually tested and making that as easy to test as possible has some really big payoffs. These types of tests are often not trivial and require some effort. 
+
+I was recently involved in a project where there was some critical part of the program that could not fail - if we released that part of the system to our users broken, it was game over. It was also a very time consuming to manually test, so we looked at developer testing. It took me almost an entire week to write a single high level developer test. Many times during that week I questioned whether I should bother continuing with it. Having that test live for about a year it has alerted us only a handful of times, and each time it alerted it us, we never realized we had changed something. Had we not gone through the effort of adding that test that particular project would be dead. 
+
+Getting to a weekly deployment has been extremely valuable. We have seen a real return on investment.
 
 ----------------------------------------------------------------------------------------------------
 
