@@ -12,7 +12,7 @@ In my professional career of developing software I've seen and heard of many org
 
 So, how did this become such a common problem? In my opinion, it is partly a side effect of two of the most popular agile methodologies in circulation - Scrum and Kanban. Neither of these methodologies specify any specific engineering practices to adopt when applying them. This is both useful and dangerous. It's useful because it keeps these methodologies light weight which makes them easier to learn. It dangerous because when an organization, which is meaning well, is still trying to figure things out tries to become agile it, it tends to send its people on a scrum or kanban course and then ticks the agile box, not realizing that there are additional skills and practices it peopls need to adjust to go fast safely. 
 
-Today this is the theme of this session. I would like to speak on the agile technical practices that help teams go faster.
+Today I would like to touch on some of the other things that are necessary to go fast safely. Specifically, I would like to breifly speak about the agile technical practices that have helped the teams I've been in go faster.
 
 ## What are agile technical practices ##
 
@@ -32,8 +32,8 @@ For instance, a team that is currently releasing software to production once eve
 
 1. Different speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once every two weeks.  
 
-2. The bigger the difference in speed, the more engineering practices the team needs to adopt. This  results in a bigger J Curve effect.
-
+2. The bigger the difference in speed, the more engineering practices the team needs to adopt. This  results in a bigger J Curve effect. To counter the JCurve you need slack.  When I talk about slack I'm not referring to [SLACK], I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Without slack you will not be able to adopt new practices, which means you are not going to be able to speed up. I word of advice when creating slack - prefer small regular intervals of learning. I have found teams that have small daily and weekly sessions to improve and learn are a lot more effective than teams that take a week or a month to "upskill". 
+ 
 Lets walk through how a transformation can occur from a team releasing once a quarter to a team releasing once a week
 
 ----------------------------------------------------------------------------------------------------
@@ -55,9 +55,6 @@ Democratizing and automating the build means that anyone in the team should be a
 
 For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
 
-### Create Slack ###
-
-Create slack. So what is slack? When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. I like to illustrate the importance of having slack as follows: How happy would you be having open heart surgery performed by a surgeon who qualified 20 years ago, but since then had never had an opportunity to learn any new techniques. What do you do with the slack time? You read up, research and practice the techniques you are going to use when you hit a monthly release cadence.
 
 ----------------------------------------------------------------------------------------------------
 
@@ -109,40 +106,26 @@ The one big technical practice that we had to polish up when moving to a weekly 
 
 #### Advanced Developer Testing #####
 
-To get to a one button deployment, we found that we had to re-look at Developer Testing - some things are extremely hard to test with just developer testing and so some form of manual testing needs to be performed, however looking at what is being manually tested and making that as easy to test as possible has some really big payoffs. These types of tests are often not trivial and require some effort. 
-
-I was recently involved in a project where there was some critical part of the program that could not fail - if we released that part of the system to our users broken, it was game over. It was also a very time consuming to manually test, so we looked at developer testing. It took me almost an entire week to write a single high level developer test. Many times during that week I questioned whether I should bother continuing with it. Having that test live for about a year it has alerted us only a handful of times, and each time it alerted it us, we never realized we had changed something. Had we not gone through the effort of adding that test that particular project would be dead. 
-
-Getting to a weekly deployment has been extremely valuable. We have seen a real return on investment.
+To get to a one button deployment, we found that we had to re-look at Developer and Manual Testing - some things are extremely hard to test with just developer testing and so some form of manual testing needs to be performed, however looking at what is being manually tested and making that as easy to test as possible has some really big payoffs. These types of tests are often not trivial and require some effort. I was in a team recently that was experiencing this pain, they had a combination of developer and manual tests. Spending some time with the testers to understand what they were covering manually and where their pain points were made it possible to streamline the process without introducing any holes in our safety net. This allowed us to get down to a weekly release cadence and eventually a daily release cadence.
 
 ----------------------------------------------------------------------------------------------------
 
 
-So, a few things I want to set out
+
+So, 
+
 - some practices return minimum value unless coupled with other practices
 - practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
 
+------------------------------------- END -------------------------------------
+
 With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
-
-
-The first thing I like to find out from a team is how often they are releasing to production?
-
-Generally I find teams release to production a lot less frequently than they should. For a lot of teams it is once every few months. 
-
 
 Essentially when I am developing software I want feedback at every level. The quicker the feedback the better. I want feedback when I am solving a problem to know if it is the right problem to solve. I want feedback when I am coding to know if my approach is right. I want feedback when I release to know if everything is working properly. The quicker I can get this feedback, the better position I am in.
 
 
-First we need to decide how fast we want to go. I watched a wonderful talk done by Kent Beck on GForces and how teams change shape depending on their speed. Determining how fast you want to go
 
-
-So where do we start?
-
-The first technical practice I would like to promote is build automation. Build automation is the act of scripting or automating a wide variety of tasks that software developers do in their day-to-day activities. Anything related to compiling, packaging binaries, 
-
-The first technical practice I would like to promote is collective code ownership.
-For those that are unfamiliar with the term, collective code ownership means that everyone is responsible for all the code. This in return means that everyone is allowed to change any part of the code.
-I have sometime seen people confusing version control with collective code ownership. Just because your team has their code in version control does not mean there is collective code ownership - I have seen teams have a large solution, where inside that solution they had a folder for each developer, under which they had a copy of the code. This is not collective ownership. 
+For those that are unfamiliar with the term, collective code ownership means that everyone is responsible for all the code. This in return means that everyone is allowed to change any part of the code. I have sometime seen people confusing version control with collective code ownership. Just because your team has their code in version control does not mean there is collective code ownership - I have seen teams have a large solution, where inside that solution they had a folder for each developer, under which they had a copy of the code. This is not collective ownership. 
 
 
 Good to know
