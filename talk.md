@@ -14,13 +14,13 @@ As I jumped off, my world went into slow motion - the skateboard which had just 
 
 In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. These organizations want to develop software faster - they've figuratively bought the agile skateboard (they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups) and they haven't really thought it through properly - they've missed something really important. If you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
 
-So, how do so many organizations miss something so obvious? Part of the reason is because two of the most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. This is useful because it keeps these methodologies light weight which makes them easier to learn. It is also dangerous because when an organization that is meaning well tries to become agile it, it tends to do it by sending its people on a scrum or kanban course. Often these organizations don't realize that there are additional skills and practices it will need to adopt to be able to engineer software effectively at a quicker speed. 
+So, how do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. I find this to be a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively at a quicker speed. 
 
 So, today I would like to touch on some of the things that are rarely spoken about at a Scrum or Kanban course. These things are just as necessary to go faster safely but are more engineering focused. I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
-So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I asked the question on twitter - I got a very wide range of responses. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
+So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I posed the question on twitter. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
 
 ## How fast? How much change? ##
 
@@ -30,34 +30,41 @@ To find an answer to this question, there are two really useful questsions start
 - how fast are you currently going?
 - how fast do you want to go?
 
-Figuring out how fast you are currently going and how fast you want to go is critical to move effectively. Firstly, this will help you realize if your goal is realitic. Secondly, it should emotionally prepare you for the pain you are going to experience. 
+Figuring out how fast you are currently going and how fast you want to go is critical to move effectively. It will help you decide if your goal is realitic and if your organization can handle actually the speed.
 
-This is because:
+Different release cycle speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once a week.  
 
-Firstly, different release cycle speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once a week.  
+Gauging how big a jump in speed you are going to make will also give you a good indication of how many new engineering practices your team will need to adopt. This is important because whenever you adopt a new engineering practice you will see a dip in performance while the new practice is being learned and applied. If you include too many practices at once you make the dip in performance to deep and the recovery period to long.
 
-Secondly, the bigger the difference in speed, the more engineering practices the team needs to adopt. Whenever you adopt a new practice you will see a dip in performance while the new practice is being mastered. If you include too many practices at once you make the dip deeper and the recovery period longer.
+To avoid this, you want to start with practices that are easy to apply in your current structure. Then, as you seeing the benefits of those practices prepare your team and organization for the next step. 
 
-Lets walk through how a transformation can occur from a team releasing once a quarter to a team releasing once a week
+So, with that said, let's look at some of the technical practices a team releasing per quarter should adopt. 
 
 ----------------------------------------------------------------------------------------------------
 
 ## Quarterly Release ##
 
-I've been in an environment before where software was being released every quarter. Looking back, The teams I've worked with that released once a quarter were not just one team. To get a release to occur several teams would have to work together - usually at least a dev and test team. Normal workflow was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs. Internally the dev team they would split the system itself into functional silos, each developer became an expert in a particular part of the code base and dare anyone else make changes to that section. Because releases are done infrequently, one person in the dev team typically became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
+I've been in a few environments where software was being released quarterly. Looking back at these environments, it was never just one team involved. To get a release to occur on a quarterly cycle usually involved several teams - at least a dev team, a test team and sometimes an ops team. The workflow which was most common was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs after a few back and forths the release would be declared as ready and handed over to the ops team to deploy. For the next few weeks after the go-live date you would consistently worry that you had missed something or that you were going to get a call in the middle of the night to come and fix a bug that was not picked up.
 
-I recommend teams in this space adopt the following practices:
-- democratize and automate the build / packaging  
-- create a common team code standard
-- create slack (learn about the practices you are going to adopt next)
+If I looked closer at these dev teams and how they would split work up, it was usually in functional silos. Each developer would be an expert in a specific part of the code base with barely anyone else every looking at another persons code. 
 
-### Automated Builds ###
+Because releases were done infrequently, one person in the dev team usually became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
 
-Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning the build. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. A major benefit of automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
+So, what are the practices that teams in this situation should have in place before trying to move up a gear?
+
 
 ### Common Code Contract ###
 
 For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
+
+### Version Control System ###
+
+Part of a base requirement for making a build server is a version control system. If you are not using a version control system right now, stop what you are doing and do it. I recommend distributed version control systems with a preference for Git - if you don't want to use git that's fine, but use a version control system.
+
+A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
+### Automated Builds ###
+
+Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning the build. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. A major benefit of automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
 
 
 ----------------------------------------------------------------------------------------------------
@@ -88,11 +95,6 @@ At the same time, collective code ownership becomes necessary. When on a quarter
 
 Doing smaller bit of work suddenly highlights what a headache it is to integrate code. This is where a build server really pays of. A build server, also called a continous integration server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to version control - it's responsbility is to build the code base in version control, making sure that everything is there and working nicely. Once it has a successful build, it then runs the automated developer tests to make sure they are passing.
 
-##### Version Control System #####
-
-I'm scared that this is still something I need to mention. Part of a base requirement for making a build server is a version control system. If you are not using a version control system right now, stop what you are doing and do it. I recommend distributed version control systems with a preference for Git - if you don't want to use git that's fine, but use a version control system.
-
-A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
 
 ### Collaborative Coding ###
 
