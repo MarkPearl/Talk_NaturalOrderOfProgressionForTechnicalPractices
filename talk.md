@@ -12,25 +12,23 @@ As I jumped off, my world went into slow motion - the skateboard which had just 
 
 ## Relating Skateboarding to Software Development ##
 
-In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. These organizations want to develop software faster - they've figuratively bought the agile skateboard (they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups) and they haven't really thought it through properly - they've missed something really important. If you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
+In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. These organizations want to develop software faster - they've figuratively bought the agile skateboard (they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups) and they haven't really thought it through properly - they've missed something really important which is if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
 
-So, how do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. I find this to be a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively at a quicker speed. 
+How do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. This is a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively. 
 
-So, today I would like to touch on some of the things that are rarely spoken about at a Scrum or Kanban course. These things are just as necessary to go faster safely but are more engineering focused. I've called them the natural order of agile technical practices.
+Another problem lies with us, the engineers. We often think we are good enough and don't need to learn anything new. For the first 10 years of my professional career I thought I was really good. It wasn't until pair programmed with someone who was really good that I realized I had a long way to go and a lot to learn. 
+
+Today I would like to touch on some of the things that are rarely spoken about at a Scrum or Kanban course. These things are just as necessary to go faster safely but are more engineering focused. I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
 So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I posed the question on twitter. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
 
-## How fast? How much change? ##
+## So why get things out faster? ##
 
-To illustrate the practices I'm going to set the scene a bit. Let's say you are in a team that is currently developing software. Your team is not consciously applying any of these practices on a daily basis. Your team also feels like it is not able to develop software any quicker than it is doing currently. What practice would you start with? 
+So why get things out faster? It turns out we are really bad at knowing what we want upfront. For instance, I'm occaisonally involved in putting marketing material together - every time I try, I sit there for hours struggling to come up with something. A few years ago I changed my approach. Now I always get someone else to do the first draft. As soon as I see their work I can very quickly tell them what needs to change. I think with software it is often very similar. We are not good at figuring out what we want without actually seeing something, so getting software out faster gives us quicker feedback.
 
-To find an answer to this question, there are two really useful questsions start with:
-- how fast are you currently going?
-- how fast do you want to go?
-
-Figuring out how fast you are currently going and how fast you want to go is critical to move effectively. It will help you decide if your goal is realitic and if your organization can handle actually the speed.
+## Structure, Interactions & Technical Practices are Intertwined ##
 
 Different release cycle speeds require different team structures and interactions. The bigger the difference in speed, the bigger the change in team structure and interactions. The team structure and interactions required for a group to release to production once every six months is very different to the team structure and interactions required for a team to release to production once a week.  
 
