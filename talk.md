@@ -32,13 +32,17 @@ Sadly, the story of QuoteMaster is not unique. I have been involved in several Q
 
 ## Structure, Interactions & Technical Practices are Intertwined ##
 
-With that, I want to briefly mention team and organizational structures. There is a great talk Kent Beck did at Lean Kanban Scotland called Gforce where he spoke about how team structure and speed are linked. The practices I am going to talk about today are designed primarily for teams that want a fast release rate. In Kent's talk he makes the statement that different rates of release require different team and organizational structures. Today I'm going to assume you have your team and organizational strutures sorted. I know that is not necessarily true for all of you so if you are unsure whether your team structure is appropriate I recommend watching Kent's talk.
+With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Scotland a few years back called Gforce where he spoke about how team structure and speed are linked. In Kent's talk he made the statement that different rates of release require different team and organizational structures. Today I'm going to assume you have your team and organizational strutures sorted - for some of you this is not necessarily the case. I need to point out that that technical practices and structures are also linked. Some practices may be impossible to get off the ground if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
-Gauging how big a jump in speed you are going to make will also give you a good indication of how many new engineering practices your team will need to adopt. This is important because whenever you adopt a new engineering practice you will see a dip in performance while the new practice is being learned and applied. If you include too many practices at once you make the dip in performance to deep and the recovery period to long.
+## Need for Slack ##
 
-To avoid this, you want to start with practices that are easy to apply in your current structure. Then, as you seeing the benefits of those practices prepare your team and organization for the next step. 
+I also want to warn you that whenever a team or an individual learns a new engineering practice there is always an initial dip in performance. You need to be in a position to handle this. If you are at a mission critical point of development of a system, it may not be wise for your team take on certain practices even though in the long run they really beneficial. With that said, so many teams are always under pressure that there may never be a good opportunity to learn new practices. If you are in a management position, one of the greatest things you can do for a team is support them in creating slack. 
 
-So, with that said, let's look at some of the technical practices a team releasing per quarter should adopt. 
+When I talk about slack I am refering to the time a team has to improving their process and upskilling. Without slack your teams will not be able to adopt new practices, which means things won't get better. I have found a good rule of thumb is to prefer small regular intervals of learning over large yet infrequent blocks. I have found that teams that have small daily and weekly sessions to improve and learn improve at a noticably faster rate than teams that take a week or a month at a time to "upskill". 
+
+One way for a team to create slack is to invest in practices that are easy to adopt and quick to learn. As the team realizes a return on these practices, instead of putting that time to additional feature developement, allocate some of it to create additional slack to master the hardeer and possibly more challenging practices. 
+
+So, with that said, let's move on to some actual practices.
 
 ----------------------------------------------------------------------------------------------------
 
@@ -242,5 +246,4 @@ When a person adopts any new engineering practice the J Curve effect happens whi
 . Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
 
-To counter the JCurve you need slack.  When I talk about slack I'm not referring to [SLACK], I am refering to the time a team has to improving their process and upskilling. Having slack is vital to adopting new practices. Without slack you will not be able to adopt new practices, which means you are not going to be able to speed up. I word of advice when creating slack - prefer small regular intervals of learning. I have found teams that have small daily and weekly sessions to improve and learn are a lot more effective than teams that take a week or a month to "upskill". 
  
