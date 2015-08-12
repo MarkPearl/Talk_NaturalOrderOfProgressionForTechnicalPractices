@@ -24,9 +24,11 @@ Today I would like to touch on some of the things that are rarely spoken about a
 
 So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I posed the question on twitter. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
 
-## So why get things out faster? ##
+## How do you know if you need Agile Technical Practices? ##
 
-So why get things out faster? It turns out we are really bad at knowing what we want upfront. For instance, I'm occaisonally involved in putting marketing material together - every time I try, I sit there for hours struggling to come up with something. A few years ago I changed my approach. Now I always get someone else to do the first draft. As soon as I see their work I can very quickly tell them what needs to change. I think with software it is often very similar. We are not good at figuring out what we want without actually seeing something, so getting software out faster gives us quicker feedback.
+A few years ago I was involved with my first bbom project. In modern day standards it was fairly small, but at the time it was the largest code base I had ever worked on. Since I wrote the first line of code for it, I had a pretty good feel for how it was progressing. The first few months of developing the system were exciting. We managed to add a number of key features and our customer were really optimistic. As time passed however, we seemed to get slower and slower in adding additional features. After about 4 years into the project we had pretty much come to a standstill. I knew something was fundamentally wrong when I received a relatively small feature request from a client and I point blank refused to do it because of how long it was going to take to integrate this feature and the pain and emotional strain it was going to cause me.
+
+Originally, when I put this content together I spoke about the need of wanting to move faster. I tried to pose it as a strategic decision with an organization looking at where it is currently and then making a decision. The reality is, that if you 
 
 ## Structure, Interactions & Technical Practices are Intertwined ##
 
