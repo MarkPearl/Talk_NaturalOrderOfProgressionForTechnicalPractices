@@ -64,14 +64,11 @@ I once worked with a team that was under a huge amount of pressure, especially o
 
 ### Version Control System ###
 
-Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts which means that more than one developer can work on the same code base and the version control system will do the majority of the work involved in putting the code together as a single solution. I've seen version control frequently misused, abused or ignored however without it most other agile technical practices are impossible.
+Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts which means that more than one developer can work on the same code base and the version control system will do the majority of the work involved in putting the code together as a single solution. 
 
+I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of frequent merge conflicts. This is a symptom of the team not continuously integrating. Continous integration starts with a discipline, everyone needs to continuously integrate to trunk. We have learnt this lesson before from waterfall - big integration efforts rarely work - rather prefer small little steps and integrate frequently (and by frequently I am meaning hours, not days).
 
-It's an indication that you don't have a single team working together.
-
-
-
-A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
+If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented.
 
 ### Common Code Contract ###
 
