@@ -56,20 +56,27 @@ So, with that said, let's move on to some actual practices.
 
 ## Automating and Democratizing the Build ##
 
-I've put this as the first practice I would consider because it is such a simple thing to do, yet I've come across many theams that forget to do this. By automating and democratizing the build I mean
+I've put this as the first practice to look at because this is a low hanging fruit, yet I have come across many teams that don't do it. When I say automate the build I am talking about the set of files that are packaged or generated that are required to for a system to run on a test or production environment.  For teams that previously released infrequently, this is usually a manual process owned by a single person. When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
 
-Because releases were done infrequently, one person in the dev team usually became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
+How do you know if your build is automated? A good way to guage is to ask a team to generate a build - if it takes them more than a minute or two, it is not automated enough.
 
+I once worked with a team that was under a huge amount of pressure, especially one particular developer who always seemed busy. After attending standups for a while we noticed that every couple of weeks he would disapear for a day to make a build for qa. Because of the pressure he was under, occaisonally he would miss a step during the build process and send through build pack with an old file. This would only get picked up after a few hours of testing which meant he would then need to spend another day re-doing the build and the testers would need to re-test everything from scratch. You can imagine how popular he was when this happened and how much he enjoyed his build days. After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a couple of hours, but we managed to fully automate the build. What once took almost a day of development time and was an error prone and frustrating process was reduced to a matter of seconds. We had also just created almost 8 hours of additional development time every two weeks that could be spent on more productive things. It made making a build painless, which meant the team wanted to make smaller more frequent builds which resulted in more frequent releases. If you have not automated and democratized the build, stop what your team is doing and invest the time in it now.
+
+### Version Control System ###
+
+Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts which means that more than one developer can work on the same code base and the version control system will do the majority of the work involved in putting the code together as a single solution. I've seen version control frequently misused, abused or ignored however without it most other agile technical practices are impossible.
+
+
+It's an indication that you don't have a single team working together.
+
+
+
+A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
 
 ### Common Code Contract ###
 
 For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
 
-### Version Control System ###
-
-Part of a base requirement for making a build server is a version control system. If you are not using a version control system right now, stop what you are doing and do it. I recommend distributed version control systems with a preference for Git - if you don't want to use git that's fine, but use a version control system.
-
-A quick side note, I once was working with a team that was trying to increase their release cadence. One of the first questions I asked was are you using version control to which they responded yes. It wasn't until a few days into working with them that I discovered they had their solution under version control, and if you looked in the version controlled reponsitory they had several sub folders eached named after members in the team with an exact copy of the entire solution. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This is one of the biggest advantages of using version control.
 ### Automated Builds ###
 
 Democratizing and automating the build means that anyone in the team should be able to create a build or release package. Most teams will tell you this is going to be very hard and that they have special circumstances that require a specific person owning the build. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. A major benefit of automating the build is that it removes some stress between developers and testers. There is nothing more depressing than being told by a tester that they have picked up a minor bug, and that you now have to spend a few days making a new release.
