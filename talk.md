@@ -94,9 +94,35 @@ Setting up a buildserver is extremely low hanging fruit provided you have a spar
 
 ----------------------------------------------------------------------------------------------------
 
+### Collective Code Ownership ###
+
+So, let's say you have your build scripts humming, your version control working smoothly and you buildserver continously integrating. What else can you get value from? I would like to talk a bit about the pratices that support the principle of collective code ownership.
+
+Why does collective code ownership matter to you? For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. Another client has seen reduced bottlenecks in developing software because more people can work on a wider area of the system. At an engineering level, I have found this principle supports better design, better flow and in general makes my daily work fun. 
+
+So what is it? Collective code ownership is the principle that code belongs to the project, not the individual.
+
+#### Common Code Style ####
+
+One practice falling under collective code ownership is having a common coding style for a team. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them as a team. Some of this may be valuable to document, but definately not all of it.
+
+#### Collaborative Coding ####
+
+One of the outcomes of collective code ownership is that it should be hard to identify which individual in your team coded a specific part of the system. To achieve this, the people writing code need to talk often. How do you get this to happen? I have found the best way to achieve this is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you the more collaborative you become.
+
+Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one persons job? In fact, just the other day my beautiful wife asked me this exact question.
+
+The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working together on it. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
+
+Working together on the same problem at the same time is the best way I have found to get a common code style and adopt collective code ownership. One of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to this type of work. I am not a fan of cubicles, designed to do factory line work. 
+
+If you are in a position to make decisions on a work environment, investing real money into making the facilities at your office conducive to collaborative development is money well spent.
+
+----------------------------------------------------------------------------------------------------
+
 ### Developer Testing ###
 
-One of the practices that was necessary to adopt to succesfully get to a monthly cadence was developer testing. Developer testing turns out to be a extremely useful practice and yet something fairly challenging to learn. 
+Developer testing turns out to be a extremely useful practice and yet something fairly challenging to learn. 
 
 Often I hear people who have not done developer testing before get confussed on terminology - most often I hear people speak about needing to do TDD, and on further discussion they are actually referring more generally to developer testing . Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. For those unfamiliar with these terms, these tests are not written by the people who hold the title 'tester' - they are written by developers.
 
@@ -107,22 +133,6 @@ Which part of developer testing you start with depends on your unique problem. P
 The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they create too much to much of a workload for manual testing - which makes everyone hate the world. 
 
 Looking back at my personal career - If I could redo developer testing, I wished I understood basic refactoring tests first. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major. I think for most systems this is a useful place to start as most developers come in to an existing system.
-
-----------------------------------------------------------------------------------------------------
-
-### Collective Code Ownership ###
-
-#### Common Code Contract ####
-
-For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
-
-At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. You see a few effects from this, firstly pieces of work taken on by individuals gets smaller, and it is not feasible for people to only work in their own area. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. 
-
-### Collaborative Coding ###
-
-I have found the best way to get collective code ownership is through collaborative coding. These are the four stages of collaborative coding I have gone through. I love talking about this, if you are intersted in sharing your experiences feel free to chat to me after this session.
-
-----------------------------------------------------------------------------------------------------
 
 ## Weekly Release Cycle ##
 
