@@ -54,14 +54,11 @@ So, with that said, let's move on to some actual practices.
 
 ----------------------------------------------------------------------------------------------------
 
-## Democratizing the Build ##
+## Automating and Democratizing the Build ##
 
-I've put this as the first practice I would consider because it is such a simple thing to do, yet we often leave it out.
-When teams are not used to releasing reguarly they 
+I've put this as the first practice I would consider because it is such a simple thing to do, yet I've come across many theams that forget to do this. By automating and democratizing the build I mean
 
 Because releases were done infrequently, one person in the dev team usually became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
-
-So, what are the practices that teams in this situation should have in place before trying to move up a gear?
 
 
 ### Common Code Contract ###
