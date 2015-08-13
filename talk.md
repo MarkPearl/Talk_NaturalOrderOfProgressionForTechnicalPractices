@@ -54,11 +54,10 @@ So, with that said, let's move on to some actual practices.
 
 ----------------------------------------------------------------------------------------------------
 
-## Quarterly Release ##
+## Democratizing the Build ##
 
-I've been in a few environments where software was being released quarterly. Looking back at these environments, it was never just one team involved. To get a release to occur on a quarterly cycle usually involved several teams - at least a dev team, a test team and sometimes an ops team. The workflow which was most common was as follows - the dev team would do a bunch of work, as they neared end of quarter they would hand the work over to the test team to validate and discover bugs after a few back and forths the release would be declared as ready and handed over to the ops team to deploy. For the next few weeks after the go-live date you would consistently worry that you had missed something or that you were going to get a call in the middle of the night to come and fix a bug that was not picked up.
-
-If I looked closer at these dev teams and how they would split work up, it was usually in functional silos. Each developer would be an expert in a specific part of the code base with barely anyone else every looking at another persons code. 
+I've put this as the first practice I would consider because it is such a simple thing to do, yet we often leave it out.
+When teams are not used to releasing reguarly they 
 
 Because releases were done infrequently, one person in the dev team usually became the release guru spending days if not weeks at an end of a quarter to get a release package put together. 
 
