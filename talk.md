@@ -68,6 +68,8 @@ After quite a bit of encouragement we convinced him to give us time to help him 
 
 We didn't just automate the build. We had just created an additional a day and a half of extra time a month for a very over worked developer. Automation made making a build painless, this resulted in the team making smaller more frequent builds which resulted in more frequent releases which business got features a lot sooner than they had previously. If you have not automated and democratized the build, stop what your team is doing and invest the time in it now.
 
+----------------------------------------------------------------------------------------------------
+
 ### Version Control System ###
 
 Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This means that many developer can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
@@ -76,20 +78,30 @@ I've seen version control frequently misused, abused or totally ignored by teams
 
 To be successful with version control do small little bits of work and integrate frequently (and by frequently I am meaning hours, not days).
 
+----------------------------------------------------------------------------------------------------
+
 ### Build Server ###
 
-Doing smaller bits of work suddenly highlights what a headache it is to integrate code. This is where a build server really pays of. A build server, also called a continous integration server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to version control - it's responsbility is to build the code base in version control, making sure that everything is there and working nicely. Once it has a successful build, it then runs the automated developer tests to make sure they are passing.
+Doing smaller bits of work and integrating more frequently means that people work closer together. It becomes vital to make build and integration issues visible as quickly as possible - this is where a build server comes into play. 
 
-### Common Code Contract ###
+A build server, also called a continous integration server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. Once it has a successful build, it can do other things like run automated tests etc. 
 
-For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
+One of the big payoffs from a buildserver is that it makes the general health of your codebase visible - In a couple of teams that I have been involved with we plugger a monitor into the buildserver that would display a color based on the health of the build - red for broken, green for building. Our team goal was try and keep the buildserver green all the time. Making this physically visible allowed us all to focus on working together. When we first started with the monitor on the buildserver we occaisonally got slack and let it go red. Once or twice our users who were co-located would ask about why it was red, which was a good reminder to pull up our socks.
 
+Setting up a buildserver is extremely low hanging fruit provided you have a spare server, automated build scripts and your version control system working.
 
 ----------------------------------------------------------------------------------------------------
 
-## Monthly Release Cycle ##
+### Collective Code Ownership ###
 
-The teams I've work with that release on a monthly cadence were co-located cross functional teams consisting of at least a combination of developers and testers. 
+#### Common Code Contract ####
+
+For me a common team coding standard means that it should be hard to recognize the individual that coded a specific section. To achieve this, the people writing code need to talk often. To start this off I have found it useful for teams to have a frequent touch base on what their approach is when solving a problem. Since people are still usually working predominantly on their own, variations will occur, and when these crop up it is important that the team keep discussing and trying to reach consensus.
+
+At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. You see a few effects from this, firstly pieces of work taken on by individuals gets smaller, and it is not feasible for people to only work in their own area. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. 
+
+
+----------------------------------------------------------------------------------------------------
 
 ### Developer Testing ###
 
@@ -104,10 +116,6 @@ Which part of developer testing you start with depends on your unique problem. P
 The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they create too much to much of a workload for manual testing - which makes everyone hate the world. 
 
 Looking back at my personal career - If I could redo developer testing, I wished I understood basic refactoring tests first. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major. I think for most systems this is a useful place to start as most developers come in to an existing system.
-
-### Collective Code Ownership ###
-
-At the same time, collective code ownership becomes necessary. When on a quarterly cadence you can group work into silos but when you move to a monthly cadence you might not have work for certain silos. You see a few effects from this, firstly pieces of work taken on by individuals gets smaller, and it is not feasible for people to only work in their own area. This means opening the code base up to the team and allowing people to work in areas they would not have previously touched. 
 
 ### Collaborative Coding ###
 
