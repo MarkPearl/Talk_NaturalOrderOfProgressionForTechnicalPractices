@@ -80,41 +80,41 @@ To be successful with version control do small little bits of work and integrate
 
 ----------------------------------------------------------------------------------------------------
 
-### Build Server ###
+### Continous Integration Server ###
 
-Doing smaller bits of work and integrating more frequently means that people work closer together. It becomes vital to make build and integration issues visible as quickly as possible - this is where a build server comes into play. 
+Doing smaller bits of work and integrating more frequently means that people work closer together. It becomes vital to make build and integration issues visible as quickly as possible - this is where a continous integration server comes into play. 
 
-A build server, also called a continous integration server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. Once it has a successful build, it can do other things like run automated tests etc. 
+A CI Server, also called a build server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. Once it has a successful build, it can do other things like run automated tests etc. 
 
-One of the big payoffs from a buildserver is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not - For instance, in a couple of teams that I have been involved with we plugged a monitor into our buildserver that we put up in the team room. Whenever a developer commited work to version control, our buildserver would automatically detect it, rebuild the solution and tell everyone how the build went. It used 3 colors - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the buildserver green all the time. 
+One of the big payoffs from a ci server is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not - For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer commited work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went. It used 3 colors - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
 
-Making the buildserver physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind. 
+Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind. 
 
-Setting up a buildserver is extremely low hanging fruit provided you have a spare server, automated build scripts and your version control system working.
+Setting up a ci server is extremely low hanging fruit provided you have a spare server, automated build scripts and your version control system working.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Collective Code Ownership ###
 
-So, let's say you have your build scripts humming, your version control working smoothly and you buildserver continously integrating. What else can you get value from? I would like to talk a bit about the pratices that support the principle of collective code ownership.
+So, let's say you have your build scripts humming, your version control working smoothly and your ci server continously integrating. What else can you get value from? I would like to talk a bit about the pratices that support the principle of collective code ownership.
 
-Why does collective code ownership matter to you? For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. Another client has seen reduced bottlenecks in developing software because more people can work on a wider area of the system. At an engineering level, I have found this principle supports better design, better flow and in general makes my daily work fun. 
+Why does collective code ownership matter to you? For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. For another client collective code ownership is important because they have seen reduced bottlenecks in developing software because more people can work on a wider area of the system. At an engineering level, I have found this principle supports better design, better flow and in general makes daily work fun. 
 
-So what is it? Collective code ownership is the principle that code belongs to the project, not the individual.
+So what is it? Collective code ownership is the principle that code belongs to the project, not the individual. There are several practices one can apply to realize this principle.
 
 #### Common Code Style ####
 
-One practice falling under collective code ownership is having a common coding style for a team. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them as a team. Some of this may be valuable to document, but definately not all of it.
+One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them. Parts of a common coding style may be valuable to document, but definately not all of it.
 
 #### Collaborative Coding ####
 
-One of the outcomes of collective code ownership is that it should be hard to identify which individual in your team coded a specific part of the system. To achieve this, the people writing code need to talk often. How do you get this to happen? I have found the best way to achieve this is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you the more collaborative you become.
+So how do you know if your team has has a common style. One of the outcomes of collective code ownership is that it should be hard to identify which individual in your team coded a specific part of the system. To achieve this, the people writing code need to talk often. How do you get this to happen? I have found the best way to achieve this is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become.
 
 Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one persons job? In fact, just the other day my beautiful wife asked me this exact question.
 
 The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working together on it. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
 
-Working together on the same problem at the same time is the best way I have found to get a common code style and adopt collective code ownership. One of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to this type of work. I am not a fan of cubicles, designed to do factory line work. 
+Working together on the same problem at the same time is the best way I have found to get a common code style and adopt collective code ownership. One of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to this type of work. I am not a fan of cubicles, designed to do factory line work. I want to see places where it is comfortable for a group of people to sit together and see eachother screens, or move around.
 
 If you are in a position to make decisions on a work environment, investing real money into making the facilities at your office conducive to collaborative development is money well spent.
 
@@ -122,7 +122,8 @@ If you are in a position to make decisions on a work environment, investing real
 
 ### Developer Testing ###
 
-Developer testing turns out to be a extremely useful practice and yet something fairly challenging to learn. 
+I would like to now spend some time talking on developer testing. Developer testing has 
+
 
 Often I hear people who have not done developer testing before get confussed on terminology - most often I hear people speak about needing to do TDD, and on further discussion they are actually referring more generally to developer testing . Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. For those unfamiliar with these terms, these tests are not written by the people who hold the title 'tester' - they are written by developers.
 
