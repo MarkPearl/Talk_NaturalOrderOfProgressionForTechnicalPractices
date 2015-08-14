@@ -28,7 +28,7 @@ So, what do I mean by agile technical practices? These words mean different thin
 
 Why are these practices important? Let me illustrate with a story - a few years ago I was involved with my first big project. At the time it was the largest code base I had ever worked on and I was involved with it for about 6 years. Since I wrote the first line and last line of code for it, I have a pretty good feel for it's entire lifespan - the system was called QuoteMaster and it was my get rich quick ticket. The first few months of developing QuoteMaster were exciting. We managed to add a number of key features to the system and our customers were very positive in their feedback. As the months passed by it seemed to take longer and longer to add additional features even though we added more developers to the team. At the time the only way I could explain it was that the code was becoming complex and making a change sometimes created unexpected errors in other places in the system. After about 4 years into the project we had pretty much come to a standstill. You know something is fundamentally wrong with a system when your potentially largest client asks for a relatively small feature and you point blank refuse to do it because of how long it was going to take and the pain and emotional strain it was going to cause you. In a nutshell, I didn't feel safe anymore making changes to QuoteMaster.
 
-Sadly, the story of QuoteMaster is not unique. I have been involved in several QuoteMaster like applications and I am pretty sure many of you are currently involved in QuoteMaster projects. The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will help give you the confidence and ability to speed up with time instead of slowing down. They are also going to help introduce predictability into you lives again.
+Sadly, the story of QuoteMaster is not unique. I have been involved in several QuoteMaster like applications and I am pretty sure many of you are currently involved in QuoteMaster projects. The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will help give you the confidence and ability to speed up with time instead of slowing down. 
 
 ## Structure, Interactions & Technical Practices are Intertwined ##
 
@@ -48,7 +48,7 @@ I'm sometimes told that its not a good time, that an organization can't afford t
 
 So how do you create slack? One way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable practices in the long run, but may be necessary to create the additional slack needed to embark on the harder and sometimes more beneficial practices. 
 
-The pattern I like to use is as follows: Identify where your bottlenecks are. Have an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt by your team. Help your team pick an appropriate practice, let them learn and apply it to their system, as the practice starts to realize a return they will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. Rinse and repeat several times. At some point you will create more time than you need for sustainable slack. When this happens your team becomes progressively faster. And the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
+The pattern I like to use is as follows: Identify where your bottlenecks are. Have an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt by your team. Let the team pick an appropriate practice, let them learn and apply it to their system, as the practice starts to realize a return they will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. Rinse and repeat several times. At some point you will create more time than you need for sustainable slack. When this happens your team becomes progressively faster. And the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
 
 So, with that said, let's move on to some actual practices.
 
@@ -72,7 +72,7 @@ We didn't just automate the build. We had just created an additional a day and a
 
 ### Version Control System ###
 
-Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This means that many developer can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
+Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
 
 I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of frequent merge conflicts. This is a symptom of the team not continuously integrating. Continous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
 
@@ -104,7 +104,7 @@ So what is it? Collective code ownership is the principle that code belongs to t
 
 #### Common Code Style ####
 
-One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them. Parts of a common coding style may be valuable to document, but definately not all of it.
+One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them. Parts of a common coding style may be valuable to document, but definately not all of it. A common code style is the first step to collective code ownership.
 
 #### Collaborative Coding ####
 
@@ -122,12 +122,11 @@ If you are in a position to make decisions on a work environment, investing real
 
 ### Test Driven Development ###
 
-So, you have created a collaborative environment, the people are working well
-together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I thought I would speak about automated testing and test driven development.
+So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I thought I would speak about automated testing and test driven development.
 
 In several discussions I've had with people who have not practiced any form of test driven development before, I find they get confused between test driven development and automated tests in general. There are some significant differences.
 
-Test driven development or TDD is particular workflow that developers use when writing software.  It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
+Test driven development or TDD is a particular workflow that developers use when writing software.  It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
 
 The benefits of TDD include helping create a simple design and inspiring confidence in a developer that the code is doing what it is meant to be doing. 
 
@@ -137,7 +136,7 @@ TDD is extremely useful to learn. Firstly it teaches developers good design - fo
 
 Now let me warn you upfront, if you haven't done TDD before, it can be challenging at first to learn. In particular I have seen people try and learn TDD straight out the bat with legacy systems. This can be extremely hard to do.
 
-For instance, the first time I saw test driven development I saw someone demonstrate it by writing some code, click a button, and a bunch circles on the screen went green.  I thought, great, all I need to do is go home and write tests and then I wouldn't have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it first - the code I had written was not unit testable. So I went back to my normal approach and put the idea on the shelf for a while.
+The first time I saw test driven development I saw someone demonstrate it by writing some code, click a button, and a bunch circles on the screen went green. It looked really simple. I thought, great, all I need to do is go home and write tests and then I wont have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it first - the code I had written was not unit testable. So I went back to my normal approach and put the idea on the shelf for a while.
 
 It took me more than a year of occaisonally dabbling with TDD to understand how to do it, and another year to start practicing it but once I began to into it, I began to realize how useful it was.
 
@@ -147,13 +146,15 @@ What is the best way to learn TDD? For me it was attending a thing called a code
 
 ### Closing ###
 
-With that we are running out of time. I'm going to end off with a story about a recent project I was involved in - I call this my hope project - it's about a program called MaxCut. MaxCut is a program I have been involved in developing for several years. All it does is show wood and metal workers the best way to cut their material so that they have the least wasteage. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
+With that I'm going to end off with a story about a recent project I was involved in - I call this my hope project - it's about a program called MaxCut. MaxCut is a program I have been involved in developing for several years. All it does is show wood and metal workers the best way to cut their material so that they have the least wasteage. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
 
 In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together. 
 
 One day I got feature request from a user asking for an adjustment to be made a part of the program - at the time it looked like a really useful feature but I knew that part of the code base was very tricky and it was going to be several weeks if not a month or two to write and then a week to make an installer update. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
 
-A year later I exposed to many of the practices I've spoken about today. In particular, to of the things that made a big impression on me were ci servers and test driven development. With time we started refactoring MaxCut and applying these practices on the system. After a while I came across the feature request I had shelved years earlier because of the effort involved to implement it. It just so happened to be a Saturday morning and I had some free time. I wondered how much effort it would take me to attempt that feature now. I sat down, start working on it, by late morning I had completed the feature, had run a full set of tests over the system and was ready to make an installer available. What once would have taken weeks, if not months, and would have left me uncertain if I had gotten it right could now be done in hours with a high degree of confidence that I hadn't broken anything. That to me is the power agile technical practices. They make us go faster with time, not slower.
+A year later I exposed to many of the practices I've spoken about today. In particular, two of the things that made a big impression on me were ci servers and test driven development. With time we started refactoring MaxCut and applying these practices on the system. After a while I came across the feature request I had shelved years earlier because of the effort involved to implement it. It just so happened to be a Saturday morning and I had some free time. I wondered how much effort it would take me to attempt that feature now. I sat down, start working on it, by late morning I had completed the feature, had run a full set of tests over the system and was ready to make an installer available. 
+
+The hope is this, what once would have taken weeks, if not months, and would have left me uncertain if I had gotten it right could now be done in hours with a high degree of confidence that I hadn't broken anything. That to me is the power agile technical practices. They make us go faster with time, not slower.
 
 With that I would like to thank you for your time. 
 
