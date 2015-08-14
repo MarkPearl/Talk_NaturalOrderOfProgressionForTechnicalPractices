@@ -120,26 +120,59 @@ If you are in a position to make decisions on a work environment, investing real
 
 ----------------------------------------------------------------------------------------------------
 
-### Developer Testing ###
+### Test Driven Development ###
 
-I would like to now spend some time talking on developer testing. Developer testing has 
+So, you have created a collaborative environment, the people are working well
+together, where do you go from here?
 
+Something to seriously consider is Test Driven Development.  
 
-Often I hear people who have not done developer testing before get confussed on terminology - most often I hear people speak about needing to do TDD, and on further discussion they are actually referring more generally to developer testing . Developer testing includes test driven development, unit testing, regression testing, acceptance testing, integration testing as well as a bunch of other 'testing' practices. For those unfamiliar with these terms, these tests are not written by the people who hold the title 'tester' - they are written by developers.
+In several discussions I've had with people who have not practiced any form of
+test driven development before, I find they get confused between test
+driven development and automated tests in general. There are some significant
+differences.
 
-I remember when I first heard of developer testing I was at a Microsoft Dev Day. I saw someone put some code up on the screen, click a button and a bunch circles on the screen went green. I thought, great, finally the silver bullet to software development. All I needed to do was go home and write tests and then I wouldn't have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the system I was developing at that time. I failed, I could not write a single useful test - it turns out the code I had written was not testable - so I gave up and reverted back to my normal coding. 
+Test driven development or TDD is particular workflow that developers use when writing software. 
+It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
 
-Which part of developer testing you start with depends on your unique problem. Personally, I tried to start with small unit tests and do TDD but struggled. I ended up writing larger integration tests first, then coming back to smaller unit tests later. It wasn't until I attended a Code Retreat that I really began to get into Developer Testing. My recomendation is, if you are in an organization that wants to parctice developer testing but don't know where to start, Code Retreats are a good introduction.
+The benefits of TDD include helping create a simple design and inspiring confidence in a developer that
+the code is doing what it is meant to be doing. 
 
-The challenge a team faces when it wants to reliably release on a monthly cadence is that developer testing is vital for success. If a team does not adopt certain forms of developer testing they create too much to much of a workload for manual testing - which makes everyone hate the world. 
+Automated tests on the other hand are merely that, a set of tests that can be run automatically and written by anyone at any point in time to verify that a system is functioning as expected. Some automated tests can be written post development by testers. These types of tests merely verify that the system is operating as expected and yield no benefits to design.
 
-Looking back at my personal career - If I could redo developer testing, I wished I understood basic refactoring tests first. These are automated tests that typically are slow but give you some level of confidence that that you haven't broken anything major. I think for most systems this is a useful place to start as most developers come in to an existing system.
+Now let me warn you upfront, TDD is challenging to introduce to a legacy system.
 
-## Weekly Release Cycle ##
+The first time I saw test driven development I saw someone demonstrate it by
+writing some code, click a button, and a bunch circles on the screen went green. 
+I thought, great, finally the silver bullet to software development. All I needed to do
+was go home and write tests and then I wouldn't have any bugs. So, I went
+home, spent a very frustrating day or two trying to write a useful test 
+against the system I was developing. I failed, I could not write
+a single useful test let alone write it first - it turns out the code I had
+written was not testable. So I went back to my normal approach.
 
-Personally I have found that getting from a monthly to a weekly release cadence was substantially easier than getting from a quarterly to a monthly release cadence.You already have a solid base for success and most of the tools to get there.
+It took me more than a year of occaisonally dabbling with TDD to understand
+how to do it, and another year to start practicing it.
 
-### One Button Deploy ###
+So, if it is so hard, why do it? It has a major impact on code design. It
+pushes you down a road of making code more maintainable and easier to change.
+This in turn results in quicker changes going forward. 
+
+What is the best way to learn TDD? For me it was attending a thing called
+a code retreat. I learnt more about TDD in one day at a code retreat than I
+learnt in an entire year on my own. If you can, I would highly recommend you
+get your developers to attend a code retreat. Public code retreats are held on
+weekends and it is sometimes challenging to get people with busy lives to
+attend. If you are unable to get people to go to a community code retreat
+event I would recommend spending the money getting someone to come and host
+one internally.
+
+### One Button Deploy with Immunization ###
+
+The last practice I would like to touch on is getting to a one button
+deploy with immunization.
+
+One button deploy is getting your system to a point where 
 
 The one big technical practice that we had to polish up when moving to a weekly deployment was a one button deployment. One button deployment means literally that, you click a button and the latest passing build is moved into your production enviroment - while this can be done with scripting and a buildserver, I recommend using tools specifically designed for this.
 
