@@ -123,77 +123,44 @@ If you are in a position to make decisions on a work environment, investing real
 ### Test Driven Development ###
 
 So, you have created a collaborative environment, the people are working well
-together, where do you go from here?
+together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I thought I would speak about automated testing and test driven development.
 
-Something to seriously consider is Test Driven Development.  
+In several discussions I've had with people who have not practiced any form of test driven development before, I find they get confused between test driven development and automated tests in general. There are some significant differences.
 
-In several discussions I've had with people who have not practiced any form of
-test driven development before, I find they get confused between test
-driven development and automated tests in general. There are some significant
-differences.
+Test driven development or TDD is particular workflow that developers use when writing software.  It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
 
-Test driven development or TDD is particular workflow that developers use when writing software. 
-It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
-
-The benefits of TDD include helping create a simple design and inspiring confidence in a developer that
-the code is doing what it is meant to be doing. 
+The benefits of TDD include helping create a simple design and inspiring confidence in a developer that the code is doing what it is meant to be doing. 
 
 Automated tests on the other hand are merely that, a set of tests that can be run automatically and written by anyone at any point in time to verify that a system is functioning as expected. Some automated tests can be written post development by testers. These types of tests merely verify that the system is operating as expected and yield no benefits to design.
 
-Now let me warn you upfront, TDD is challenging to introduce to a legacy system.
+TDD is extremely useful to learn. Firstly it teaches developers good design - for instance how to write software that is loosely coupled. What do I mean by things being loosely coupled? The best analogy I can think of is this : If programming features was like building blocks, then pre-tdd I was making really big blocks and using super glue to keeps the blocks together in the shape I wanted. Learning TDD taught me to make my blocks a lot smaller and them slightly so that they worked like lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly.
 
-The first time I saw test driven development I saw someone demonstrate it by
-writing some code, click a button, and a bunch circles on the screen went green. 
-I thought, great, finally the silver bullet to software development. All I needed to do
-was go home and write tests and then I wouldn't have any bugs. So, I went
-home, spent a very frustrating day or two trying to write a useful test 
-against the system I was developing. I failed, I could not write
-a single useful test let alone write it first - it turns out the code I had
-written was not testable. So I went back to my normal approach.
+Now let me warn you upfront, if you haven't done TDD before, it can be challenging at first to learn. In particular I have seen people try and learn TDD straight out the bat with legacy systems. This can be extremely hard to do.
 
-It took me more than a year of occaisonally dabbling with TDD to understand
-how to do it, and another year to start practicing it.
+For instance, the first time I saw test driven development I saw someone demonstrate it by writing some code, click a button, and a bunch circles on the screen went green.  I thought, great, all I need to do is go home and write tests and then I wouldn't have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it first - the code I had written was not unit testable. So I went back to my normal approach and put the idea on the shelf for a while.
 
-So, if it is so hard, why do it? It has a major impact on code design. It
-pushes you down a road of making code more maintainable and easier to change.
-This in turn results in quicker changes going forward. 
+It took me more than a year of occaisonally dabbling with TDD to understand how to do it, and another year to start practicing it but once I began to into it, I began to realize how useful it was.
 
-What is the best way to learn TDD? For me it was attending a thing called
-a code retreat. I learnt more about TDD in one day at a code retreat than I
-learnt in an entire year on my own. If you can, I would highly recommend you
-get your developers to attend a code retreat. Public code retreats are held on
-weekends and it is sometimes challenging to get people with busy lives to
-attend. If you are unable to get people to go to a community code retreat
-event I would recommend spending the money getting someone to come and host
-one internally.
-
-### One Button Deploy with Immunization ###
-
-The last practice I would like to touch on is getting to a one button
-deploy with immunization.
-
-One button deploy is getting your system to a point where 
-
-The one big technical practice that we had to polish up when moving to a weekly deployment was a one button deployment. One button deployment means literally that, you click a button and the latest passing build is moved into your production enviroment - while this can be done with scripting and a buildserver, I recommend using tools specifically designed for this.
-
-#### Advanced Developer Testing #####
-
-To get to a one button deployment, we found that we had to re-look at Developer and Manual Testing - some things are extremely hard to test with just developer testing and so some form of manual testing needs to be performed, however looking at what is being manually tested and making that as easy to test as possible has some really big payoffs. These types of tests are often not trivial and require some effort. I was in a team recently that was experiencing this pain, they had a combination of developer and manual tests. Spending some time with the testers to understand what they were covering manually and where their pain points were made it possible to streamline the process without introducing any holes in our safety net. This allowed us to get down to a weekly release cadence and eventually a daily release cadence.
-
-## Daily Deployments ##
-
-Moving from a weekly to a daily deployment is largely psychological. A time that I was part of had been releasing to production reguarly once a week. For an extended period some of the people in the team wanted to move to a daily release, yet there seemed to always be a good reason to delay the deployment to once a week.
-
-Eventually, there was enough desire to move to a daily deployment. I remember the first week we deployed to product every day. There was very little to speak about in the daily stand up and there seemed to be a psychological break through. It was also interesting having a conversation with a user, and then the next day doing the work and making it immediately available to them to use.
+What is the best way to learn TDD? For me it was attending a thing called a code retreat. I learnt more about TDD in one day at a code retreat than I learnt in an entire year on my own. If you can, I would highly recommend you get your developers to attend a code retreat. There are public code retreats held on weekends a few times a year. Sometimes its challenging to get people with busy lives to attend events on their weekends. If people in your team are in this position I would recommend spending the money getting someone to come and host internal code retreat.
 
 ----------------------------------------------------------------------------------------------------
 
-So,
+### Closing ###
+
+With that we are running out of time. I'm going to end off with a story about a recent project I was involved in - I call this my hope project - it's about a program called MaxCut. MaxCut is a program I have been involved in developing for several years. All it does is show wood and metal workers the best way to cut their material so that they have the least wasteage. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
+
+In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together. 
+
+One day I got feature request from a user asking for an adjustment to be made a part of the program - at the time it looked like a really useful feature but I knew that part of the code base was very tricky and it was going to be several weeks if not a month or two to write and then a week to make an installer update. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
+
+A year later I exposed to many of the practices I've spoken about today. In particular, to of the things that made a big impression on me were ci servers and test driven development. With time we started refactoring MaxCut and applying these practices on the system. After a while I came across the feature request I had shelved years earlier because of the effort involved to implement it. It just so happened to be a Saturday morning and I had some free time. I wondered how much effort it would take me to attempt that feature now. I sat down, start working on it, by late morning I had completed the feature, had run a full set of tests over the system and was ready to make an installer available. What once would have taken weeks, if not months, and would have left me uncertain if I had gotten it right could now be done in hours with a high degree of confidence that I hadn't broken anything. That to me is the power agile technical practices. They make us go faster with time, not slower.
+
+With that I would like to thank you for your time. 
+
+------------------------------------- END -------------------------------------
 
 - some practices return minimum value unless coupled with other practices
 - practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
-
-------------------------------------- END -------------------------------------
 
 With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
 
