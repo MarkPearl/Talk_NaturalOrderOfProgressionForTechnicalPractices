@@ -189,7 +189,7 @@ One of the best ways to achieve a common style is to support collaborative codin
 
 For some of you these terms may look unfamiliar. I'm going to briefly explain pair programming and mob programming.
 
-Pair programming is the practice where two programmers sit in front of one computer solving a problem together. Mob programming is very similar, except instead of just two people, you have several people sitting in front of a single machine solving a common problem.
+Pair programming is the practice where two programmers sit in front of one computer solving a problem together. Mob programming is very similar, except instead of just two people, you have several people in front of a single machine solving a common problem.
 
 Typically when I talk about collaborative coding and there are business people in the room, someone will ask how one can justify the costs of two or more people doing one persons job? If you have two programmers, surely they should be programming on their own work on their own machines otherwise they are not being efficient. 
 
