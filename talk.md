@@ -231,6 +231,8 @@ So, I went home, spent a very frustrating day or two trying to write a useful te
 
 It took me more than a year of occasionally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
 
+#### Best way to learn TDD ####
+
 So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need - exposure and time. 
 
 For me, I needed a year to think about it and a few failed attempts at applying it before I got it. 
