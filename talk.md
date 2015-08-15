@@ -239,7 +239,9 @@ For me, I needed a year to think about it and a few failed attempts at applying 
 
 In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a daylong event of intentional practice in a collaborative coding environment. In Johannesburg there are community ones that are free to attend once or twice a year on a Saturday.
 
-Now, sometimes it’s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
+Now, sometimes it’s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. 
+
+I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
 
 ----------------------------------------------------------------------------------------------------
 
