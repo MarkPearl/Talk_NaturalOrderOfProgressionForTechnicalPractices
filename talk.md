@@ -165,29 +165,37 @@ If you have already automated your build scripts and have your version control s
 
 ----------------------------------------------------------------------------------------------------
 
-### Collective Code Ownership ###
+## Collective Code Ownership ##
 
 So, let's say you have your build scripts humming, your version control working smoothly and your ci server continously integrating. What else can you get value from? I would like to talk a bit about the pratices that support the principle of collective code ownership.
 
-Why does collective code ownership matter to you? For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. For another client collective code ownership is important because they have seen reduced bottlenecks in developing software because more people can work on a wider area of the system. At an engineering level, I have found this principle supports better design, better flow and in general makes daily work fun. 
+Why does collective code ownership matter to you? 
 
-So what is it? Collective code ownership is the principle that code belongs to the project, not the individual. There are several practices one can apply to realize this principle.
+For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
+
+For another client collective code ownership is important because it reduces the bottlenecks on manpower because more people can work on a wider area of the system. 
+
+At an engineering level, I have found this principle supports better design, better code, fewer bugs and in general results in better systems being created. 
+
+So what is it? 
+
+Collective code ownership is the principle that code belongs to the project, not the individual. There are several practices one can apply to realize this principle.
 
 #### Common Code Style ####
 
-One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. I rather mean a team having a common understanding on how they would solve certain problems and what coding style and standard is important to them. Parts of a common coding style may be valuable to document, but definately not all of it. A common code style is the first step to collective code ownership.
+One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
+
+I rather mean a team having a common understanding on what coding style their groups has. To have a common understanding, teams need to look and discuss code as a group reguarly.
 
 #### Collaborative Coding ####
 
-So how do you know if your team has has a common style. One of the outcomes of collective code ownership is that it should be hard to identify which individual in your team coded a specific part of the system. To achieve this, the people writing code need to talk often. How do you get this to happen? I have found the best way to achieve this is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become.
+One of the best way to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become. Now, for those not familiar with different forms of collaborative coding, pair programming is when two programmers sit infront of one computer solving a problem together. Mob programming is when several people sit in front of a single machine solving a common problem.
 
-Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one persons job? In fact, just the other day my beautiful wife asked me this exact question.
+Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one persons job? I mean, surely if you have two programmers, they should be programming on their own work on their own machines otherwise you are not being efficient. 
 
-The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working together on it. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
+The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
 
-Working together on the same problem at the same time is the best way I have found to get a common code style and adopt collective code ownership. One of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to this type of work. I am not a fan of cubicles, designed to do factory line work. I want to see places where it is comfortable for a group of people to sit together and see eachother screens, or move around.
-
-If you are in a position to make decisions on a work environment, investing real money into making the facilities at your office conducive to collaborative development is money well spent.
+Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to collaborative work. I see too many cubicles and desks that are not condusive to people sitting together or communicating effectively. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
 
 ----------------------------------------------------------------------------------------------------
 
