@@ -92,6 +92,8 @@ You need to know that this will happen and have enough understanding of the long
 
 So this may all sound great in theory, but in the real world we can't just tell people to stop working. We have deadlines! 
 
+I've heard this a few times. 
+
 Firstly, there is very little correlation to how busy someone is and the amount of work that gets done. 
 Secondly, if you are under pressure there are various approaches you can take to create slack.
 
