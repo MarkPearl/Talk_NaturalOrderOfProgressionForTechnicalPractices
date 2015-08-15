@@ -233,7 +233,7 @@ It took me more than a year of occasionally dabbling with TDD to understand how 
 
 #### Best way to learn TDD ####
 
-So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need - exposure and time. 
+So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need to learn TDD : **Exposure and Time**.
 
 For me, I needed a year to think about it and a few failed attempts at applying it before I got it. 
 
