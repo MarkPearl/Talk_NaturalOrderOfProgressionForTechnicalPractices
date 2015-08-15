@@ -97,7 +97,7 @@ I've heard this a few times. It's a misconception that comes from a resource uti
 Firstly, there is very little correlation to how busy someone is and the amount of work that gets done. 
 Secondly, if you are under pressure there are various approaches you can take to create slack that don't require you stopping the ship.
 
-For instance, one way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable long term practices, but they may be useful to create the initial slack needed to embark on the harder and sometimes more beneficial ones. 
+For instance, one way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable long term practices AND they may be extremely useful to create the initial slack needed to embark on the harder and sometimes more beneficial ones. 
 
 The approach I like to use is as follows: 
 
