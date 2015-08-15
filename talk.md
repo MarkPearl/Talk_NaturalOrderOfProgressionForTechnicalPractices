@@ -76,7 +76,7 @@ Now, before I speak about the actual engineering practices I want to speak about
 
 When I talk about slack, I am referring to the time a team has to improving their engineering process and upskilling. Without slack your teams will not be able to adopt new practices, which mean things won't get better. 
 
-A good rule of thumb to follow with regards to slack is to "prefer small regular intervals of slack over large infrequent blocks of slack". 
+A good rule of thumb to follow with regards to slack is to **prefer small regular intervals of slack over large infrequent blocks of slack**.  
 
 I have found that teams that have small daily and weekly sessions built into their normal routine learn and improve at a faster rate than teams that take a large block of time off to learn something new. 
 
