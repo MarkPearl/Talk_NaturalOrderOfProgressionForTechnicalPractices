@@ -249,9 +249,9 @@ That said it is worth every bit of effort you put in to it because the return is
 
 ### Closing ###
 
-With that, we are coming to the end of this session. I have only covered five technical practices - these five are not the only technical practices necessary to operate at the release rate that agile methodologies work at, and you may find that the order they were proposed does not necessarily make sense for you particular team. That's fine, it's not hard to do.
+With that, we are coming to the end of this session. I have only covered five technical practices - these five are not the only technical practices necessary to operate at the release rate that agile methodologies work at, and you may find that the order they were proposed does not necessarily make sense for you particular team. That's fine, it's not hard to find your teams own natural order of progression.
 
-To find the natural order of agile technical practices for your team you need to:
+All you need to do is:
 
 1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn  
 2) Identify your team’s specific bottlenecks  
