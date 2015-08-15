@@ -213,7 +213,7 @@ The benefits of TDD include helping create a simple design and inspiring confide
 
 Automated tests on the other hand are merely that, a set of tests that can be run automatically and written by anyone at any point in time to verify that a system is functioning as expected. Some automated tests can be written post development by testers. These types of tests merely verify that the system is operating as expected and yield no benefits to design.
 
-#### Why TDD is more than just automated testing ####
+#### Why TDD is useful ####
 
 TDD is extremely useful. Firstly it teaches developers good design - in particular writing software that is loosely coupled. 
 
