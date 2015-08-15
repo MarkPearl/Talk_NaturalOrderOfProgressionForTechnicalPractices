@@ -264,17 +264,15 @@ MaxCut is a program I have been involved in developing for several years. The fi
 
 In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together and we were losing confidence in the system. 
 
-One day I got email from a user asking for an really useful new feature to be added - at the time it I knew that part this would require us working on a part of code base that was very tricky and it was going to be several weeks if not a month or two. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
+One day I got email from a user asking for an really useful new feature to be added - at the time it I knew that part this would require us working on a part of code base that was very tricky and it was going to be several weeks if not a month or two to implement. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
 
 A year later I exposed to many of the practices I've spoken about today. In particular, two of the things that made a big impression on me were ci servers and test driven development. 
 
-With time we started refactoring MaxCut and applying these practices on the system. One day, I came across the feature request I had shelved a year or so earlier. 
+With time we started refactoring MaxCut and applying these practices on it. One Saturday morning I came across the feature request I had shelved a year or so earlier. I wondered to myself how long it would take to do it now. It just so happened I had some free time so I decided to try and implement it. 
 
-It just so happened it was a Saturday morning and I had some free time. I wondered how much effort it would take to implement the feature now. I sat down, start working on it, I was surprised how confident I was working in the refactored code base. I was getting continual feedback from my tests and changing things was proving to be really easy. By the end of the day I had completed the feature, had run a full set of tests over the system and hand an installation available to distribute. 
+As I started working on the feature I was surprised at how confident I was working in the refactored code. I was getting continual feedback from my tests and the techniques I had learn't from TDD made changing things really easy. By the end of the day I had completed the feature, had run a full set of tests over it and had an installation available to distribute. 
 
-What once would have taken months now had been accomplished in hours.
-
-To me, that is the power agile technical practices. They make us go faster with time, not slower.
+What once would have taken months now had been accomplished in hours.  To me, that is the power agile technical practices. They make us go faster with time, not slower.
 
 Thank you.
 
