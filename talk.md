@@ -241,7 +241,7 @@ In terms of learning resources, probably the most I learnt about TDD was at a co
 
 Now, sometimes it’s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. 
 
-I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
+I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort because the return is so high.
 
 ----------------------------------------------------------------------------------------------------
 
