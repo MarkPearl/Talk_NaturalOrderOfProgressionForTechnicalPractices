@@ -1,8 +1,8 @@
 ## Introduction ##
 
-When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruizer deck. It's one of the coolest thing you will ever see. Having just entered teenhood, and being inspired by this board, I realized my calling in life was to become a world famous skate boarder.
+When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruiser deck. It's one of the coolest things you will ever see. Having just entered teen hood, and being inspired by this board, I realized my calling in life was to become a world famous skate boarder.
 
-To start off, I tried my hand at skateboard tricks - airs, backsides, kickflips, ollies, you name it - what I discovered was that there is one thing common with all skateboard tricks - they require coordination - something that I didn't have. 
+To start off, I tried my hand at skateboard tricks - airs, backsides, kick flips, ollies, you name it - what I discovered was that there is one thing common with all skateboard tricks - they require coordination - something that I didn't have. 
 
 Having failed at tricks, I moved on to plan B - I decided what I lacked in coordination, I would make up in speed. With this brilliant idea, I set out with my two younger brothers to find an appropriate hill to demonstrate my ability. 
 
@@ -10,11 +10,11 @@ Having grown up in KwaZulu Natal, in a place called Forest Hills, I was in no sh
 
 To this day, I remember the event clearly. It was a late January afternoon, my brothers and I walked to the top of the hill where I stood for a few moments staring down it as if I was a surfer looking at a large wave. Then, with nerves of steel, I climbed on my skateboard and started my descent. 
 
-About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occured to me that there were a few things I hadn't considered. 
+About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occurred to me that there were a few things I hadn't considered. 
 
 Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that had breaks, but not so great for a skateboard. 
 
-Secondly, and probably more importantly, I wasn't dressed for the occaison. I was wearing shorts and a T-Shirt with no protective gear. 
+Secondly, and probably more importantly, I wasn't dressed for the occasion. I was wearing shorts and a T-Shirt with no protective gear. 
 
 As these thoughts dawned on me and my speed rapidly increased I made the first good decision of that day - I jumped off. 
 
@@ -40,9 +40,9 @@ I've called them the natural order of agile technical practices.
 
 So, what do I mean by agile technical practices? These words mean different things for different people. When I posed this question to someone involved in developing I get a range of answers. 
 
-For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
+For the next 25 minutes I'm going to ask your indulgence in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
 
-Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continous Integration, Continous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
+Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continuous Integration, Continuous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
 
 ## How do you know if you need Agile Technical Practices? ##
 
@@ -60,11 +60,11 @@ Sadly, this experience is not unique. I have been involved in several QuoteMaste
 
 The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will make you feel safe and give you the confidence to speed up with time instead of slowing down. 
 
-## Structure, Interactions & Technical Practices are Intertwined ##
+## Structure, Interactions & Technical Practices are intertwined ##
 
-With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called Gforce. In Kent's talk he spoke about how different rates of deployment require structures and activities. 
+With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called GeForce. In Kent's talk he spoke about how different rates of deployment require structures and activities. 
 
-Today I'm going to assume you have your team and organizational strutures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams.
+Today I'm going to assume you have your team and organizational structures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams.
 
 It's my observation that engineering practices and team structures are inter-linked. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
@@ -72,11 +72,11 @@ It's my observation that engineering practices and team structures are inter-lin
 
 ### Help Create Slack ###
 
-Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - its the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
+Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - it’s the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
 
-When I talk about slack, I am refering to the time a team has to improving their engineering process and upskilling. 
+When I talk about slack, I am referring to the time a team has to improving their engineering process and upskilling. 
 
-Without slack your teams will not be able to adopt new practices, which means things won't get better. 
+Without slack your teams will not be able to adopt new practices, which mean things won't get better. 
 
 A good rule of thumb to follow with regards to slack is to "prefer small regular intervals of slack over large infrequent blocks of slack". 
 
@@ -86,7 +86,7 @@ I have found that teams that have small daily and weekly sessions built into the
 
 Another thing you need to do is support the dips. Whenever a team or an individual learns a new engineering practice there is going to be an initial dip in performance. 
 
-You need to know that this will happen and have enough understanding of the long term advantges that will be gained from what they are learning and trying to apply to support them during the dips. 
+You need to know that this will happen and have enough understanding of the long term advantages that will be gained from what they are learning and trying to apply to support them during the dips. 
 
 ### Pattern to Create Slack ###
 
@@ -105,7 +105,7 @@ The approach I like to use is as follows:
 
 As the practice starts to realize a return you will have created additional capacity. Let your team re-invest the additional capacity to apply to the next identified bottleneck. 
 
-Rinse and repeat several times. At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
+Rinse and repeat several times. At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the interesting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
 
 ----------------------------------------------------------------------------------------------------
 
@@ -123,11 +123,11 @@ For teams that previously released infrequently, this is usually a manual proces
 
 When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
 
-How do you know if your build is automated? A good way to guage is to ask a team to generate a build - if it takes them more than a minute or two, it is not automated enough.
+How do you know if your build is automated? A good way to gauge is to ask a team to generate a build - if it takes them more than a minute or two, it is not automated enough.
 
 Most teams I have come across that have not automated the build yet will tell me it is going to be very hard and that they have special circumstances that require a specific person doing it manually. Personally, I have yet to come across a team that hasn't been able to automate and share this responsibility across the team after applying their minds. 
 
-For instance, I once worked with a team that was under a huge amount of pressure working on a very legacy application. There was one particular developer that stood out as always being busy. After some time with the team we noticed that every couple of weeks this particular developer would disapear for a day to make a build for the testers. Because of the pressure he was under, occaisonally he would miss a step during the build process and send through a build pack with an old file. This would only get picked up after a few hours of it being with the testers which meant he would then need to spend another day re-doing the build and the manual testing would need start over gain. You can imagine how popular he was when this happened and how much he enjoyed his build days. 
+For instance, I once worked with a team that was under a huge amount of pressure working on a very legacy application. There was one particular developer that stood out as always being busy. After some time with the team we noticed that every couple of weeks this particular developer would disappear for a day to make a build for the testers. Because of the pressure he was under, occasionally he would miss a step during the build process and send through a build pack with an old file. This would only get picked up after a few hours of it being with the testers which meant he would then need to spend another day re-doing the build and the manual testing would need start over again. You can imagine how popular he was when this happened and how much he enjoyed his build days. 
 
 After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a few days, but we managed to automate the build so that anyone could generate it. What once was an error prone process took almost a full day of a developers time was reduced to a matter of seconds. 
 
@@ -143,21 +143,21 @@ Leading on from builds is the practice of using version control. Version control
 
 I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of regular merge conflicts. This is a symptom of the team not continuously integrating. 
 
-Continous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
+Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
 
 The pattern with version control is to do small little bits of work and merge or integrate frequently (in this case frequently means hours, not days).
 
 ----------------------------------------------------------------------------------------------------
 
-### Continous Integration Server ###
+### Continuous Integration Server ###
 
-Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this is you need a continous integration server. 
+Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this is you need a continuous integration server. 
 
-A CI Server, also called a build server, is a centralized server that builds your project whenever a checkin is done to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. 
+A CI Server, also called a build server, is a centralized server that builds your project whenever a check-in is done to the version control - it's responsibility is to build the code base from version control, making sure that everything is there and working nicely. 
 
 One of the big payoffs from a ci server is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not.
 
-For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer commited work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went and the result of out automated tests. It used 3 colors - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
+For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer committed work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went and the result of our automated tests. It used 3 colours - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
 
 Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind that we were working together on the same system. 
 
@@ -167,7 +167,7 @@ If you have already automated your build scripts and have your version control s
 
 ## Collective Code Ownership ##
 
-So, let's say you have your build scripts humming, your version control working smoothly and your ci server continously integrating. What else can you get value from? I would like to talk a bit about the pratices that support the principle of collective code ownership.
+So, let's say you have your build scripts humming, your version control working smoothly and your ci server continuously integrating. What else can you get value from? I would like to talk a bit about the practices that support the principle of collective code ownership.
 
 Why does collective code ownership matter to you? 
 
@@ -185,23 +185,23 @@ Collective code ownership is the principle that code belongs to the project, not
 
 One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
 
-I rather mean a team having a common understanding on what coding style their groups has. To have a common understanding, teams need to look and discuss code as a group reguarly.
+I rather mean a team having a common understanding on what coding style their groups has. To have a common understanding, teams need to look and discuss code as a group regularly.
 
 #### Collaborative Coding ####
 
-One of the best way to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become. Now, for those not familiar with different forms of collaborative coding, pair programming is when two programmers sit infront of one computer solving a problem together. Mob programming is when several people sit in front of a single machine solving a common problem.
+One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become. Now, for those not familiar with different forms of collaborative coding, pair programming is when two programmers sit in front of one computer solving a problem together. Mob programming is when several people sit in front of a single machine solving a common problem.
 
-Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one persons job? I mean, surely if you have two programmers, they should be programming on their own work on their own machines otherwise you are not being efficient. 
+Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one person’s job? I mean, surely if you have two programmers, they should be programming on their own work on their own machines otherwise you are not being efficient. 
 
 The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
 
-Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments condusive to collaborative work. I see too many cubicles and desks that are not condusive to people sitting together or communicating effectively. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
+Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments conducive to collaborative work. I see too many cubicles and desks that are not conducive to people sitting together or communicating effectively. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Test Driven Development & Automated Testing ###
 
-So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I would be doing you an injustive if I didn't speak about automated testing and test driven development.
+So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I would be doing you an injustice if I didn't speak about automated testing and test driven development.
 
 In recent years I have noticed the growth in popularity of test driven development. However, in discussions with people who have not practiced any form of test driven development before, I find they get confused between test driven development and automated tests in general. 
 
@@ -213,34 +213,34 @@ Automated tests on the other hand are merely that, a set of tests that can be ru
 
 TDD is extremely useful. Firstly it teaches developers good design - in particular writing software that is loosely coupled. 
 
-What do I mean by things being loosely coupled? The best analogy I can think of is this : If programming features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
+What do I mean by things being loosely coupled? The best analogy I can think of is this: If programming features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
 
-Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. In an agile world, where we embrace change, having code like lego blocks allows us to change direction really quickly which becomes a major competetive advantage.
+Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like Lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. In an agile world, where we embrace change, having code like Lego blocks allows us to change direction really quickly which becomes a major competitive advantage.
 
 Now let me warn you upfront, if your engineers have not done TDD before, it can be challenging.
 
-The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I wont have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
+The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I won’t have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
 
-It took me more than a year of occaisonally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
+It took me more than a year of occasionally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
 
 So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need - exposure and time. 
 
 For me, I needed a year to think about it and a few failed attempts at applying it before I got it. 
 
-In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a day long event of intentional practice in a collaborative coding environment. In Johannesburg there are community ones that are free to attend once or twice a year on a Saturday.
+In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a daylong event of intentional practice in a collaborative coding environment. In Johannesburg there are community ones that are free to attend once or twice a year on a Saturday.
 
-Now, sometimes its challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
+Now, sometimes it’s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Closing ###
 
-With that, we are coming to the end of this session. I have only covered five techical practices - these five are not the only technical practices necessary to operate at the release rate that agile methodologies work at, and you may find that the order they were proposed does not necessarily make sense for you particular team. That's fine.
+With that, we are coming to the end of this session. I have only covered five technical practices - these five are not the only technical practices necessary to operate at the release rate that agile methodologies work at, and you may find that the order they were proposed does not necessarily make sense for you particular team. That's fine.
 
 To find the natural order of agile technical practices for your team you need to:
 
 1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn
-2) Identify your teams specific bottlenecks
+2) Identify your team’s specific bottlenecks
 3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it
 4) Make improvement part of your daily process, not a special event
 
@@ -248,7 +248,7 @@ With that I'm going to end off with a story - I call this my hope story - it's a
 
 MaxCut is a program I have been involved in developing for several years. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
 
-In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together and we were loosing confidence in the system. 
+In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together and we were losing confidence in the system. 
 
 One day I got email from a user asking for an really useful new feature to be added - at the time it I knew that part this would require us working on a part of code base that was very tricky and it was going to be several weeks if not a month or two. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
 
@@ -258,130 +258,10 @@ With time we started refactoring MaxCut and applying these practices on the syst
 
 It just so happened it was a Saturday morning and I had some free time. I wondered how much effort it would take to implement the feature now. I sat down, start working on it, I was surprised how confident I was working in the refactored code base. I was getting continual feedback from my tests and changing things was proving to be really easy. By the end of the day I had completed the feature, had run a full set of tests over the system and hand an installation available to distribute. 
 
-What once would have taken months, now had been accomplished in hours.
+What once would have taken months now had been accomplished in hours.
 
 To me, that is the power agile technical practices. They make us go faster with time, not slower.
 
 Thank you.
 
-------------------------------------- END -------------------------------------
-
-- some practices return minimum value unless coupled with other practices
-- practices need to be sustainable during pressure situations (teams without these practices are often in pressure situaitons a lot)
-
-With that said, I know that every team is a unique snow flake. I understand that what I will be sharing might not map one to one with your teams exact situation. I would love to find out the specifics of the pain you are facing afterwards.
-
-Essentially when I am developing software I want feedback at every level. The quicker the feedback the better. I want feedback when I am solving a problem to know if it is the right problem to solve. I want feedback when I am coding to know if my approach is right. I want feedback when I release to know if everything is working properly. The quicker I can get this feedback, the better position I am in.
-
-
-
-For those that are unfamiliar with the term, collective code ownership means that everyone is responsible for all the code. This in return means that everyone is allowed to change any part of the code. I have sometime seen people confusing version control with collective code ownership. Just because your team has their code in version control does not mean there is collective code ownership - I have seen teams have a large solution, where inside that solution they had a folder for each developer, under which they had a copy of the code. This is not collective ownership. 
-
-
-Good to know
-- Every practice has a J curve - can you afford to have the downtime
-- Some practices return minimum value unless coupled with other practices
-- Should be able to sustain practices during pressure situationo
-- Legacy system testing
-
-Other things
-- Manual testing slows things down
-- Learn your refactoring tools
-
-What are agile engineering rpactices
-- TDD,
-- Pairing,
-- Continous Integration
-- Continous Deployment
-- Acceptance Test Driven Developement
-
-When it is expensive to make something, you do it less frequently. When it is cheap, you do it more often
-
-At a principle level what we are looking for is... any practice that helps shorten feedback loops and promote sustainable pace.
-
-## Definition ##
-
-Engineering Practice is a specific software development practice that is proposed to be implemented by agile method.
-
-
-Many think Agile is just about stand-ups & sticky notes when it is actually about being able to deliver valuable software faster. It is impossible to do this if you don't leverage the technical practices agile has embraced. The challenge is - where do you start? Do you focus your energy on understanding TDD, or put time into a continuous build environment. What is the natural order of progression and how do you implement them without slowing down feature delivery?
-
-In this session Mark is going to present what he believes is the natural order of progression of technical practices. He will highlight some of the challenges he's faced with teams trying to increase their release rate and what they did to overcome these barriers.
-
-This talk is appropriate for technical AND non-technical people involved in Software Development who would like to release to production more frequently (be it from Months to Weeks, Weeks to Days, or Days to Hours). Those already hitting the magical continuous release rate don't need to attend ;-)
-## How is your topic relevant to an African context ##
-
-## Keywords ##
-
-TDD, 
-Automated Deployment, 
-Continuous Integration, 
-Version Control, 
-Automated Testing, 
-Deliver Faster
-
-## Learning Outcomes ##
-Understand the order of implementing technical practices
-Understand why each technical practice is valuable
-Understand how long each technical practice usually takes to embrace or see a return on
-Debunk potential myths on why one technical practice will solve all your problems
-
-References - Agile Engineering Practices (http://blogs.versionone.com/agile_management/2013/07/10/agile-engineering-practices-a-cheat-sheet/)  
-
-Potential Engineering Practices
-- Pair Programming
-- Test Driven Design
-- Automated Acceptance Testing
-- Refactoring
-- Emergent Design
-- Continuous Integration
-- Shared code repository
-
-References - Agile Egineering Best Practices - http://www.slideshare.net/RichardChengExcella/agile-engineering-best-practices-what-every-project-manager-should-know?next_slideshow=1
-
-Do this first...
-- Version control
-- Build automation
-- Automated unit testing
-- Continous integration
-- Static code analysis
-- Dependency Management
-- Automated integration testing
-- Automated acceptance testing
-- Deployment automation
-
-References - Benefit of agile engineering practices - http://www.infoq.com/articles/benefit-agile-engineering
-
-https://blog.codecentric.de/en/2014/05/agile-engineering-practices-short-overview/
-
-Videos on egile engineering practices
-http://shop.oreilly.com/product/0636920020271.do
-
-Why did we lose the XP practices (https://coding.abel.nu/2014/04/why-did-we-lose-the-xp-practices/)
-
-https://www.scrumalliance.org/community/articles/2010/december/the-land-that-scrum-forgot
-
-Uncle bob's idea of engineering practices include:
-- TDD, Continuous Integration, Pair Programming, Collective Ownership & Refactoring
-
-Uncle bob feels TDD is the best to start with - it helps make the code clean
-
-## My Quotes ##
-
-If you want to move faster without getting hurt, the people that are creating your software not only need to adjust how they interact - they also need to adjust their engineering practices that they use that makes it safe to move faster. 
-
-
-My advice is aim for small speed improvements. If you were previously at a month release cycle, aim for a quarterly release cycle, then to a monthly, then to a bi-weekly, etc.
-
-(When you change a team structure, you end up changing the organizational structures. Organizational stuctures tend to be self supporting - unless they have been properly prepared for change they will treat the change as a virus that needs to be quarenteened and removed.
-
-
-When a person adopts any new engineering practice the J Curve effect happens which in essence says that their productivity will dip for a while before it improves. If you adopt too many practices at once, you introduce a massive jcurve, which is often unfeasuble.
-
-
-. Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
-
-
-With that said, I would warn you against starting too many new practices at once. If you include too many new practices at once you make the dip really deep and the recovery period very long. In the worst case, it could even mean that a team abandons all of these practices as "none of it works" because they're overwhelmed by all of the changes at once. 
-
- 
+------------------------------------- END ------------------------------------- 
