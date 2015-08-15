@@ -117,7 +117,7 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is automating and democratizing the build.
 
-I've put this as the first practice because it is simple to do, yet I have come across many teams that just haven't done it. 
+I've put this as the first practice because it is so simple to do, yet I have come across many teams that just haven't done it. 
 
 When I refer to the build I am talking about the set of files that are packaged or generated that are required to for a system to run on a test or production environment. 
 
