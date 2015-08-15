@@ -207,7 +207,7 @@ In recent years I have noticed the growth in popularity of test driven developme
 
 Test driven development or TDD is a particular workflow that developers use when writing software. It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
 
-The benefits of TDD include helping create a simple design and inspiring confidence that the code is doing what it is meant to be doing. 
+The benefits of TDD include helping create a simple design and inspiring confidence in the developer that the code is doing what it is meant to be doing. 
 
 Automated tests on the other hand are merely that, a set of tests that can be run automatically and written by anyone at any point in time to verify that a system is functioning as expected. Some automated tests can be written post development by testers. These types of tests merely verify that the system is operating as expected and yield no benefits to design.
 
