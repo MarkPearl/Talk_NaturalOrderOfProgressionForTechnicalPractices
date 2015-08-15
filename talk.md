@@ -107,7 +107,7 @@ The approach I like to use is as follows:
 
 As the practice starts to realize a return you will have created additional capacity. Let your team re-invest the additional capacity to apply to the next identified bottleneck. 
 
-Rinse and repeat several times. At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the interesting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
+At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the interesting thing with getting progressively faster is that it becomes a drug. **The faster you go, the faster you want to go**.
 
 ----------------------------------------------------------------------------------------------------
 
