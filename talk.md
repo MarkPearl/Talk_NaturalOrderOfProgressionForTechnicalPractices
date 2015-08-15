@@ -1,24 +1,24 @@
 ## Introduction ##
 
-When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruiser deck. It's one of the coolest things you will ever see. Having just entered teen hood, and being inspired by this board, I realized my calling in life was to become a world famous skate boarder.
+When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruiser deck. It's one of the coolest things you will ever see. Having just entered teen hood, and being inspired by this board, I realized my calling in life was to become a famous skate boarder.
 
-To start off, I tried my hand at skateboard tricks - airs, backsides, kick flips, ollies, you name it - what I discovered was that there is one thing common with all skateboard tricks - they require coordination - something that I didn't have. 
+To start off, I tried my hand at skateboard tricks - airs, backsides, kick flips, ollies, you name it - unfortunately, what I discovered with skateboard tricks is that they all have one thing in common - they require coordination - something that I didn't have. 
 
-Having failed at tricks, I moved on to plan B - I decided what I lacked in coordination, I would make up in speed. With this brilliant idea, I set out with my two younger brothers to find an appropriate hill to demonstrate my ability. 
+Having failed at tricks, I moved on to the next best thing, what I lacked in coordination I would make up in speed. With this brilliant idea, I set out with my two younger brothers to find an appropriate hill to demonstrate my ability. 
 
 Having grown up in KwaZulu Natal, in a place called Forest Hills, I was in no shortage of options. In fact, just a block away from where we lived was a perfect specimen of a hill with a newly tarred road going down it.
 
-To this day, I remember the event clearly. It was a late January afternoon, my brothers and I walked to the top of the hill where I stood for a few moments staring down it as if I was a surfer looking at a large wave. Then, with nerves of steel, I climbed on my skateboard and started my descent. 
+To this day I remember the event clearly. It was a late January afternoon, my brothers and I walked to the top of the hill where I stood for a few moments staring down it as if I was a surfer looking at a large wave. Then, with nerves of steel, I climbed on my skateboard and started my descent. 
 
 About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occurred to me that there were a few things I hadn't considered. 
 
-Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that had breaks, but not so great for a skateboard. 
+Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that could break, but not so great for a skateboard. 
 
 Secondly, and probably more importantly, I wasn't dressed for the occasion. I was wearing shorts and a T-Shirt with no protective gear. 
 
 As these thoughts dawned on me and my speed rapidly increased I made the first good decision of that day - I jumped off. 
 
-As I jumped off, my world went into slow motion - the skateboard which just seconds before had been under my feet continued down the hill and then veered off and crashed into bushes. 
+As I jumped my world went into slow motion - the skateboard which just seconds before had been under my feet continued down the hill and then veered off and crashed into bushes. 
 
 I also continued down the hill for a few meters - but with no protective gear I had to rely on my bare hands and knees to come to a stop. Standing up and looking down I was surprized that where moments ago was healthy skin, was now replaced by blood and torn flesh. 
 
@@ -26,7 +26,7 @@ I also continued down the hill for a few meters - but with no protective gear I 
 
 In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. 
 
-These organizations want to develop software faster - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups AND they haven't really thought it through properly - they've missed something really important which is if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
+These organizations want to develop software faster - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups AND they haven't really thought it through properly - they've missed something really important which is **if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices**.
 
 How do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. That doesn't mean they advocate bad software engineering practices - they are just not specific on what good engineering practices are. 
 
@@ -38,9 +38,9 @@ I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
-So, what do I mean by agile technical practices? These words mean different things for different people. When I posed this question to someone involved in developing I get a range of answers. 
+So, what do I mean by agile technical practices? These words mean different things for different people. When I pose this question to people involved in software development I get a range of answers. 
 
-For the next 25 minutes I'm going to ask your indulgence in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
+For the next 25 minutes I'm going to ask your indulgence in using my definition for the term - which is when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
 
 Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continuous Integration, Continuous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
 
@@ -48,23 +48,23 @@ Some of the things I would include under the banner of engineering practices are
 
 ### Experience of QuoteMaster ###
 
-Why are these practices important? Let me illustrate with an experience - early on in my career I started my first big project - it was a system we named QuoteMaster. I wrote the first lines of code in QuoteMaster in 2001 and 4 years later I wrote the last line of code for it. 
+Why are these practices important? Let me illustrate with an experience - early on in my career I started my first big project - it was a system we named QuoteMaster. I wrote the first lines of code in QuoteMaster in 2001 and 4 years later I wrote the last lines of code for it. 
 
-The first few months of developing QuoteMaster we rapidly added features. But as the months passed I noticed something rather alarming. It was taking us longer and longer to add new features. The best way I could explain it was that complexity had crept in and even though we added more developers to the project, it got slower and slower to add things. After about 4 years in, we had pretty much come to a standstill. 
+The first few months of developing QuoteMaster we rapidly added features. But as the months passed, I noticed something rather alarming. It was taking us longer and longer to add new features. The best way I could explain it was that complexity had crept in and even though we added more developers to the project, it got slower and slower to add things. After about 4 years in we had pretty much come to a standstill. 
 
-You know something is fundamentally wrong with a system when your largest client asks for a relatively small feature and you point blank refuse to do it because of how long it is going to take and the pain and emotional strain it was going to cause you. 
+You know something is fundamentally wrong with a system when your largest client asks for a relatively small feature and you point blank refuse to do it because of how long it is going to take and the pain and emotional strain it is going to cause you. 
 
 In a nutshell, we had reached the point where we didn't feel safe making any more changes to QuoteMaster.
 
 Sadly, this experience is not unique. I have been involved in several QuoteMaster like applications and if I were a betting man, many of you here are currently involved in QuoteMaster like projects. 
 
-The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will make you feel safe and give you the confidence to speed up with time instead of slowing down. 
+This is one of the reasons why the practices I am going to talk about today are so important. These practices will help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will make you feel safe and give you the confidence to speed up with time instead of slowing down. 
 
 ## Structure, Interactions & Technical Practices are intertwined ##
 
-With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called GeForce. In Kent's talk he spoke about how different rates of deployment require structures and activities. 
+With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called GeForce. In Kent's talk he spoke about how different rates of deployment require different structures and activities. 
 
-Today I'm going to assume you have your team and organizational structures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams.
+Today I'm going to assume you have your team and organizational structures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams that are under pressure to deliver working software reguarly.
 
 It's my observation that engineering practices and team structures are inter-linked. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
