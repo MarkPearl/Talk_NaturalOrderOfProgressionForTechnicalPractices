@@ -95,18 +95,17 @@ So this may all sound great in theory, but in the real world we can't just tell 
 Firstly, there is very little correlation to how busy someone is and the amount of work that gets done. 
 Secondly, if you are under pressure there are various approaches you can take to create slack.
 
-For instance, one way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable long run practices, but they may be useful to create the initial slack needed to embark on the harder and sometimes more beneficial practices. 
+For instance, one way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable long term practices, but they may be useful to create the initial slack needed to embark on the harder and sometimes more beneficial ones. 
 
 The approach I like to use is as follows: 
 
 - As a team, identify where the bottlenecks are. 
-- Get an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt. 
-- As a team pick an appropriate practice, then spend time learning and applying it your system. 
+- Get an understanding of what practices can help reduce the bottlenecks and roughly how expensive the practices are to adopt. 
+- As a team pick an appropriate practice, then spend time learning and applying it to your system. 
 
-As the practice starts to realize a return you will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. 
+As the practice starts to realize a return you will have created additional capacity. Let your team re-invest the additional capacity to apply to the next identified bottleneck. 
 
 Rinse and repeat several times. At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
-
 
 ----------------------------------------------------------------------------------------------------
 
@@ -116,41 +115,53 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is automating and democratizing the build.
 
-I've put this as the first practice to look at because this is a low hanging fruit, yet I have come across many teams that don't do it. When I refer to the build I am talking about the set of files that are packaged or generated that are required to for a system to run on a test or production environment. For teams that previously released infrequently, this is usually a manual process owned by a single person. When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
+I've put this as the first practice because it is a low hanging fruit, yet I have come across many teams that don't do it. 
+
+When I refer to the build I am talking about the set of files that are packaged or generated that are required to for a system to run on a test or production environment. 
+
+For teams that previously released infrequently, this is usually a manual process owned by a single person. 
+
+When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
 
 How do you know if your build is automated? A good way to guage is to ask a team to generate a build - if it takes them more than a minute or two, it is not automated enough.
 
-Most teams I have come across that have not automated the build yet will tell me it is going to be very hard and that they have special circumstances that require a specific person owning the build and doing it manually. Personally, I have yet to come across a team that hasn't been able to share this responsibility across the team after applying their minds and doing enough research. 
+Most teams I have come across that have not automated the build yet will tell me it is going to be very hard and that they have special circumstances that require a specific person doing it manually. Personally, I have yet to come across a team that hasn't been able to automate and share this responsibility across the team after applying their minds. 
 
-I once worked with a team that was under a huge amount of pressure working on a very legacy application. There was one particular developer that stood out as always being busy. After some time with the team we noticed that every couple of weeks this particular developer would disapear for a day to make a build for the testers. Because of the pressure he was under, occaisonally he would miss a step during the build process and send through build pack with an old file. This would only get picked up after a few hours of it being with the testers which meant he would then need to spend another day re-doing the build and the manual testing would need start over gain. You can imagine how popular he was when this happened and how much he enjoyed his build days. 
+For instance, I once worked with a team that was under a huge amount of pressure working on a very legacy application. There was one particular developer that stood out as always being busy. After some time with the team we noticed that every couple of weeks this particular developer would disapear for a day to make a build for the testers. Because of the pressure he was under, occaisonally he would miss a step during the build process and send through a build pack with an old file. This would only get picked up after a few hours of it being with the testers which meant he would then need to spend another day re-doing the build and the manual testing would need start over gain. You can imagine how popular he was when this happened and how much he enjoyed his build days. 
 
-After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a day or two, but we managed to fully automate the build. What once was an error prone process took almost a full day of a developers time was reduced to a matter of seconds. 
+After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a few days, but we managed to automate the build so that anyone could generate it. What once was an error prone process took almost a full day of a developers time was reduced to a matter of seconds. 
 
-We didn't just automate the build. We had just created an additional a day and a half of extra time a month for a very over worked developer. Automation made making a build painless, this resulted in the team making smaller more frequent builds which resulted in more frequent releases which business got features a lot sooner than they had previously. If you have not automated and democratized the build, stop what your team is doing and invest the time in it now.
+Now the net result of this wasn't just creating an additional a day and a half a month of developer time. Automation made making a build painless, things that are painless you do more often which resulted in the team making smaller more frequent builds. Smaller more frequent builds resulted in more frequent releases which meant that business got features sooner than they had previously. 
+
+If you have not automated and democratized your build yet, seriously consider it as a first line candidate.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Version Control System ###
 
-Leading on from builds is the practice of using version control. Version control is not just backup of code - one of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
+Leading on from builds is the practice of using version control. Version control is not just a fancy word for backing up code - one of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
 
-I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of frequent merge conflicts. This is a symptom of the team not continuously integrating. Continous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
+I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of regular merge conflicts. This is a symptom of the team not continuously integrating. 
 
-To be successful with version control do small little bits of work and integrate frequently (and by frequently I am meaning hours, not days).
+Continous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
+
+The pattern with version control is to do small little bits of work and merge or integrate frequently (in this case frequently means hours, not days).
 
 ----------------------------------------------------------------------------------------------------
 
 ### Continous Integration Server ###
 
-Doing smaller bits of work and integrating more frequently means that people work closer together. It becomes vital to make build and integration issues visible as quickly as possible - this is where a continous integration server comes into play. 
+Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this is you need a continous integration server. 
 
-A CI Server, also called a build server, is a centralized server that builds your project whenever a checkin is done by a developer on the team to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. Once it has a successful build, it can do other things like run automated tests etc. 
+A CI Server, also called a build server, is a centralized server that builds your project whenever a checkin is done to the version control - it's responsbility is to build the code base from version control, making sure that everything is there and working nicely. 
 
-One of the big payoffs from a ci server is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not - For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer commited work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went. It used 3 colors - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
+One of the big payoffs from a ci server is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not.
 
-Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind. 
+For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer commited work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went and the result of out automated tests. It used 3 colors - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
 
-Setting up a ci server is extremely low hanging fruit provided you have a spare server, automated build scripts and your version control system working.
+Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind that we were working together on the same system. 
+
+If you have already automated your build scripts and have your version control system working correctly, setting up a ci server is often trivial.
 
 ----------------------------------------------------------------------------------------------------
 
