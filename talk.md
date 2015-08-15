@@ -2,7 +2,7 @@
 
 When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruizer deck. It's one of the coolest thing you will ever see. Having just entered teenhood, and being inspired by this board, I realized my calling in life was to become a world famous skate boarder.
 
-To start off with, I tried my hand at skateboard tricks - airs, backsides, kickflips, ollies, you name it - what I discovered was that there is one thing common with all skateboard tricks - they require coordination - something that I didn't have. 
+To start off, I tried my hand at skateboard tricks - airs, backsides, kickflips, ollies, you name it - what I discovered was that there is one thing common with all skateboard tricks - they require coordination - something that I didn't have. 
 
 Having failed at tricks, I moved on to plan B - I decided what I lacked in coordination, I would make up in speed. With this brilliant idea, I set out with my two younger brothers to find an appropriate hill to demonstrate my ability. 
 
@@ -10,19 +10,31 @@ Having grown up in KwaZulu Natal, in a place called Forest Hills, I was in no sh
 
 To this day, I remember the event clearly. It was a late January afternoon, my brothers and I walked to the top of the hill where I stood for a few moments staring down it as if I was a surfer looking at a large wave. Then, with nerves of steel, I climbed on my skateboard and started my descent. 
 
-About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occured to me that there were a few things I hadn't considered. Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that had breaks, but not so great for a skateboard that didn't. More importantly, I wasn't dressed for the occaison. I was wearing shorts and a T-Shirt with no protective gear. As these thoughts dawned on me and my speed rapidly increased I made the first good decision that day - I jumped off. 
+About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occured to me that there were a few things I hadn't considered. 
 
-As I jumped off, my world went into slow motion - the skateboard which just seconds before had been under my feet continued down the hill and then veered off and crashed into bushes. I also continued down the hill for a few meters - but with no protective gear I had to rely on my bare hands and knees to come to a stop. Standing up and looking down I was surprized that where moments ago was healthy skin, was now replaced by blood and torn flesh. 
+Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that had breaks, but not so great for a skateboard. 
+
+Secondly, and probably more importantly, I wasn't dressed for the occaison. I was wearing shorts and a T-Shirt with no protective gear. 
+
+As these thoughts dawned on me and my speed rapidly increased I made the first good decision of that day - I jumped off. 
+
+As I jumped off, my world went into slow motion - the skateboard which just seconds before had been under my feet continued down the hill and then veered off and crashed into bushes. 
+
+I also continued down the hill for a few meters - but with no protective gear I had to rely on my bare hands and knees to come to a stop. Standing up and looking down I was surprized that where moments ago was healthy skin, was now replaced by blood and torn flesh. 
 
 ## Relating Skateboarding to Software Development ##
 
-In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. These organizations want to develop software faster - they've figuratively bought the agile skateboard (they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups) and they haven't really thought it through properly - they've missed something really important which is if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
+In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. 
 
-How do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them - that doesn't mean they advocate bad software engineering practices, they are just not specific on what good engineering practices are. This is a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively. 
+These organizations want to develop software faster - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups AND they haven't really thought it through properly - they've missed something really important which is if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices.
 
-Another problem lies with the software engineers. Software engineers are used to being considered bright, which often makes them blind to areas of improvement. For instance, for the first 10 years of my professional career I thought I was really good - until I started to pair program that I had a long way to go and a lot to learn. 
+How do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. That doesn't mean they advocate bad software engineering practices - they are just not specific on what good engineering practices are. 
 
-Today I would like to touch on some of the things that are rarely spoken about at a Scrum or Kanban course and that managers and "non" technical people often don't get to discuss but that are just as critical. I've called them the natural order of agile technical practices.
+This is a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively. 
+
+Today I'm going to speak about some of the things that are rarely spoken about at a Scrum or Kanban course. These are the things that managers and "non" technical people often don't get to discuss but that are just as critical to understand to be effective. 
+
+I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
