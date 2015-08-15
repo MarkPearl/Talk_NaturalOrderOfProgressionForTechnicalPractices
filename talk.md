@@ -38,13 +38,27 @@ I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
-So, what do I mean by agile technical practices? These words mean different things for different people. This became very apparent when I posed the question on twitter to the general software development community. For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. Some of the things I would include under the banner of engineering practices are: Pair Programming, Mob Programming, Continous Integration, Continous Deployment, Acceptance Test Driven Development, Collective Code Ownership, Collective Coding Standards, Simple Design and Refactoring.
+So, what do I mean by agile technical practices? These words mean different things for different people. When I posed this question to someone involved in developing I get a range of answers. 
+
+For the next 25 minutes I'm going to ask your endulgance in using my definition for the term - which is that when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
+
+Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continous Integration, Continous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
 
 ## How do you know if you need Agile Technical Practices? ##
 
-Why are these practices important? Let me illustrate with a story - a few years ago I was involved with my first big project. At the time it was the largest code base I had ever worked on and I was involved with it for about 6 years. Since I wrote the first line and last line of code for it, I have a pretty good feel for it's entire lifespan - the system was called QuoteMaster and it was my get rich quick ticket. The first few months of developing QuoteMaster were exciting. We managed to add a number of key features to the system and our customers were very positive in their feedback. As the months passed by it seemed to take longer and longer to add additional features even though we added more developers to the team. At the time the only way I could explain it was that the code was becoming complex and making a change sometimes created unexpected errors in other places in the system. After about 4 years into the project we had pretty much come to a standstill. You know something is fundamentally wrong with a system when your potentially largest client asks for a relatively small feature and you point blank refuse to do it because of how long it was going to take and the pain and emotional strain it was going to cause you. In a nutshell, I didn't feel safe anymore making changes to QuoteMaster.
+### Experience of QuoteMaster ###
 
-Sadly, the story of QuoteMaster is not unique. I have been involved in several QuoteMaster like applications and I am pretty sure many of you are currently involved in QuoteMaster projects. The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will help give you the confidence and ability to speed up with time instead of slowing down. 
+Why are these practices important? Let me illustrate with an experience - early on in my career I started my first big project - it was a system we named QuoteMaster. I wrote the first lines of code in QuoteMaster in 2001 and 4 years later I wrote the last line of code for it. 
+
+The first few months of developing QuoteMaster we rapidly added features. But as the months passed I noticed something rather alarming. It was taking us longer and longer to add new features. The best way I could explain it was that complexity had crept in and even though we added more developers to the project, it got slower and slower to add things. After about 4 years in, we had pretty much come to a standstill. 
+
+You know something is fundamentally wrong with a system when your largest client asks for a relatively small feature and you point blank refuse to do it because of how long it is going to take and the pain and emotional strain it was going to cause you. 
+
+In a nutshell, we had reached the point where we didn't feel safe making any more changes to QuoteMaster.
+
+Sadly, this experience is not unique. I have been involved in several QuoteMaster like applications and if I were a betting man, many of you here are currently involved in QuoteMaster like projects. 
+
+The reason why the practices I am going to talk about today are important is because they are critical to help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will make you feel safe and give you the confidence to speed up with time instead of slowing down. 
 
 ## Structure, Interactions & Technical Practices are Intertwined ##
 
