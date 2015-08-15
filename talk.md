@@ -179,15 +179,20 @@ For me, it matters because I have found this principle supports better design, b
 
 #### Common Code Style ####
 
-One practice falling under collective code ownership is having a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
+One practice falling under collective code ownership is a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
 
-I rather mean a team having a common understanding on what coding style their groups has. To have a common understanding, teams need to look and discuss code as a group regularly.
+I rather mean a team having a common understanding on what coding style their groups has. It stands to reason that to have a common style, teams need to look and discuss code as a group regularly.
 
 #### Collaborative Coding ####
 
-One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more collaborative you become. Now, for those not familiar with different forms of collaborative coding, pair programming is when two programmers sit in front of one computer solving a problem together. Mob programming is when several people sit in front of a single machine solving a common problem.
+One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more consistent a team is in style. 
 
-Now, typically when I talk about collaborative coding someone will ask how can one justify the costs of two or more people doing one person’s job? I mean, surely if you have two programmers, they should be programming on their own work on their own machines otherwise you are not being efficient. 
+For some of you these terms may look unfamiliar. I'm going to briefly explain pair programming and mob programming.
+
+Pair programming is the practice where two programmers sit in front of one computer solving a problem together. 
+Mob programming is when several people sit in front of a single machine solving a common problem.
+
+Typically when I talk about collaborative coding and there are business people in the room, someone will ask how one can justify the costs of two or more people doing one persons job? If you have two programmers, surely they should be programming on their own work on their own machines otherwise they are not being efficient. 
 
 The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
 
