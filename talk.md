@@ -219,7 +219,9 @@ TDD is extremely useful. Firstly it teaches developers good design - in particul
 
 What do I mean by things being loosely coupled? The best analogy I can think of is this: If programming features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
 
-Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like Lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. In an agile world, where we embrace change, having code like Lego blocks allows us to change direction really quickly which becomes a major competitive advantage.
+Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like Lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. 
+
+In an agile world, where we embrace change, having code like Lego blocks allows us to change direction really quickly which becomes a major competitive advantage.
 
 Now let me warn you upfront, if your engineers have not done TDD before, it can be challenging.
 
