@@ -80,6 +80,8 @@ A good rule of thumb to follow with regards to slack is to **prefer small regula
 
 I have found that teams that have small daily and weekly sessions built into their normal routine learn and improve at a faster rate than teams that take a large block of time off to learn something new. 
 
+In the team I am currently in we have experimented with various approaches, from having weekly lunch sessions where we talk about design principles to kata's where we learn new techniques and video sessions where we watch recordings of conferences on topics we find interesting.
+
 ### Supporting the Dips ###
 
 Another thing you need to do is support the dips. Whenever a team or an individual learns a new engineering practice there is going to be an initial dip in performance. 
