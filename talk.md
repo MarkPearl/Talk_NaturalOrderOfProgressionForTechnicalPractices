@@ -70,19 +70,42 @@ It's my observation that engineering practices and team structures are inter-lin
 
 ## Dips & Slack ##
 
-Now, I understand that many of you hear do not consider yourselves engineers. what can you as a manager or someone with influence do to help your team learn and adopt new practices? Firstly, you need to create slack and weather the dips.
+### Help Create Slack ###
 
-When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Without slack your teams will not be able to adopt new practices, which means things won't get better. As a manager, a good rule of thumb is to prefer small regular intervals of slack over large infrequent blocks. I have found that teams that have small daily and weekly sessions built into their routine learn and improve at a noticably faster rate than teams that take a week or a month at a time. 
+Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - its the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
 
- Also, whenever a team or an individual or team learns a new engineering practice there is going to be an initial dip in performance. You need to be in a position to support them during the dip. You need to have enough understanding of the long term advantges that will be gained from what they are learning to be their advocate to the rest of the organization during the dip. 
+When I talk about slack, I am refering to the time a team has to improving their engineering process and upskilling. 
 
-Avoid attempting too many new practices at once. If you include too many practices at once you make the dip deeper and the recovery period longer. In the worst case, it could even mean that a team abandons all of these practices as "none of it works" when they're overwhelmed by all of these changes at once. 
+Without slack your teams will not be able to adopt new practices, which means things won't get better. 
 
-I'm sometimes told that its not a good time, that an organization can't afford to create slack because the project is at a critical point. While this may sometimes be true, my observation is that in most situations projects are always at a critical point and it's never a good time. If you are in an organization that suffers from this, you need to realize that things are never going to get better than they are now and you either need to come to terms with this, or change your organization. My advice is be an advocate for slack being part of the day to day process. 
+A good rule of thumb to follow with regards to slack is to "prefer small regular intervals of slack over large infrequent blocks of slack". 
 
-So how do you create slack? One way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable practices in the long run, but may be necessary to create the additional slack needed to embark on the harder and sometimes more beneficial practices. 
+I have found that teams that have small daily and weekly sessions built into their normal routine learn and improve at a faster rate than teams that take a large block of time off to learn something new. 
 
-The pattern I like to use is as follows: Identify where your bottlenecks are. Have an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt by your team. Let the team pick an appropriate practice, let them learn and apply it to their system, as the practice starts to realize a return they will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. Rinse and repeat several times. At some point you will create more time than you need for sustainable slack. When this happens your team becomes progressively faster. And the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
+### Supporting the Dips ###
+
+Another thing you need to do is support the dips. Whenever a team or an individual learns a new engineering practice there is going to be an initial dip in performance. 
+
+You need to know that this will happen and have enough understanding of the long term advantges that will be gained from what they are learning and trying to apply to support them during the dips. 
+
+### Pattern to Create Slack ###
+
+So this may all sound great in theory, but in the real world we can't just tell people to stop working. We have deadlines! 
+
+Firstly, there is very little correlation to how busy someone is and the amount of work that gets done. 
+Secondly, if you are under pressure there are various approaches you can take to create slack.
+
+For instance, one way is to invest in practices that have a shallow dip and a quick recovery period. These practices may not necessarily be the most valuable long run practices, but they may be useful to create the initial slack needed to embark on the harder and sometimes more beneficial practices. 
+
+The approach I like to use is as follows: 
+
+- As a team, identify where the bottlenecks are. 
+- Get an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt. 
+- As a team pick an appropriate practice, then spend time learning and applying it your system. 
+
+As the practice starts to realize a return you will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. 
+
+Rinse and repeat several times. At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
 
 
 ----------------------------------------------------------------------------------------------------
@@ -312,5 +335,7 @@ When a person adopts any new engineering practice the J Curve effect happens whi
 
 . Teams that don't have slack do not have capacity to change. Having slack built in as a regular cadence into your process is vital for continued improvement. I'm a proponent of teams doing intential improvement on at worst a weekly cadence.
 
+
+With that said, I would warn you against starting too many new practices at once. If you include too many new practices at once you make the dip really deep and the recovery period very long. In the worst case, it could even mean that a team abandons all of these practices as "none of it works" because they're overwhelmed by all of the changes at once. 
 
  
