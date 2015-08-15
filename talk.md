@@ -195,7 +195,7 @@ Typically when I talk about collaborative coding and there are business people i
 
 The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
 
-Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments conducive to collaborative work. I see too many cubicles and desks that are not conducive to people sitting together or communicating effectively. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
+Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments conducive to collaborative work. I see too many cubicles and desks that are not suitable for people to sit side by side and work at one terminal. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
 
 ----------------------------------------------------------------------------------------------------
 
