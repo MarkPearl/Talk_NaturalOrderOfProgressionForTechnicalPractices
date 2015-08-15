@@ -141,7 +141,7 @@ If you have not automated and democratized your build yet, seriously consider it
 
 Leading on from builds is the practice of using version control. Version control is not just a fancy word for backing up code - one of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
 
-I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when teams complain of regular merge conflicts. This is a symptom of the team not continuously integrating. 
+I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when a team complains of regular merge conflicts. This is a symptom of the team not continuously integrating. 
 
 Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
 
