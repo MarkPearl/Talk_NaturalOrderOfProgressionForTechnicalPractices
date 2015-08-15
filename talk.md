@@ -131,7 +131,7 @@ For instance, I once worked with a team that was under a huge amount of pressure
 
 After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a few days, but we managed to automate the build so that anyone could generate it. What once was an error prone process that took almost a full day of a developers time was reduced to a matter of seconds. 
 
-The net result of this wasn't just creating an additional a day and a half a month of developer time. Automating the build made making the build painless. Things that are painless are done more often which in this case resulted in the team making smaller, more frequent builds. Smaller more frequent builds result in more frequent releases which mean that business get their features sooner. A win win all round.
+The net result of this wasn't just creating an additional a day and a half a month of developer time. Automating the build made making the build painless. Things that are painless are done more often which in this case resulted in the team making smaller, more frequent builds. Smaller more frequent builds resulted in more frequent releases which in turn meant that business got their features sooner. A win win all round.
 
 If you have not automated and democratized your build yet, seriously consider it as a first line candidate.
 
