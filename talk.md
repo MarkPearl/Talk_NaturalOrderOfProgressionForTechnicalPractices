@@ -129,9 +129,9 @@ Most teams I have come across that have not automated the build yet will tell me
 
 For instance, I once worked with a team that was under a huge amount of pressure working on a very legacy application. There was one particular developer that stood out as always being busy. After some time with the team we noticed that every couple of weeks this particular developer would disappear for a day to make a build for the testers. Because of the pressure he was under, occasionally he would miss a step during the build process and send through a build pack with an old file. This would only get picked up after a few hours of it being with the testers which meant he would then need to spend another day re-doing the build and the manual testing would need start over again. You can imagine how popular he was when this happened and how much he enjoyed his build days. 
 
-After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a few days, but we managed to automate the build so that anyone could generate it. What once was an error prone process took almost a full day of a developers time was reduced to a matter of seconds. 
+After quite a bit of encouragement we convinced him to give us time to help him automate the build. It took us a few days, but we managed to automate the build so that anyone could generate it. What once was an error prone process that took almost a full day of a developers time was reduced to a matter of seconds. 
 
-Now the net result of this wasn't just creating an additional a day and a half a month of developer time. Automation made making a build painless, things that are painless you do more often which resulted in the team making smaller more frequent builds. Smaller more frequent builds resulted in more frequent releases which meant that business got features sooner than they had previously. 
+The net result of this wasn't just creating an additional a day and a half a month of developer time. Automating the build made making the build painless. Things that are painless are done more often which in this case resulted in the team making smaller more frequent builds. Smaller more frequent builds resulted in more frequent releases which meant that business got features sooner than they had previously. 
 
 If you have not automated and democratized your build yet, seriously consider it as a first line candidate.
 
@@ -151,35 +151,31 @@ The pattern with version control is to do small little bits of work and merge or
 
 ### Continuous Integration Server ###
 
-Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this is you need a continuous integration server. 
+Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this, you need a continuous integration server. 
 
-A CI Server, also called a build server, is a centralized server that builds your project whenever a check-in is done to the version control - it's responsibility is to build the code base from version control, making sure that everything is there and working nicely. 
+A CI Server, also called a build server, is a centralized server that builds your project whenever a check-in is done to the version control - it's responsibility is to build the code base from version control, making sure that everything is there and playing nicely. 
 
 One of the big payoffs from a ci server is that it can make the general health of your codebase visible to everyone regardless of whether you are technical or not.
 
-For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer committed work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went and the result of our automated tests. It used 3 colours - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green all the time. 
+For instance, in a couple of teams that I have been involved with we plugged a monitor into our ci server that we put up in the team room. Whenever a developer committed work to version control, our ci server would automatically detect it, rebuild the solution and tell everyone how the build went. It used 3 colours - orange meant it was currently building, green meant that the last build was a success, and red meant we had broken something. Our team goal was try and keep the ci server green as much as possible. Whenever it went red, we would stop what we were doing and fix it immediately because we knew it had a major impact on everyone.
 
-Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind that we were working together on the same system. 
+Making the ci server physically visible to the entire team helped us focus on sorting out integrations issues quickly and allowed everyone to keep it in the back of their mind that we were working together as a team on the same system. 
 
-If you have already automated your build scripts and have your version control system working correctly, setting up a ci server is often trivial.
+If you have already automated your build scripts and have your version control system working correctly, setting up a ci server is often trivial. It is something that every team needs to have.
 
 ----------------------------------------------------------------------------------------------------
 
 ## Collective Code Ownership ##
 
-So, let's say you have your build scripts humming, your version control working smoothly and your ci server continuously integrating. What else can you get value from? I would like to talk a bit about the practices that support the principle of collective code ownership.
+So, let's say you have your build scripts humming, your version control working smoothly and your ci server continuously integrating. What else can you get value from? It is at this point I would like to talk a bit about the practices that support the principle of collective code ownership.
 
-Why does collective code ownership matter to you? 
+Collective code ownership is the principle that code belongs to the project, not the individual. Why should this matter to you?
 
-For one of my clients the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
+For one client we worked with the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
 
-For another client collective code ownership is important because it reduces the bottlenecks on manpower because more people can work on a wider area of the system. 
+For another client collective code ownership is important because it reduces the bottlenecks on manpower. More people can work on a wider area of the system without waiting for a specific expert to be available. 
 
-At an engineering level, I have found this principle supports better design, better code, fewer bugs and in general results in better systems being created. 
-
-So what is it? 
-
-Collective code ownership is the principle that code belongs to the project, not the individual. There are several practices one can apply to realize this principle.
+For me, it matters because I have found this principle supports better design, better code, fewer bugs and in general results in better systems being created. 
 
 #### Common Code Style ####
 
