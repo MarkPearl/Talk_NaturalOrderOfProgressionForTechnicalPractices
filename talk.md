@@ -123,7 +123,7 @@ When I refer to the build I am talking about the set of files that are packaged 
 
 For teams that previously released infrequently, this is usually a manual process owned by a single person. 
 
-When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
+When you automate the build it means that instead of someone manually going through the steps to create a build pack, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
 
 How do you know if your build is automated? A good way to gauge is to ask a team to generate a build - if it takes them more than a minute or two, it is not automated enough.
 
