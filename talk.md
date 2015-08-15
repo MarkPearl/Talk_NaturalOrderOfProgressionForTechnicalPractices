@@ -62,11 +62,15 @@ The reason why the practices I am going to talk about today are important is bec
 
 ## Structure, Interactions & Technical Practices are Intertwined ##
 
-With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Scotland a few years back called Gforce where he spoke about how team structure and speed are linked. In Kent's talk he made the statement that different rates of release require different team and organizational structures. Today I'm going to assume you have your team and organizational strutures sorted - for some of you this is not necessarily the case. Technical practices and team structures are also linked. Some practices may be impossible to get off the ground if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
+With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called Gforce. In Kent's talk he spoke about how different rates of deployment require structures and activities. 
+
+Today I'm going to assume you have your team and organizational strutures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams.
+
+It's my observation that engineering practices and team structures are inter-linked. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
 ## Dips & Slack ##
 
-So, what can you as a manager or someone with influence do to help your team learn and adopt new practices? Firstly, you need to create slack and weather the dips.
+Now, I understand that many of you hear do not consider yourselves engineers. what can you as a manager or someone with influence do to help your team learn and adopt new practices? Firstly, you need to create slack and weather the dips.
 
 When I talk about slack, I am refering to the time a team has to improving their process and upskilling. Without slack your teams will not be able to adopt new practices, which means things won't get better. As a manager, a good rule of thumb is to prefer small regular intervals of slack over large infrequent blocks. I have found that teams that have small daily and weekly sessions built into their routine learn and improve at a noticably faster rate than teams that take a week or a month at a time. 
 
@@ -80,11 +84,14 @@ So how do you create slack? One way is to invest in practices that have a shallo
 
 The pattern I like to use is as follows: Identify where your bottlenecks are. Have an understanding of what practices can help reduce those bottlenecks and roughly how expensive the practices are to adopt by your team. Let the team pick an appropriate practice, let them learn and apply it to their system, as the practice starts to realize a return they will have created additional capacity. Let your team re-invest the additional capacity to create additional slack to apply to the next identified bottleneck. Rinse and repeat several times. At some point you will create more time than you need for sustainable slack. When this happens your team becomes progressively faster. And the intersting thing with getting progressively faster is that it becomes a drug. The faster you go, the faster you want to go.
 
-So, with that said, let's move on to some actual practices.
 
 ----------------------------------------------------------------------------------------------------
 
+So, with that said, let's move on to some actual practices.
+
 ## Automating and Democratizing the Build ##
+
+The first practice I would like to talk about is automating and democratizing the build.
 
 I've put this as the first practice to look at because this is a low hanging fruit, yet I have come across many teams that don't do it. When I refer to the build I am talking about the set of files that are packaged or generated that are required to for a system to run on a test or production environment. For teams that previously released infrequently, this is usually a manual process owned by a single person. When you automate the build it means that instead of someone manually going through the steps to create a build, it is done automatically by a script file. Democratizing the build means anyone in the team should be able to trigger this process - even the non-technical people. 
 
