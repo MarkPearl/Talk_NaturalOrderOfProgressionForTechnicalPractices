@@ -199,43 +199,70 @@ Now a quick side note - one of the big complaints I have with most of corporate 
 
 ----------------------------------------------------------------------------------------------------
 
-### Test Driven Development ###
+### Test Driven Development & Automated Testing ###
 
-So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I thought I would speak about automated testing and test driven development.
+So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I would be doing you an injustive if I didn't speak about automated testing and test driven development.
 
-In several discussions I've had with people who have not practiced any form of test driven development before, I find they get confused between test driven development and automated tests in general. There are some significant differences.
+In recent years I have noticed the growth in popularity of test driven development. However, in discussions with people who have not practiced any form of test driven development before, I find they get confused between test driven development and automated tests in general. 
 
-Test driven development or TDD is a particular workflow that developers use when writing software.  It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
+Test driven development or TDD is a particular workflow that developers use when writing software. It involves first the developer writing an automated test that defines a desired improvement or new function, the developer then produces the minimum amount of code to get the test to pass and finally refactors the new code to acceptable standards.
 
-The benefits of TDD include helping create a simple design and inspiring confidence in a developer that the code is doing what it is meant to be doing. 
+The benefits of TDD include helping create a simple design and inspiring confidence that the code is doing what it is meant to be doing. 
 
 Automated tests on the other hand are merely that, a set of tests that can be run automatically and written by anyone at any point in time to verify that a system is functioning as expected. Some automated tests can be written post development by testers. These types of tests merely verify that the system is operating as expected and yield no benefits to design.
 
-TDD is extremely useful to learn. Firstly it teaches developers good design - for instance how to write software that is loosely coupled. What do I mean by things being loosely coupled? The best analogy I can think of is this : If programming features was like building blocks, then pre-tdd I was making really big blocks and using super glue to keeps the blocks together in the shape I wanted. Learning TDD taught me to make my blocks a lot smaller and them slightly so that they worked like lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly.
+TDD is extremely useful. Firstly it teaches developers good design - in particular writing software that is loosely coupled. 
 
-Now let me warn you upfront, if you haven't done TDD before, it can be challenging at first to learn. In particular I have seen people try and learn TDD straight out the bat with legacy systems. This can be extremely hard to do.
+What do I mean by things being loosely coupled? The best analogy I can think of is this : If programming features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
 
-The first time I saw test driven development I saw someone demonstrate it by writing some code, click a button, and a bunch circles on the screen went green. It looked really simple. I thought, great, all I need to do is go home and write tests and then I wont have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it first - the code I had written was not unit testable. So I went back to my normal approach and put the idea on the shelf for a while.
+Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. In an agile world, where we embrace change, having code like lego blocks allows us to change direction really quickly which becomes a major competetive advantage.
 
-It took me more than a year of occaisonally dabbling with TDD to understand how to do it, and another year to start practicing it but once I began to into it, I began to realize how useful it was.
+Now let me warn you upfront, if your engineers have not done TDD before, it can be challenging.
 
-What is the best way to learn TDD? For me it was attending a thing called a code retreat. I learnt more about TDD in one day at a code retreat than I learnt in an entire year on my own. If you can, I would highly recommend you get your developers to attend a code retreat. There are public code retreats held on weekends a few times a year. Sometimes its challenging to get people with busy lives to attend events on their weekends. If people in your team are in this position I would recommend spending the money getting someone to come and host internal code retreat.
+The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I wont have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
+
+It took me more than a year of occaisonally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
+
+So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need - exposure and time. 
+
+For me, I needed a year to think about it and a few failed attempts at applying it before I got it. 
+
+In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a day long event of intentional practice in a collaborative coding environment. In Johannesburg there are community ones that are free to attend once or twice a year on a Saturday.
+
+Now, sometimes its challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns but they are worth every bit of the effort.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Closing ###
 
-With that I'm going to end off with a story about a recent project I was involved in - I call this my hope project - it's about a program called MaxCut. MaxCut is a program I have been involved in developing for several years. All it does is show wood and metal workers the best way to cut their material so that they have the least wasteage. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
+With that, we are coming to the end of this session. I have only covered five techical practices - these five are not the only technical practices necessary to operate at the release rate that agile methodologies work at, and you may find that the order they were proposed does not necessarily make sense for you particular team. That's fine.
 
-In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together. 
+To find the natural order of agile technical practices for your team you need to:
 
-One day I got feature request from a user asking for an adjustment to be made a part of the program - at the time it looked like a really useful feature but I knew that part of the code base was very tricky and it was going to be several weeks if not a month or two to write and then a week to make an installer update. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
+1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn
+2) Identify your teams specific bottlenecks
+3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it
+4) Make improvement part of your daily process, not a special event
 
-A year later I exposed to many of the practices I've spoken about today. In particular, two of the things that made a big impression on me were ci servers and test driven development. With time we started refactoring MaxCut and applying these practices on the system. After a while I came across the feature request I had shelved years earlier because of the effort involved to implement it. It just so happened to be a Saturday morning and I had some free time. I wondered how much effort it would take me to attempt that feature now. I sat down, start working on it, by late morning I had completed the feature, had run a full set of tests over the system and was ready to make an installer available. 
+With that I'm going to end off with a story - I call this my hope story - it's about a program called MaxCut. 
 
-The hope is this, what once would have taken weeks, if not months, and would have left me uncertain if I had gotten it right could now be done in hours with a high degree of confidence that I hadn't broken anything. That to me is the power agile technical practices. They make us go faster with time, not slower.
+MaxCut is a program I have been involved in developing for several years. The first version was written many years ago before I was introduced to any of the practices I've spoken about today. 
 
-With that I would like to thank you for your time. 
+In the early days of MaxCut we noticed the same effects we had seen in QuoteMaster - as we added feature on feature, it was taking longer and longer to make changes and keep everything working together and we were loosing confidence in the system. 
+
+One day I got email from a user asking for an really useful new feature to be added - at the time it I knew that part this would require us working on a part of code base that was very tricky and it was going to be several weeks if not a month or two. Since we didn't have that sort of time, I parked the feature request and put it in the "Nice Ideas but not going to happen" section.
+
+A year later I exposed to many of the practices I've spoken about today. In particular, two of the things that made a big impression on me were ci servers and test driven development. 
+
+With time we started refactoring MaxCut and applying these practices on the system. One day, I came across the feature request I had shelved a year or so earlier. 
+
+It just so happened it was a Saturday morning and I had some free time. I wondered how much effort it would take to implement the feature now. I sat down, start working on it, I was surprised how confident I was working in the refactored code base. I was getting continual feedback from my tests and changing things was proving to be really easy. By the end of the day I had completed the feature, had run a full set of tests over the system and hand an installation available to distribute. 
+
+What once would have taken months, now had been accomplished in hours.
+
+To me, that is the power agile technical practices. They make us go faster with time, not slower.
+
+Thank you.
 
 ------------------------------------- END -------------------------------------
 
