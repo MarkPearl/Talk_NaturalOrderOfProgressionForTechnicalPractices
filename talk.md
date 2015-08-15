@@ -254,7 +254,7 @@ With that, we are coming to the end of this session. I have only covered five te
 That's fine, it's not hard to find your teams own natural order of progression. All you need to do is:
 
 1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn  
-2) Identify your team’s specific bottlenecks  
+2) Identify your team’s specific bottlenecks and the potential practices that can improve it   
 3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it  
 4) Make improvement part of your daily process, not a special event  
 
