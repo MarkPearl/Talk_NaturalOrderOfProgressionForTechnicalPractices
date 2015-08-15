@@ -225,7 +225,9 @@ In an agile world, where we embrace change, having code like Lego blocks allows 
 
 Now let me warn you upfront, if your engineers have not done TDD before, it can be challenging.
 
-The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I won’t have any bugs. So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
+The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I won’t have any bugs. 
+
+So, I went home, spent a very frustrating day or two trying to write a useful test against the existing system I was developing. I failed, I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
 
 It took me more than a year of occasionally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
 
