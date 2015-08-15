@@ -151,7 +151,7 @@ The pattern with version control is to do small little bits of work and merge or
 
 ### Continuous Integration Server ###
 
-Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this, you need a continuous integration server. 
+Doing smaller bits of work and integrating frequently means that people work closer together. When people work closer together, it becomes important to make build and integration issues visible to the team as quickly as possible. To do this you need a continuous integration server. 
 
 A CI Server, also called a build server, is a centralized server that builds your project whenever a check-in is done to the version control - it's responsibility is to build the code base from version control, making sure that everything is there and playing nicely. 
 
