@@ -66,7 +66,7 @@ With that, I want to briefly mention team and organizational structures. There i
 
 Today I'm going to assume you have your team and organizational structures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams that are under pressure to deliver working software reguarly.
 
-It's my observation that engineering practices and team structures are inter-linked. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
+It's my observation that engineering practices and team structures are joined at the hip. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
 ## Dips & Slack ##
 
@@ -74,9 +74,7 @@ It's my observation that engineering practices and team structures are inter-lin
 
 Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - it’s the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
 
-When I talk about slack, I am referring to the time a team has to improving their engineering process and upskilling. 
-
-Without slack your teams will not be able to adopt new practices, which mean things won't get better. 
+When I talk about slack, I am referring to the time a team has to improving their engineering process and upskilling. Without slack your teams will not be able to adopt new practices, which mean things won't get better. 
 
 A good rule of thumb to follow with regards to slack is to "prefer small regular intervals of slack over large infrequent blocks of slack". 
 
