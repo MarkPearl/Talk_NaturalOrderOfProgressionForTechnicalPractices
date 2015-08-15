@@ -86,7 +86,7 @@ In the team I am currently in we have experimented with various approaches, from
 
 Another thing you need to do is support the dips. Whenever a team or an individual learns a new engineering practice there is going to be an initial dip in performance. 
 
-You need to know that this will happen and have enough understanding of the long term advantages that will be gained from what they are learning and trying to apply to support them during the dips. 
+You need to know that this will happen and have enough understanding of the long term advantages that will be gained from the practice to support them during the dips. 
 
 ### Pattern to Create Slack ###
 
