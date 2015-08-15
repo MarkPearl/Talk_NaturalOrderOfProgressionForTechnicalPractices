@@ -169,7 +169,7 @@ If you have already automated your build scripts and have your version control s
 
 So, let's say you have your build scripts humming, your version control working smoothly and your ci server continuously integrating. What else can you get value from? It is at this point I would like to talk a bit about the practices that support the principle of collective code ownership.
 
-Collective code ownership is the principle that code belongs to the project, not the individual. Why should this matter to you?
+Collective code ownership is the principle that code belongs to the project, not the individual. This means that anyone working on the system should be able to make changes to any part of the system without fear that they are stepping on someones turf. Why should this matter to you?
 
 For one client we worked with the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
 
