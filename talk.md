@@ -181,11 +181,11 @@ For me, it matters because I have found this principle supports better design, b
 
 One practice falling under collective code ownership is a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
 
-I rather mean a team having a common understanding on what coding style their groups has. It stands to reason that to have a common style, teams need to look and discuss code as a group regularly.
+I rather mean a team having a common understanding on what coding style their group has. It stands to reason that to have a common style, teams need to look and discuss code as a group regularly.
 
 #### Collaborative Coding ####
 
-One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more consistent a team is in style. 
+One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more consistent I have found a team be in their common style. 
 
 For some of you these terms may look unfamiliar. I'm going to briefly explain pair programming and mob programming.
 
