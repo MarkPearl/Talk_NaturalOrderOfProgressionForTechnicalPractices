@@ -253,10 +253,10 @@ With that, we are coming to the end of this session. I have only covered five te
 
 To find the natural order of agile technical practices for your team you need to:
 
-1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn
-2) Identify your team’s specific bottlenecks
-3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it
-4) Make improvement part of your daily process, not a special event
+1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn  
+2) Identify your team’s specific bottlenecks  
+3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it  
+4) Make improvement part of your daily process, not a special event  
 
 With that I'm going to end off with a story - I call this my hope story - it's about a program called MaxCut. 
 
