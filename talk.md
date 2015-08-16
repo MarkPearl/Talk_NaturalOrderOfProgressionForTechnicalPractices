@@ -117,7 +117,7 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is the effective use of version control. 
 
-I've made this the first practice because most organizations are already using version control, it is being treated merely as a backup tool. 
+I've made this the first practice because while most teams and organizations are already using version control, it is being treated merely as a backup tool. 
 
 Version control is also a really powerful integration tool.
 
