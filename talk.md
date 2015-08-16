@@ -125,7 +125,7 @@ One of the major advantages of version control is the pain it takes away in reso
 
 One of the most common symptoms of misuse is when a team complains of regular merge conflicts or having to always manually merge their work. This is a symptom of the team not continuously integrating. 
 
-Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. 
+Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it, you are going to be dead in the water trying to get more advanced technical practices implemented. 
 
 Make it a priority to get any pain in your version control resolved.
 
