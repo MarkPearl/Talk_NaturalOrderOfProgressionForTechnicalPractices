@@ -109,13 +109,33 @@ As the practice starts to realize a return you will have created additional capa
 
 At some point you will create more time than you need for slack. When this happens your team becomes progressively faster and the interesting thing with getting progressively faster is that it becomes a drug. **The faster you go, the faster you want to go**.
 
+So, with that said, let's move on to some actual practices.
+
 ----------------------------------------------------------------------------------------------------
 
-So, with that said, let's move on to some actual practices.
+### Effective use of Version Control System ###
+
+The first practice I would like to talk about is the effective use of version control. 
+
+Now, I hope that everyone here is already using a version control system AND I've made this the first practice because what I'm seeing in many organizations is that version control is being treated merely as a backup tool. 
+
+Version control is actually a really powerful integration tool.
+
+One of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
+
+One of the most common symptoms of misuse is when a team complains of regular merge conflicts or having to always manually merge their work. This is a symptom of the team not continuously integrating. 
+
+Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. 
+
+Make it a priority to get any pain in your version control resolved.
+
+The pattern with version control is to do small little bits of work and merge or integrate frequently (in this case frequently means hours, not days).
+
+----------------------------------------------------------------------------------------------------
 
 ## Automating and Democratizing the Build ##
 
-The first practice I would like to talk about is automating and democratizing the build. I've put this as the first practice because it is so simple to do, yet I have come across many teams that just haven't done it. 
+Leading on from effective use of version control is the practice of automating and democratizing the build. I've put this as the next practice because it is so simple to do, yet I have come across many teams that just haven't done it. 
 
 When I refer to the build I am talking about the set of files that are packaged or generated, that are required for a system to run on a test or production environment. Some organizations refer to this as the build pack.
 
@@ -137,17 +157,6 @@ If you have not automated and democratized your build yet, seriously consider it
 
 ----------------------------------------------------------------------------------------------------
 
-### Version Control System ###
-
-Leading on from builds is the practice of using version control. Version control is not just a fancy word for backing up code - one of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
-
-I've seen version control frequently misused, abused or totally ignored by teams. One of the most common symptoms of misuse is when a team complains of regular merge conflicts. This is a symptom of the team not continuously integrating. 
-
-Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it you are going to be dead in the water trying to get more advanced technical practices implemented. Make it a priority to get any pain in your version control resolved.
-
-The pattern with version control is to do small little bits of work and merge or integrate frequently (in this case frequently means hours, not days).
-
-----------------------------------------------------------------------------------------------------
 
 ### Continuous Integration Server ###
 
