@@ -26,7 +26,7 @@ I also continued down the hill for a few meters - but with no protective gear I 
 
 In my professional career of developing software I've seen and heard of many organizations doing exactly the same thing that I did on my skateboard that day. 
 
-These organizations want to develop software faster - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups AND they haven't really thought it through properly - they've missed something really important which is **if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices**.
+These organizations want to develop software faster - they've sent everyone on an agile course, put up a scrum board and are doing daily stand ups AND they haven't really thought it through properly - they've missed something really important which is **if you want to develop software faster it is naive to think that the only thing you need to adjust is how you interact - you also need to adjust your engineering practices to be able to work at the same speed as your interactions**.
 
 How do so many organizations miss something so obvious? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. That doesn't mean they advocate bad software engineering practices - they are just not specific on what good engineering practices are. 
 
