@@ -117,11 +117,11 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is the effective use of version control. 
 
-Now, I hope that everyone here is already using a version control system AND I've made this the first practice because what I'm seeing in many organizations is that version control is being treated merely as a backup tool. 
+I've made this the first practice because most organizations are already using version control, it is being treated merely as a backup tool. 
 
-Version control is actually a really powerful integration tool.
+Version control is also a really powerful integration tool.
 
-One of the major advantages of version control is resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
+One of the major advantages of version control is the pain it takes away in resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
 
 One of the most common symptoms of misuse is when a team complains of regular merge conflicts or having to always manually merge their work. This is a symptom of the team not continuously integrating. 
 
