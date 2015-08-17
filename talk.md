@@ -72,7 +72,7 @@ It's my observation that engineering practices and team structures are joined at
 
 ### Help Create Slack ###
 
-Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - it’s the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
+Now, before I speak about the actual engineering practices I want to speak about something that is important for good engineering practices to happen - itâ€™s the necessity of having slack. One of the most important things you can do to help your teams is help them create slack.
 
 When I talk about slack, I am referring to the time a team has to improving their engineering process and upskilling. Without slack your teams will not be able to adopt new practices, which mean things won't get better. 
 
@@ -80,7 +80,9 @@ A good rule of thumb to follow with regards to slack is to **prefer small regula
 
 I have found that teams that have small daily and weekly sessions built into their normal routine learn and improve at a faster rate than teams that take a large block of time off to learn something new. 
 
-In the team I am currently in we have experimented with various approaches, from having weekly lunch sessions where we talk about design principles to kata's where we learn new techniques and video sessions where we watch recordings of conferences on topics we find interesting.
+In the team I am currently in we have experimented with various approaches, from having weekly lunch sessions where we talk about design principles to kata's where we learn new techniques and video sessions where we watch recordings of conferences on topics we find interesting. 
+
+The important thing is this, it doesn't matter how your team does it, but encourage learning new things reguarly.
 
 ### Supporting the Dips ###
 
@@ -117,17 +119,17 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is the effective use of version control. 
 
-I've made this the first practice because while most teams and organizations are already using version control, it is being treated merely as a backup tool. 
+I've first because while most teams and organizations are already using version control, it is being treated merely as a backup tool. 
 
-Version control is also a really powerful integration tool.
+Version control is not just a backup tool, it is also a really powerful integration tool.
 
-One of the major advantages of version control is the pain it takes away in resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
+One of the major advantages of a version control system is the pain it takes away in resolving merge conflicts. This means that many developers can work simultaneously on the same code base and the version control system will do the majority of the work involved in putting their code together as a single solution. 
 
 One of the most common symptoms of misuse is when a team complains of regular merge conflicts or having to always manually merge their work. This is a symptom of the team not continuously integrating. 
 
 Continuous integration starts with a discipline, everyone needs to continuously integrate to trunk.  If your team has murmurings of their version control system not working or how they hate it, you are going to be dead in the water trying to get more advanced technical practices implemented. 
 
-Make it a priority to get any pain in your version control resolved.
+Make it a priority to get any pain in your version control system resolved.
 
 The pattern with version control is to do small little bits of work and merge or integrate frequently (in this case frequently means hours, not days).
 
@@ -176,41 +178,52 @@ If you have already automated your build scripts and have your version control s
 
 ## Collective Code Ownership ##
 
-So, let's say you have your build scripts humming, your version control working smoothly and your ci server continuously integrating. What else can you get value from? It is at this point I would like to talk a bit about the practices that support the principle of collective code ownership.
+So, let's say your team is using version control effectively, you have your build scripts humming and your ci server is continuously integrating. What else can you get value from? 
 
-Collective code ownership is the principle that code belongs to the project, not the individual. This means that anyone working on the system should be able to make changes to any part of the system without fear that they are stepping on someones turf. Why should this matter to you?
+It is at this point I would like to talk a bit about the practices that support the principle of collective code ownership.
 
-For one client we worked with the principle mattered because a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
+Collective code ownership is the principle that code belongs to the project, not the individual. This means that anyone working on the system should be able to make changes to any part of the system without fear that they are stepping on someones turf. 
 
-For another client collective code ownership is important because it reduces the bottlenecks on manpower. More people can work on a wider area of the system without waiting for a specific expert to be available. 
+Why should this matter to you?
 
-For me, it matters because I have found this principle supports better design, better code, fewer bugs and in general results in better systems being created. 
+For one client we worked with this principle mattered alot because he had an experience where a developer went rogue and held the organization to ransom because he was the only person who understood a mission critical system. 
+
+For another client, collective code ownership is important because it has reduced the bottlenecks on manpower. More people can work on a wider area of the system without waiting for a specific expert to be available. 
+
+For me, it matters because I have found this principle supports better design, fewer bugs and in general results in better systems being created. 
 
 #### Common Code Style ####
 
 One practice falling under collective code ownership is a team having a common coding style. By this I don't mean a thick document outlining exactly how everything is done and dictated by the architects in the architect forum - that doesn't work. 
 
-I rather mean a team having a common understanding on what coding style their group has. It stands to reason that to have a common style, teams need to look and discuss code as a group regularly.
+I rather mean a team having a common understanding on what coding style their group has. 
+
+It stands to reason that to have a common style, teams need to reguarly look at and discuss code they are writing as a group.
 
 #### Collaborative Coding ####
 
 One of the best ways to achieve a common style is to support collaborative coding. There are several different types of collaborative coding. On the diagram I have put up, the further right you go the more consistent I have found a team be in their common style. 
 
-For some of you these terms may look unfamiliar. I'm going to briefly explain pair programming and mob programming.
+For some of you, these terms may look unfamiliar - most notably pair & mob programming - let me briefly explain them. 
 
-Pair programming is the practice where two programmers sit in front of one computer solving a problem together. Mob programming is very similar, except instead of just two people, you have several people in front of a single machine solving a common problem.
+Pair programming is the practice where two people sit in front of one computer solving a problem together.  
+Mob programming is very similar, except instead of just two people, you have several people in front of a single machine solving a common problem.  
 
-Typically when I talk about collaborative coding and there are business people in the room, someone will ask how one can justify the costs of two or more people doing one persons job? If you have two programmers, surely they should be programming on their own work on their own machines otherwise they are not being efficient. 
+Typically when I talk about these two practices and there are business people in the room, someone will ask how one can justify the costs of two or more people doing one persons job? 
 
-The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem. When we talk about pair programming or mob programming we are in effect doing group problem solving. 
+If you have two programmers, surely they should be programming on their own work on their own machines otherwise they are not being efficient! 
 
-Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments conducive to collaborative work. I see too many cubicles and desks that are not suitable for people to sit side by side and work at one terminal. The type of environments I want to see are ones where the background noise is reduced and the collaborative signal is amplified.
+The best way I can explain why these forms of programming work is by explaining what we mean when we say that someone is programming. Programming is not about typing, it's about problem solving. Depending on the problem being solved, there are many advantages to having more than one person working on the same problem together. When we talk about pair programming or mob programming, we are in effect doing group problem solving. 
+
+Now a quick side note - one of the big complaints I have with most of corporate South Africa is that we are not making our work environments conducive to collaborative work. I see too many cubicles and desks that are not suitable for people to sit side by side and work at one terminal. The type of environments I want to see more of are the ones where the background noise is reduced and the collaborative signal is amplified.
 
 ----------------------------------------------------------------------------------------------------
 
 ### Test Driven Development & Automated Testing ###
 
-So, you have created a collaborative environment, the people are working well together, where do you go from here? There are a number of practices you can consider, as the last practice I'm going to talk about today, I would be doing you an injustice if I didn't speak about automated testing and test driven development.
+So, you have created a collaborative environment, the people are working well together, where do you go from here? 
+
+There are a number of practices you can consider, as the last practice that time permits today, I would be doing you an injustice if I didn't speak about automated testing and test driven development.
 
 #### TDD vs Automated Testing ####
 
@@ -226,7 +239,7 @@ Automated tests on the other hand are merely that, a set of tests that can be ru
 
 TDD is extremely useful. Firstly it teaches developers good design - in particular writing software that is loosely coupled. 
 
-What do I mean by things being loosely coupled? The best analogy I can think of is this: If programming features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
+The best analogy I can think of regarding why loosely coupled code is important is this: If programming new features was like building blocks, then pre-tdd I was making really big wooden blocks and using super glue to organize the blocks in the shape I wanted. 
 
 Learning TDD taught me to make my blocks a lot smaller and them adjust them slightly so that they worked like Lego blocks - now, instead of having to glue things together I could just clip things in and out rapidly. 
 
@@ -234,23 +247,23 @@ In an agile world, where we embrace change, having code like Lego blocks allows 
 
 Now let me warn you upfront, if your engineers have not done TDD before, it can be challenging.
 
-The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple almost magical. I thought, great, all I need to do is go home and write tests and then I won’t have any bugs. 
+The first time I saw test driven development I saw someone demonstrate it by writing some code, running something, and a bunch lights on the screen went green. It looked really simple, almost magical. I thought, great, all I need to do is go home and do TDD and then I wonâ€™t have any bugs. 
 
-So, I went home, spent a very frustrating day or two trying to write a useful test against the system I was working on at that time and I failed dismally. I could not write a single useful test let alone write it before I wrote its implementation - you see, the code I had written up to that point in my life was not unit testable. 
+So, I went home, spent a very frustrating two days trying to write a useful test against the current system I was working on at. I failed dismally! I could not write a single useful test let alone write it before I wrote its implementation. You see, the problem was that the code I had written up to that point in my life was not unit testable - it was super glued wooden blocks. 
 
-It took me more than a year of occasionally dabbling with TDD to understand how to do it, and another year to start practicing it, but once I began to get into it, I began to realize how powerful it is.
+It took me more than a year of occasionally dabbling with TDD to understand how to do it, and another year to start practicing it, AND once I began to get into it, I began to realize how powerful it is.
 
 #### Best way to learn TDD ####
 
-So, if it is so hard to learn, what is the best way to learn it? At a high level, there are two things you need to learn TDD : **Exposure and Time**.
+So, if TDD is so hard to learn, what is the best way to learn it? At a high level, there are two things you need to learn TDD : **Time and Exposure**.
 
-For me, I needed a year to think about it and a few failed attempts at applying it before I got it. 
+For me, I needed a year to think about it and several failed attempts at applying it before I got it. 
 
-In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a daylong event of intentional practice in a collaborative coding environment. In Johannesburg there are community ones that are free to attend once or twice a year on a Saturday.
+In terms of learning resources, probably the most I learnt about TDD was at a code retreat. Code retreats are a day long event of intentional practice in a collaborative coding environment. In Johannesburg, there are community ones once or twice a year on a Satuday that are free to attend.
 
-Now, sometimes it’s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone to come and host an internal company code retreat. 
+Now, sometimes itâ€™s challenging to get people with busy lives to attend events on their Saturdays. If you or your team are in this position I would recommend spending the money getting someone in to host an internal company code retreat. 
 
-I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see major returns. 
+I warn you though, don't expect to get TDD ninjas after one day at a CodeRetreat. It is going to take several positive exposures to the practice and an extended period of time applying it before you will see returns. 
 
 That said it is worth every bit of effort you put in to it because the return is so high.
 
@@ -263,7 +276,7 @@ With that, we are coming to the end of this session. I have only covered five te
 That's fine, it's not hard to find your teams own natural order of progression. All you need to do is:
 
 1) Embrace the fact that we are all learning new things every day and that your team needs slack to learn  
-2) Identify your team’s specific bottlenecks and the potential practices that can improve it   
+2) Identify your teamâ€™s specific bottlenecks and the potential practices that can improve it   
 3) Be strategic in picking a new practice. Be willing to soldier the dips when adopting it  
 4) Make improvement part of your daily process, not a special event  
 
