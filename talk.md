@@ -1,8 +1,8 @@
 ## Introduction ##
 
-When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruiser deck. It's one of the coolest things you will ever see. Having just entered teen hood, and being inspired by this board, I realized my calling in life was to become a famous skate boarder.
+When I had my thirteenth birthday, my parents bought me an awesome gift, they bought me a skateboard. Now, this wasn't your ordinary plain shaped skateboard. The deck on this board was what is called a cruiser deck. It's one of the coolest things you will ever see. Being inspired by this board, I realized my calling in life was to become a famous skate boarder.
 
-To start off, I tried my hand at skateboard tricks - airs, backsides, kick flips, ollies, you name it - unfortunately, what I discovered with skateboard tricks is that they all have one thing in common - they require coordination - something that I didn't have. 
+To start off, I tried my hand at skateboard tricks - airs, backsides, kick flips, ollies, you name it - unfortunately, what I discovered with skateboard tricks is that they all have one thing in common - they require coordination.
 
 Having failed at tricks, I moved on to the next best thing, what I lacked in coordination I would make up in speed. With this brilliant idea, I set out with my two younger brothers to find an appropriate hill to demonstrate my ability. 
 
@@ -12,7 +12,7 @@ To this day I remember the event clearly. It was a late January afternoon, my br
 
 About 10 seconds into the ride and about 5 meters down the hill I suddenly had a feeling that this might not be a good idea. While my skateboard was doing really well and rapidly picking up speed, it occurred to me that there were a few things I hadn't considered. 
 
-Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. This was fine for cars that could break, but not so great for a skateboard. 
+Firstly, the road down this hill came to an abrupt stop at the bottom as it joined a T Junction. Cars traveling along the bottom of the hill had zero visibility of anything coming down it. 
 
 Secondly, and probably more importantly, I wasn't dressed for the occasion. I was wearing shorts and a T-Shirt with no protective gear. 
 
@@ -38,9 +38,9 @@ I've called them the natural order of agile technical practices.
 
 ## What are agile technical practices ##
 
-So, what do I mean by agile technical practices? These words mean different things for different people. When I pose this question to people involved in software development I get a range of answers. 
+So, what do I mean by agile technical practices? When I pose this question to people involved in software development I get a range of answers. 
 
-For the next 25 minutes I'm going to ask your indulgence in using my definition for the term - which is when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
+For the next 25 minutes I'm going to use my definition for the term - which is when I say agile technical practices I am referring to the engineering practices related to creating software in an agile environment. 
 
 Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continuous Integration, Continuous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
 
