@@ -48,17 +48,9 @@ Some of the things I would include under the banner of engineering practices are
 
 ### Experience of QuoteMaster ###
 
-Why are these practices important? Let me illustrate with an experience - early on in my career I started my first big project - it was a system we named QuoteMaster. I wrote the first lines of code in QuoteMaster in 2001 and 4 years later I wrote the last lines of code for it. 
+Why are these practices important? 
 
-The first few months of developing QuoteMaster we rapidly added features. But as the months passed, I noticed something rather alarming. It was taking us longer and longer to add new features. The best way I could explain it was that complexity had crept in and even though we added more developers to the project, it got slower and slower to add things. After about 4 years in we had pretty much come to a standstill. 
-
-You know something is fundamentally wrong with a system when your largest client asks for a relatively small feature and you point blank refuse to do it because of how long it is going to take and the pain and emotional strain it is going to cause you. 
-
-In a nutshell, we had reached the point where we didn't feel safe making any more changes to QuoteMaster.
-
-Sadly, this experience is not unique. I have been involved in several QuoteMaster like applications and if I were a betting man, many of you here are currently involved in QuoteMaster like projects. 
-
-This is one of the reasons why the practices I am going to talk about today are so important. These practices will help you stop making more QuoteMasters. They are the figurative safety gear you need to wear when riding the agile skateboard. They will make you feel safe and give you the confidence to speed up with time instead of slowing down. 
+I've been involved with several projects where as we added additional features things got slower and slower until eventually they came to a standstill. After having applied agile technical practices for a few years now, I've found them to be the figurative safety gear you need to wear when riding the agile skateboard. These practices make you feel safe and give you the confidence to speed up with time instead of slowing down. 
 
 ## Structure, Interactions & Technical Practices are intertwined ##
 
