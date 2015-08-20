@@ -44,19 +44,11 @@ For the next 25 minutes I'm going to use my definition for the term - which is w
 
 Some of the things I would include under the banner of engineering practices are: Collaborative Coding, Continuous Integration, Continuous Deployment, Automated Acceptance Tests, Test Driven Development, Collective Coding Standards, Simple Design and Refactoring.
 
-## How do you know if you need Agile Technical Practices? ##
-
-### Experience of QuoteMaster ###
-
-Why are these practices important? 
-
-I've been involved with several projects where as we added additional features things got slower and slower until eventually they came to a standstill. After having applied agile technical practices for a few years now, I've found them to be the figurative safety gear you need to wear when riding the agile skateboard. These practices make you feel safe and give you the confidence to speed up with time instead of slowing down. 
-
 ## Structure, Interactions & Technical Practices are intertwined ##
 
-With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called GeForce. In Kent's talk he spoke about how different rates of deployment require different structures and activities. 
+With that, I want to briefly mention team and organizational structures. There is a really good talk Kent Beck did at Lean Kanban Central Europe a few years back called GeForce. In Kent's talk he spoke about how different rates of deployment require different team structures and activities. 
 
-Today I'm going to assume you have your team and organizational structures sorted - I'm going to assume that you have gotten past the beurocracy of functional silo teams and have small cross functional teams that are under pressure to deliver working software reguarly.
+Today I'm going to assume you have your team and organizational structures sorted. I am going to assume you have small cross functional teams that are under pressure to deliver working software reguarly.
 
 It's my observation that engineering practices and team structures are joined at the hip. Some practices are impossible to do effectively if you don't have a suitable team structure. If you are unsure whether your team structure is suitable I recommend watching Kent's talk.
 
