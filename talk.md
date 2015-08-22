@@ -30,9 +30,9 @@ These organizations want to develop software faster - they've sent everyone on a
 
 How do so many organizations miss this? Part of the reason is because the two most popular agile methodologies in circulation, Scrum and Kanban, don't specify any specific engineering practices to adopt when applying them. That doesn't mean they advocate bad software engineering practices - they are just not specific on what good engineering practices are. 
 
-This is a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively. 
+This is a problem. It has left many organizations not realizing that there are additional skills and practices they will need to adopt to be able to engineer software effectively at an agile release rate.
 
-Today I'm going to speak about some of the things that are rarely spoken about at a Scrum or Kanban course. These are the things that managers and "non" technical people often don't get to discuss but that are just as critical to understand to be effective. 
+Today I'm going to speak about some of the things that are rarely spoken about at a Scrum or Kanban course. These are the things that managers and "non" technical people often don't get to discuss but that are just as critical to understand to be effective at an agile release rate.
 
 I've called them the natural order of agile technical practices.
 
@@ -103,7 +103,7 @@ So, with that said, let's move on to some actual practices.
 
 The first practice I would like to talk about is the effective use of version control. 
 
-I've first because while most teams and organizations are already using version control, it is being treated merely as a backup tool. 
+So, most teams of the team that I have spent time with are already using version control AND many of them are using it wrong - they see version control as a fancy word for backup tool. 
 
 Version control is not just a backup tool, it is also a really powerful integration tool.
 
